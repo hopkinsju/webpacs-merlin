@@ -1,0 +1,246 @@
+<!-- pverify_web.html: MERLIN.MOBIUS.UMSYSTEM.EDU LOGIN PAGE: updated 9/21/2007 lee -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MERLIN Library Catalog</title>
+</head>
+<body>
+<!--{toplogo}-->
+<table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="text">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="tab_cat"><a href="/search"><img name="tab_libcat" src="/screens/tab_libcat.gif" width="100" height="31" border="0" alt=" library Catalog " id="tab_libcat" /></a></td>
+<td class="tab_reserve"><a href="/search/e"><img name="tab_reserves" src="/screens/tab_reserves.gif" width="100" height="31" border="0" alt=" Course Reserves " id="tab_reserves" /></a></td>
+<td class="tab_patrec"><a href="/patroninfo"><img name="tab_mylib" src="/screens/tab_mylib_down.gif" width="100" height="31" border="0" alt=" My library Account " id="tab_mylib" /></a></td>
+<td class="tab_other"><a href="/search/v"><img name="tab_other" src="/screens/tab_other.gif" width="100" height="31" border="0" alt=" Other Catalogs " id="tab_other" /></a></td>
+<td class="tab_help"><a href="/search/k"><img name="tab_help" src="/screens/tab_help.gif" width="100" height="31" border="0" alt=" Help " id="tab_help" /></a></td>
+<td><img src="/screens/tab_bar_bar1.gif" height="31" width="240" alt="" border="0" /></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="6" align="left" valign="middle" nowrap="nowrap" bgcolor="#333379" class="smaller_reversed_nodecoration"><img src="/screens/tab_bar_bar2.gif" height="9" width="740" alt="" border="0" /></td>
+<td></td>
+</tr>
+</table>
+<br />
+<center>
+<p><font color="red"><strong>Protect your privacy!</strong><br />
+To prevent others (who use this PC after you) from seeing your personal library information,<br />
+please remember to click the red "LOG OUT" button, and close your Web browser.</font></p>
+</center>
+<table width="740" align="center" cellpadding="0" cellspacing="0" summary="pverify">
+<tr>
+<td>
+<p><strong>Login to view your circulation record, <a class="link" href="#pin">create and modify your PIN</a>, <a class="link" href="#renew">renew items</a>, and <a class="link" href="#holds">place holds</a>.</strong></p>
+<center>
+<!--{patron}-->
+<!--{logout}-->
+</center>
+<form method="post">
+<p>
+<!--{iferrmsg}-->
+<font color="red" size="+2"><em>
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</em></font><br />
+<br />
+<br />
+<!--{xif}-->
+</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="2" summary="patform">
+<tr>
+<td valign="top" width="1%">
+<!--=================== BEGIN MAIN PATRON FORM ====================-->
+<!--{ifneedpatronname}-->
+<p><strong>
+<!--{nameprompt}-->
+</strong>
+<br />
+<!--{name}-->
+<br />
+<em>
+<!--{nameexample}-->
+</em></p>
+<!--{xif}-->
+<!--{ifneedpatronverify}-->
+<p><font color="red"><strong>ID number; see box at right for NEW format:</strong></font> 
+<!--{barcode}-->
+<br />
+<em>
+<!--{barcodeexample}-->
+</em></p>
+<!--{ifneedspin}-->
+<p>
+<!--{iferrmsgisPIN}-->
+<!--{pin1prompt}-->
+<br />
+<!--{pin1}-->
+<br />
+<!--{pin2prompt}-->
+<br />
+<!--{pin2}-->
+<!--{else}-->
+<strong>Please enter or create your PIN:</strong><br />
+<!--{pin}-->
+<br />
+<em>Enter your PIN. If you do not remember your PIN, ask for help at your Circulation Desk.</em></p>
+<p>
+<!--{xif}-->
+<!--{xif}-->
+</p>
+<!--{xif}-->
+<p>
+<!--{submit}-->
+</p>
+<!--==================== END MAIN PATRON FORM ====================-->
+</td>
+<td valign="top" align="center">
+<table width="170" border="0" cellspacing="0" cellpadding="2" summary="IDhelp">
+<tr align="center" bgcolor="#DEDEE7">
+<td nowrap="nowrap"><span class="bodytext"><font size="3">
+<strong>UM ID HELP</strong></font></span></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr bgcolor="#DEDEE7">
+<td nowrap="nowrap"><strong>Univ Missouri Faculty, Staff &amp; Students:</strong><br />
+Zero + 8 digit EMPLID Number + Campus Code<br />
+<br />
+Campus Codes:<br />
+UMC: use c<br />
+UMKC: use k<br />
+UMR: use r<br />
+UMSL: no campus code</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr bgcolor="#DEDEE7">
+<td nowrap="nowrap"><strong>Univ Missouri Columbia:</strong><br />
+Zero + 8 digit EMPLID Number + c</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr bgcolor="#DEDEE7">
+<td nowrap="nowrap"><strong>Univ Missouri Kansas City:</strong><br />
+Zero + 8 digit EMPLID Number + k</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr bgcolor="#DEDEE7">
+<td nowrap="nowrap"><strong>Univ Missouri Rolla:</strong><br />
+0 + 8 digit ID number + r</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr bgcolor="#DEDEE7">
+<td nowrap="nowrap"><strong>Univ Missouri St. Louis:</strong><br />
+Zero + 8 digit EMPLID Number (no campus code)</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td nowrap="nowrap" align="center"><br />
+<strong>Courtesy &amp; Proxy borrowers<br />
+Please inquire at your Circulation Desk.</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+<table width="100%" summary="text">
+<tr>
+<td>
+<!--{startover}-->
+</td>
+</tr>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" summary="text">
+<tr>
+<td bgcolor="#DEDEE7"><strong>Create &amp; Modify your PIN<a name="pin" id="pin"></a></strong></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF">To create a PIN, select any combination of letters and numbers (up to 30 characters) and follow these steps:
+<ul>
+<li>To create your PIN:</li>
+<li style="list-style: none">
+<ul>
+<li>Fill in your name ID number above and <strong>leave the PIN box empty</strong></li>
+<li>Click on <strong>Submit</strong></li>
+<li>A new screen will prompt you to enter your new PIN</li>
+<li>Enter your new PIN in both empty boxes</li>
+<li>Click on <strong>Submit</strong></li>
+<li>Your patron record will now be displayed</li>
+</ul>
+</li>
+<li>To change your PIN:</li>
+<li style="list-style: none">
+<ul>
+<li>Login</li>
+<li>Click on <strong>Modify Your PIN</strong></li>
+<li>You will be prompted to enter your existing PIN number and the new number you wish to use</li>
+<li>Click on <strong>Submit</strong></li>
+<li>Your new PIN is now in place</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td bgcolor="#DEDEE7"><strong>Renew Items<a name="renew" id="renew"></a></strong></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF">
+<ul>
+<li>Login</li>
+<li>Click on <strong>"...Items currently checked out"</strong></li>
+<li>You can either renew selected items by placing a check in the box next to items on the list and clicking on <strong>Renew Selected Items</strong> OR click on <strong>Renew All</strong> to renew everything you have checked out</li>
+<li>New due dates will be displayed in addition to the word "<em>Renewed</em>" in italics</li>
+<li><em>Important note: Items that other patrons have placed on hold and restricted loans cannot be renewed; a system message will tell you the renewal is not possible</em></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td bgcolor="#DEDEE7"><strong>Place Holds<a name="holds" id="holds"></a></strong></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF">
+<ul>
+<li>Login</li>
+<li>Click on <strong>Search the Catalog</strong></li>
+<li>Search for the item you need</li>
+<li>Click on the <strong>Request</strong> button</li>
+<li>Provide the requested information and desired pick-up location</li>
+<li>Click on <strong>Submit</strong></li>
+<li><em>You will receive the message "Your request for this item has been sent to the library."</em></li>
+</ul>
+<br />
+</td>
+</tr>
+</table>
+<!--{startover}-->
+</td>
+</tr>
+</table>
+<!--{botlogo}-->
+</body>
+</html>

@@ -1,0 +1,5 @@
+merlin_webpac - WebOPAC for the MERLIN Cluster
+
+BUILDING
+
+This file will contain notes on how to deploy new code to the staging directory, or the live directory, of the MERLIN InnOPAC.

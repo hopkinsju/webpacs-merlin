@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+	<title>New History Books!</title>
+	<link>http://207.160.154.35</link>
+	<description>New history books</description>
+	<language>eng</language>
+	<lastBuildDate>Wed, 24 Oct 2007 02:26:24 CDT</lastBuildDate>
+	<generator>Millennium Feed Builder</generator>
+	<ttl>720</ttl>
+	<image>
+		<url>http://207.160.154.35/screens/feeds.gif</url>
+		<title>MERLIN Library Catalog</title>
+		<link>http://207.160.154.35/</link>
+		<width>88</width>
+		<height>31</height>
+	</image>
+</channel>
+</rss>

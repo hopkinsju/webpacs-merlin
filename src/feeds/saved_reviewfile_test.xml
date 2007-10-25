@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+	<title>Review File Test -- jng</title>
+	<link>http://merlin.mobius.umsystem.edu</link>
+	<description>A test of a review file on MERLIN</description>
+	<language>eng</language>
+	<lastBuildDate>Wed, 24 Oct 2007 02:26:57 CDT</lastBuildDate>
+	<generator>Millennium Feed Builder</generator>
+	<ttl>720</ttl>
+	<image>
+		<url>http://merlin.mobius.umsystem.edu/screens/feeds.gif</url>
+		<title>MERLIN Library Catalog</title>
+		<link>http://merlin.mobius.umsystem.edu/</link>
+		<width>88</width>
+		<height>31</height>
+	</image>
+	<item>
+		<title>Cats and dogs : Mutts II / by Patrick McDonnell.</title>
+		<link>http://merlin.mobius.umsystem.edu/record=b4174853*eng</link>
+		<description>127 p. : ill. ; 23 cm.</description>
+		<guid isPermaLink="false">0836237323 (pbk.) : $9.95</guid>
+	</item>
+	<item>
+		<title>Cats &amp; dogs : a community concern? : results of a survey on companion animals / Catherine Lescun.</title>
+		<link>http://merlin.mobius.umsystem.edu/record=b2382491*eng</link>
+		<description>v, 72 p. ; 30 cm.</description>
+		<guid isPermaLink="false">0730604985</guid>
+	</item>
+	<item>
+		<title>Caring for older cats &amp; dogs : extending your pet&apos;s healthy life / Robert Anderson &amp; Barbara Wrede.</title>
+		<link>http://merlin.mobius.umsystem.edu/record=b2300932*eng</link>
+		<description>viii, 166 p. : ill. ; 23 cm.</description>
+		<guid isPermaLink="false">0913589462 : $10.95</guid>
+	</item>
+	<item>
+		<title>Synthetic methods for biologically relevant organofluorine compounds / by Meher Perambuduru.</title>
+		<link>http://merlin.mobius.umsystem.edu/record=b5973060*eng</link>
+		<description>xvii, 158 leaves : ill. ; 28 cm.</description>
+	</item>
+</channel>
+</rss>

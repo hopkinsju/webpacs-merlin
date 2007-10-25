@@ -1,0 +1,273 @@
+##############################################################################
+#
+# WWWOptions file for: MERLIN / UMOS
+#             Created: 12/15/2000
+#             Revised: 12/15/2000 HJP
+#
+##############################################################################
+#
+# WARNING! Please ensure that you are the *only* user modifying this file.
+# If more than one user simultaneously edits this file...
+# YOUR CHANGES MAY NOT BE SAVED!
+#
+##############################################################################
+#
+# These are the rules for modifying this file:
+#
+# 1) BEFORE you begin, copy the complete text of this WWWOptions file and
+#    include it as part of your ticket.
+# 
+# 2) You MUST indicate in this header file what you changed, when you
+#    changed it, why this change was necessary, who you are, and a tracking
+#    number for your change (i.e. a MCO Remedy ticket number).
+# 
+# 3) Do not paste large amounts of text into this file.  In particular, 
+#    avoid pasting long lines of text (i.e. text which will wrap).
+#
+# 4) Use Carriage Returns when editing long lines.  Avoid wrapping lines.
+#
+# 5) AFTER you are done modifying this file, copy the complete text of this
+#    WWWOptions file and include it as part of your ticket, before you 
+#    close the ticket.
+#
+##############################################################################
+#
+# Revision Log: Please note your revision in this log, even if it is minor.
+# 
+# BEGIN ALL LINES WITH A #, which is the comment character.
+#
+# Date       Your Initials - Change Description - Remedy Ticket Number
+#
+# 12/15/2000 MCS - Comment Header added to file - MCO-001890
+# 12/15/2000 HJP - eliminated carriage returns from all botlogo lines
+# 08/13/2001 HJP - AKS installation revisions
+# 08/26/2001 JNO - ASSEARCH Setting change from 3 to 1 - MCO-003335
+# 05/20/2002 MCS - Extended display for Call number - MCO-004497
+# 07/16/2002 AV  - ASSEARCH Setting change from 1 to 3 - MCO-005211
+# 09/30/2002 MCS - Added location links for UMSL - MCO-006039
+#
+##############################################################################
+
+# AVS / AKS settings
+AVS_TAG=XYZ
+ASSEARCH=3
+
+# General Display and Logging Options
+BODYPARAM=BGCOLOR=#fffff0 LINK=blue VLINK=blue
+#BODYPARAM=BGCOLOR=lightgrey LINK=blue VLINK=blue
+CLEAR_PRIVATE_INFO=YES
+STATGROUP=login
+TIMEOUT=300;URL=http://laurel.lso.missouri.edu/
+TOPLOGO=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/merlin_all.gif" alt="MERLIN Library Catalog - All Collections"></center>
+TOPLOGO1=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umc.gif" alt="UMC Libraries"></center>
+TOPLOGO2=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umcl.gif" alt="University of Missouri - Columbia Law Library"></center>
+TOPLOGO3=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umkc.gif" alt="University of Missouri - Kansas City Libraries"></center>
+TOPLOGO4=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umkcl.gif" alt="University of Missouri - Kansas City Law Library"></center>
+TOPLOGO5=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umr.gif" alt="University of Missouri - Rolla Library"></center>
+TOPLOGO6=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umsl.gif" alt="University of Missouri - St. Louis Libraries"></center>
+TOPLOGO7=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/whmc.gif" alt="University of Missouri - Archives and WHMC"></center>
+TOPLOGO8=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/slu.gif" alt="SLU Libraries"></center>
+TOPLOGO9=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/slul.gif" alt="Saint Louis University Law Library"></center>
+TOPLOGO10=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/sluhsc.gif" alt="Saint Louis University Health Sciences Center Library"></center>
+
+# Scope Controls
+
+# OPAC Display and Behavior Options
+DISPLAY_856=3z
+#DROP_DOWN=WdmtaUscljfgio
+DROP_DOWN=Xdmtascljfgio
+EXTENDED=L
+EXTENDED_c=3
+FRAMEURL=0
+#INDEX_EXT=W,d,m,t,a,U,s,c,l,j,f,g,i,o
+INNREACH=207.160.154.35&<br><img src="/screens/but25.gif" border=0 alt="Search MOBIUS Union Catalog">@207.160.154.34(a=a;t=t;g=g;i=i;s=s;o=o;c=c;j=e;m=m;d=d;l=n;X=X*;Y=Y*;Z=Z*)
+KEYWORD_COLOR=Y|all|RED
+LINK856TEXT=Link to web version:
+MARC=yes
+NOSEARCH=nubz
+OFFER_HISTORY=YES
+#RECORDFRAME=22,53,25
+REQUEST=|denyiflocalavail|ask|Y
+REQUEST_INSTRUCTION=Any Special Instructions?
+SHOWOREC=no_cdate
+SORT ITEMS=true
+SUPPRESS_YEAR=false
+
+# Encyclopedia Britannica Options
+#EBADDRESS=http://www.eb.com:180/cgi-bin/g?keywords=%s&DBase=Articles
+#EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_query0=%s
+
+# Export Options
+EMAILOP=From the MERLIN Library Catalog|exporter|
+EXPORT_SELECT_TABLE=Sendto:email,local,browser
+|Format:marc,full,procite,endnote
+
+# Patron Record Display and Behavior Options
+MY_WEBPAC=false
+
+# Z39.50 Options
+
+# OPTIONS BUTTONS
+BUT_ANOTHER=/screens/but4.gif
+BUT_BIBEXPORT=/screens/but15.gif
+BUT_BRIEF=/screens/but12.gif
+BUT_CARDFORM_BOX=/screens/boxdisp.gif
+BUT_CARDFORM_LIN=/screens/linedisp.gif
+BUT_CLEAR_MARKED=/screens/but16.gif
+BUT_CLOSEWN=/screens/rtn_cat.gif
+BUT_EMAIL=/screens/but8.gif
+#BUT_ENCYCPD=/screens/but6.gif
+BUT_EXPORT_VIEW_SAVES=/screens/but18.gif
+BUT_EXTENDED=/screens/but2.gif 
+BUT_FULL_TEXT=/screens/fulltxt.gif
+BUT_LIMAVAIL=/screens/but22.gif
+BUT_LIMIT=/screens/but5.gif
+BUT_MARC_DISPLAY=/screens/but24.gif
+BUT_MODIFY=/screens/modify.gif
+BUT_NEWSRCH=/screens/but3.gif 
+BUT_NEXTPAGE=/screens/but1.gif
+BUT_NEXTREC=/screens/but13.gif
+BUT_PREVPAGE=/screens/but11.gif 
+BUT_PREVREC=/screens/but10.gif
+BUT_PREVSCRN=/screens/but19.gif
+BUT_REGULAR_DISPLAY=/screens/but21.gif
+BUT_REQUEST=/screens/but26.gif
+BUT_RET2CAT=/screens/ret2cat.gif
+BUT_RET2CRS=/screens/ret2crs.gif
+BUT_RET2FEAT=/screens/ret2feat.gif
+BUT_RET2PREC=/screens/but20.gif
+BUT_RETHOME=/screens/rethome.gif
+BUT_RTRNTB=/screens/but14.gif
+BUT_SHOWSIM=/screens/showsimilar.gif
+BUT_UNLIMAVAIL=/screens/but23.gif
+BUT_WORDSRCH=/screens/but7.gif
+BUT_Z39_ANOTHER=/screens/z39ano.gif
+BUT_Z39_REQUEST=/screens/request.gif
+BUT_VIEW_SAVES=/screens/b_bookcart.gif
+BUT_MODIFY=/screens/modify.gif
+BUT_SHOWSIM=/screens/showsimilar.gif
+
+#LOCATION LINKS
+LOC_rwaci=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwafi=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwaii=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwiig=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwkii=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwmii=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwovg=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_rwwii=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_uraii=http://web.umr.edu/~library/maps/lower.html target=_blank
+LOC_urwii=http://web.umr.edu/~library/maps/lower.html target=_blank 
+LOC_rwbri=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwbrr=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwcii=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwcnd=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwcnv=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwcom=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwdcd=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwdfr=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwdxx=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwfri=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwgca=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwgck=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwgcn=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwgcs=http://web.umr.edu/~library/maps/first.html target=_blank
+#LOC_rwgii=http://web.umr.edu/~library/maps/first.html target=_blank 
+LOC_rwlii=http://web.umr.edu/~library/maps/first.html target=_blank 
+LOC_rwmuu=http://web.umr.edu/~library/maps/first.html target=_blank 
+LOC_rwpci=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwpdi=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwpri=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwrib=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwric=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwrii=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwrir=http://web.umr.edu/~library/maps/first.html target=_blank
+LOC_rwsdi=http://web.umr.edu/~library/maps/first.html target=_blank 
+LOC_rwxii=http://web.umr.edu/~library/maps/first.html target=_blank 
+#LOC_rwii2=http://web.umr.edu/~library/maps/second.html target=_blank
+LOC_rwov2=http://web.umr.edu/~library/maps/second.html target=_blank
+LOC_rwtii=http://web.umr.edu/~library/maps/second.html target=_blank 
+LOC_rwvii=http://web.umr.edu/~library/maps/second.html target=_blank 
+LOC_rwbii=http://web.umr.edu/~library/maps/third.html target=_blank
+LOC_rwdfi=http://web.umr.edu/~library/maps/third.html target=_blank 
+LOC_rwdii=http://web.umr.edu/~library/maps/third.html target=_blank 
+LOC_rwfii=http://web.umr.edu/~library/maps/third.html target=_blank
+LOC_rwflr=http://web.umr.edu/~library/maps/third.html target=_blank 
+LOC_rwpfi=http://web.umr.edu/~library/maps/third.html target=_blank
+LOC_rwpii=http://web.umr.edu/~library/maps/third.html target=_blank
+LOC_rwpmi=http://web.umr.edu/~library/maps/third.html target=_blank 
+LOC_rwtmi=http://web.umr.edu/~library/maps/third.html target=_blank 
+
+LOC_fsb=http://www.umsl.edu/library/locations/codes/fsb.htm target=_blank
+LOC_fse=http://www.umsl.edu/library/locations/codes/fse.htm target=_blank
+LOC_fsh=http://www.umsl.edu/library/locations/codes/fsh.htm target=_blank
+LOC_fsj=http://www.umsl.edu/library/locations/codes/fsj.htm target=_blank
+LOC_fsm=http://www.umsl.edu/library/locations/codes/fsm.htm target=_blank
+LOC_saiib=http://www.umsl.edu/library/locations/codes/saiib.htm target=_blank
+LOC_saiii=http://www.umsl.edu/library/locations/codes/saiii.htm target=_blank
+LOC_seaii=http://www.umsl.edu/library/locations/codes/seaii.htm target=_blank
+LOC_seaui=http://www.umsl.edu/library/locations/codes/seaui.htm target=_blank
+LOC_secii=http://www.umsl.edu/library/locations/codes/secii.htm target=_blank
+LOC_seddi=http://www.umsl.edu/library/locations/codes/seddi.htm target=_blank
+LOC_sedii=http://www.umsl.edu/library/locations/codes/sedii.htm target=_blank
+LOC_sedmi=http://www.umsl.edu/library/locations/codes/sedmi.htm target=_blank
+LOC_seeii=http://www.umsl.edu/library/locations/codes/seeii.htm target=_blank
+LOC_seiib=http://www.umsl.edu/library/locations/codes/seiib.htm target=_blank
+LOC_seiii=http://www.umsl.edu/library/locations/codes/seiii.htm target=_blank
+LOC_sejii=http://www.umsl.edu/library/locations/codes/sejii.htm target=_blank
+LOC_semii=http://www.umsl.edu/library/locations/codes/semii.htm target=_blank
+LOC_seoii=http://www.umsl.edu/library/locations/codes/seoii.htm target=_blank
+LOC_serdi=http://www.umsl.edu/library/locations/codes/serdi.htm target=_blank
+LOC_serii=http://www.umsl.edu/library/locations/codes/serii.htm target=_blank
+LOC_serin=http://www.umsl.edu/library/locations/codes/serin.htm target=_blank
+LOC_sermi=http://www.umsl.edu/library/locations/codes/sermi.htm target=_blank
+LOC_sexii=http://www.umsl.edu/library/locations/codes/sexii.htm target=_blank
+LOC_shaii=http://www.umsl.edu/library/locations/codes/shaii.htm target=_blank
+LOC_shdii=http://www.umsl.edu/library/locations/codes/shdii.htm target=_blank
+LOC_shdmi=http://www.umsl.edu/library/locations/codes/shdmi.htm target=_blank
+LOC_shhii=http://www.umsl.edu/library/locations/codes/shhii.htm target=_blank
+LOC_shiib=http://www.umsl.edu/library/locations/codes/shiib.htm target=_blank
+LOC_shiii=http://www.umsl.edu/library/locations/codes/shiii.htm target=_blank
+LOC_shmii=http://www.umsl.edu/library/locations/codes/shmii.htm target=_blank
+LOC_shoii=http://www.umsl.edu/library/locations/codes/shoii.htm target=_blank
+LOC_shrii=http://www.umsl.edu/library/locations/codes/shrii.htm target=_blank
+LOC_shrmi=http://www.umsl.edu/library/locations/codes/shrmi.htm target=_blank
+LOC_shxii=http://www.umsl.edu/library/locations/codes/shxii.htm target=_blank
+LOC_sjbii=http://www.umsl.edu/library/locations/codes/sjbii.htm target=_blank
+LOC_sjcai=http://www.umsl.edu/library/locations/codes/sjcai.htm target=_blank
+LOC_sjcbi=http://www.umsl.edu/library/locations/codes/sjcbi.htm target=_blank
+LOC_sjcii=http://www.umsl.edu/library/locations/codes/sjcii.htm target=_blank
+LOC_sjcir=http://www.umsl.edu/library/locations/codes/sjcir.htm target=_blank
+LOC_sjcoi=http://www.umsl.edu/library/locations/codes/sjcoi.htm target=_blank
+LOC_sjcoo=http://www.umsl.edu/library/locations/codes/sjcoo.htm target=_blank
+LOC_sjcui=http://www.umsl.edu/library/locations/codes/sjcui.htm target=_blank
+LOC_sjdii=http://www.umsl.edu/library/locations/codes/sjdii.htm target=_blank
+LOC_sjdmi=http://www.umsl.edu/library/locations/codes/sjdmi.htm target=_blank
+LOC_sjeii=http://www.umsl.edu/library/locations/codes/sjeii.htm target=_blank
+LOC_sjfii=http://www.umsl.edu/library/locations/codes/sjfii.htm target=_blank
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

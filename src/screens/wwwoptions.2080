@@ -1,0 +1,164 @@
+##############################################################################
+#
+# WWWOptions file for: MERLIN / UMOS
+#             Created: 12/15/2000
+#             Revised: 12/15/2000 HJP
+#
+##############################################################################
+#
+# WARNING! Please ensure that you are the *only* user modifying this file.
+# If more than one user simultaneously edits this file...
+# YOUR CHANGES MAY NOT BE SAVED!
+#
+##############################################################################
+#
+# These are the rules for modifying this file:
+#
+# 1) BEFORE you begin, copy the complete text of this WWWOptions file and
+#    include it as part of your ticket.
+# 
+# 2) You MUST indicate in this header file what you changed, when you
+#    changed it, why this change was necessary, who you are, and a tracking
+#    number for your change (i.e. a MCO Remedy ticket number).
+# 
+# 3) Do not paste large amounts of text into this file.  In particular, 
+#    avoid pasting long lines of text (i.e. text which will wrap).
+#
+# 4) Use Carriage Returns when editing long lines.  Avoid wrapping lines.
+#
+# 5) AFTER you are done modifying this file, copy the complete text of this
+#    WWWOptions file and include it as part of your ticket, before you 
+#    close the ticket.
+#
+##############################################################################
+#
+# Revision Log: Please note your revision in this log, even if it is minor.
+# 
+# BEGIN ALL LINES WITH A #, which is the comment character.
+#
+# Date       Your Initials - Change Description - Remedy Ticket Number
+#
+# 12/15/2000 MCS - Comment Header added to file - MCO-001890
+# 12/15/2000 HJP - eliminated carriage returns from all botlogo lines
+# 08/13/2001 HJP - AKS installation revisions
+# 08/26/2001 JNO - ASSEARCH Setting change from 3 to 1 - MCO-003335
+# 07/10/2001 LEE - Add My Millennium functionality per GLH
+# 11/03/2003 LEE - Removed My Millennium options
+#
+##############################################################################
+
+
+
+# AVS / AKS settings
+AVS_TAG=XYZ
+ASSEARCH=1
+
+# General Display and Logging Options
+BODYPARAM=BGCOLOR=#fffff0 LINK=blue VLINK=blue
+#BODYPARAM=BGCOLOR=lightgrey LINK=blue VLINK=blue
+CLEAR_PRIVATE_INFO=YES
+STATGROUP=login
+TIMEOUT=300;URL=http://laurel.lso.missouri.edu/
+TOPLOGO=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/merlin_all.gif" alt="MERLIN Library Catalog - All Collections"></center>
+TOPLOGO1=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umc.gif" alt="UMC Libraries"></center>
+TOPLOGO2=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umcl.gif" alt="University of Missouri - Columbia Law Library"></center>
+TOPLOGO3=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umkc.gif" alt="University of Missouri - Kansas City Libraries"></center>
+TOPLOGO4=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umkcl.gif" alt="University of Missouri - Kansas City Law Library"></center>
+TOPLOGO5=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umr.gif" alt="University of Missouri - Rolla Library"></center>
+TOPLOGO6=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/umsl.gif" alt="University of Missouri - St. Louis Libraries"></center>
+TOPLOGO7=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/whmc.gif" alt="University of Missouri - Archives and WHMC"></center>
+TOPLOGO8=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/slu.gif" alt="SLU Libraries"></center>
+TOPLOGO9=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/slul.gif" alt="Saint Louis University Law Library"></center>
+TOPLOGO10=<center><img src="/screens/cat-bar.gif" alt="MERLIN Library Catalog"><br><img src="/screens/sluhsc.gif" alt="Saint Louis University Health Sciences Center Library"></center>
+
+# Scope Controls
+
+# OPAC Display and Behavior Options
+DISPLAY_856=3z
+#DROP_DOWN=WdmtaUscljfgio
+DROP_DOWN=Xdmtascljfgio
+EXTENDED=L
+FRAMEURL=0
+#INDEX_EXT=W,d,m,t,a,U,s,c,l,j,f,g,i,o
+INNREACH=207.160.154.35&<br><img src="/screens/but25.gif" border=0 alt="Search MOBIUS Union Catalog">@207.160.154.34(a=a;t=t;g=g;i=i;s=s;o=o;c=c;j=e;m=m;d=d;l=n;X=X*;Y=Y*;Z=Z*)
+KEYWORD_COLOR=Y|all|RED
+LINK856TEXT=Link to web version:
+MARC=yes
+NOSEARCH=nubz
+OFFER_HISTORY=YES
+#RECORDFRAME=22,53,25
+REQUEST=|denyiflocalavail|ask|Y
+REQUEST_INSTRUCTION=Any Special Instructions?
+SHOWOREC=no_cdate
+SORT ITEMS=true
+SUPPRESS_YEAR=false
+
+#My Millennium Options
+MY_WEBPAC=F|T
+FRAMEURL_PAT=50,50
+NO_REVERIFY=req,acq
+PREF_SEARCHES=20|y
+PREFTEXT=Save your search?
+RECORDFRAME_STAFF=50,50
+STAFF=4,5,44,64,74,103,130,155,201
+PATRON_NOTICES=az
+MODIFY_PFLDS=atz
+
+# Encyclopedia Britannica Options
+#EBADDRESS=http://www.eb.com:180/cgi-bin/g?keywords=%s&DBase=Articles
+#EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_query0=%s
+
+# Export Options
+EMAILOP=From the MERLIN Library Catalog|exporter|
+EXPORT_SELECT_TABLE=Sendto:email,local,browser
+|Format:marc,full,procite,endnote
+
+# Patron Record Display and Behavior Options
+#MY_WEBPAC=false
+#Commented out for MY_WEBPAC line under My Millennium options above
+
+# Z39.50 Options
+
+# OPTIONS BUTTONS
+BUT_ANOTHER=/screens/but4.gif
+BUT_BIBEXPORT=/screens/but15.gif
+BUT_BRIEF=/screens/but12.gif
+BUT_CARDFORM_BOX=/screens/boxdisp.gif
+BUT_CARDFORM_LIN=/screens/linedisp.gif
+BUT_CLEAR_MARKED=/screens/but16.gif
+BUT_CLOSEWN=/screens/rtn_cat.gif
+BUT_EMAIL=/screens/but8.gif
+BUT_EMAIL=/screens/email.gif
+#BUT_ENCYCPD=/screens/but6.gif
+BUT_EXPORT_VIEW_SAVES=/screens/but18.gif
+BUT_EXTENDED=/screens/but2.gif 
+BUT_FULL_TEXT=/screens/fulltxt.gif
+BUT_LIMAVAIL=/screens/but22.gif
+BUT_LIMIT=/screens/but5.gif
+BUT_LOGOUT=/screens/logout.gif
+BUT_MARC_DISPLAY=/screens/but24.gif
+BUT_MODIFY=/screens/modify.gif
+BUT_NEWSRCH=/screens/but3.gif 
+BUT_NEXTPAGE=/screens/but1.gif
+BUT_NEXTREC=/screens/but13.gif
+BUT_PLOGOUT=/screens/patronrecord.gif
+BUT_PREVPAGE=/screens/but11.gif 
+BUT_PREVREC=/screens/but10.gif
+BUT_PREVSCRN=/screens/but19.gif
+BUT_PUBLIC=/screens/public.gif
+BUT_REGULAR_DISPLAY=/screens/but21.gif
+BUT_REQUEST=/screens/but26.gif
+BUT_RET2CAT=/screens/ret2cat.gif
+BUT_RET2CRS=/screens/ret2crs.gif
+BUT_RET2FEAT=/screens/ret2feat.gif
+BUT_RET2PAT=/screens/patronrecord.gif
+BUT_RET2PREC=/screens/but20.gif
+BUT_RETHOME=/screens/rethome.gif
+BUT_RTRNTB=/screens/but14.gif
+BUT_SHOWSIM=/screens/showsimilar.gif
+BUT_STAFF=/screens/staff.gif
+BUT_UNLIMAVAIL=/screens/but23.gif
+BUT_WORDSRCH=/screens/but7.gif
+BUT_Z39_ANOTHER=/screens/z39ano.gif
+BUT_Z39_REQUEST=/screens/request.gif
+

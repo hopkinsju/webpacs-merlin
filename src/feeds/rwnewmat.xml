@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+	<title>New Books and DVDs!</title>
+	<link>http://207.160.154.35</link>
+	<description>New books, DVDs, audio CDs, received today</description>
+	<language>eng</language>
+	<lastBuildDate>Wed, 24 Oct 2007 02:26:19 CDT</lastBuildDate>
+	<generator>Millennium Feed Builder</generator>
+	<ttl>720</ttl>
+	<image>
+		<url>http://207.160.154.35/screens/feeds.gif</url>
+		<title>MERLIN Library Catalog</title>
+		<link>http://207.160.154.35/</link>
+		<width>88</width>
+		<height>31</height>
+	</image>
+	<item>
+		<title>Shyness : how normal behavior became a sickness / Christopher Lane.</title>
+		<link>http://207.160.154.35/record=b6059388*eng</link>
+		<description>9780300124460 (hbk.)</description>
+		<guid isPermaLink="false">9780300124460 (hbk.)</guid>
+	</item>
+	<item>
+		<title>Sex sleep eat drink dream : a day in the life of your body / Jennifer Ackerman.</title>
+		<link>http://207.160.154.35/record=b6059296*eng</link>
+		<description>9780618187584</description>
+		<guid isPermaLink="false">9780618187584</guid>
+	</item>
+	<item>
+		<title>Mathematics and chess : 110 entertaining problems and solutions / by Miodrag Petkovic.</title>
+		<link>http://207.160.154.35/record=b6059290*eng</link>
+		<description>0486294323</description>
+		<guid isPermaLink="false">0486294323</guid>
+	</item>
+	<item>
+		<title>This cold house : the simple science of energy efficiency / Colin Smith.</title>
+		<link>http://207.160.154.35/record=b6059272*eng</link>
+		<description>9780801886225 (hardcover : alk. paper)</description>
+		<guid isPermaLink="false">9780801886225 (hardcover : alk. paper)</guid>
+	</item>
+	<item>
+		<title>Sustainability at the cutting edge : emerging technologies for low energy buildings / Peter F. Smith.</title>
+		<link>http://207.160.154.35/record=b6059266*eng</link>
+		<description>9780750683005 (pbk.)</description>
+		<guid isPermaLink="false">9780750683005 (pbk.)</guid>
+	</item>
+	<item>
+		<title>Biomedical ethics for engineers : ethics and decision making in biomedical and biosystem engineering / Daniel A. Vallero.</title>
+		<link>http://207.160.154.35/record=b6059127*eng</link>
+		<description>0750682272</description>
+		<guid isPermaLink="false">0750682272</guid>
+	</item>
+	<item>
+		<title>Breathing space : how allergies shape our lives and landscapes / Gregg Mitman.</title>
+		<link>http://207.160.154.35/record=b6059099*eng</link>
+		<description>9780300110357 (alk. paper)</description>
+		<guid isPermaLink="false">9780300110357 (alk. paper)</guid>
+	</item>
+	<item>
+		<title>Mindful universe : quantum mechanics and the participating observer / Henry P. Stapp.</title>
+		<link>http://207.160.154.35/record=b6049536*eng</link>
+		<description>9783540724131</description>
+		<guid isPermaLink="false">9783540724131</guid>
+	</item>
+	<item>
+		<title>Math doesn&apos;t suck : how to survive middle school math without losing your mind or breaking a nail / Danica McKellar.</title>
+		<link>http://207.160.154.35/record=b6042413*eng</link>
+		<description>9781594630392 (hardcover)</description>
+		<guid isPermaLink="false">9781594630392 (hardcover)</guid>
+	</item>
+	<item>
+		<title>Life in the soil : a guide for naturalists and gardeners / James B. Nardi.</title>
+		<link>http://207.160.154.35/record=b6041886*eng</link>
+		<description>9780226568522 (pbk. : alk. paper)</description>
+		<guid isPermaLink="false">9780226568522 (pbk. : alk. paper)</guid>
+	</item>
+	<item>
+		<title>Environmental modeling : a practical introduction / Michael J. Barnsley.</title>
+		<link>http://207.160.154.35/record=b6037453*eng</link>
+		<description>9780415300544 (alk. paper)</description>
+		<guid isPermaLink="false">9780415300544 (alk. paper)</guid>
+	</item>
+	<item>
+		<title>Epic rivalry : the inside story of the Soviet and American space race / Von Hardesty and Gene Eisman.</title>
+		<link>http://207.160.154.35/record=b6037448*eng</link>
+		<description>9781426201196 (hardcover : alk. paper)</description>
+		<guid isPermaLink="false">9781426201196 (hardcover : alk. paper)</guid>
+	</item>
+	<item>
+		<title>Geometric algebra for computer science : an object-oriented approach to geometry / Leo Dorst, Daniel Fontijne, Stephen Mann.</title>
+		<link>http://207.160.154.35/record=b6037436*eng</link>
+		<description>0123694655</description>
+		<guid isPermaLink="false">0123694655</guid>
+	</item>
+	<item>
+		<title>Enhancing evolution : the ethical case for making better people / John Harris.</title>
+		<link>http://207.160.154.35/record=b6037312*eng</link>
+		<description>9780691128443 (hbk.)</description>
+		<guid isPermaLink="false">9780691128443 (hbk.)</guid>
+	</item>
+</channel>
+</rss>

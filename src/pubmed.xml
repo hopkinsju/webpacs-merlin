@@ -1,0 +1,34 @@
+<!-- VERSION="250@(#) pubmed.xml 250.2@(#) 6/10/05 13:24:17" -->
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st November 2003//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_031101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation>
+	    <Article>
+	        <Journal>
+		    <ISSN>issn</ISSN>
+		    <JournalIssue>
+		        <PubDate>date</PubDate>
+                <Volume>volume</Volume>
+                <Issue>issue</Issue>
+		    </JournalIssue>
+		    <Title>title</Title>
+	    	</Journal>
+	    	<ArticleTitle>atitle</ArticleTitle> 
+	    	<Pagination>
+                <MedlinePgn>pages</MedlinePgn>
+            </Pagination>
+            <AuthorList>
+                <Author>
+                    <LastName>aulast</LastName>
+                    <ForeName>aufirst</ForeName>
+                    <Initials>auinit</Initials>
+                </Author>
+            </AuthorList>
+	    </Article>
+	    <MedlineJournalInfo>
+            <MedlineTA>stitle</MedlineTA>
+        </MedlineJournalInfo>
+        </MedlineCitation>
+    </PubmedArticle>
+</PubmedArticleSet>
