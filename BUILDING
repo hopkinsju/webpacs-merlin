@@ -2,4 +2,13 @@ merlin_webpac - WebOPAC for the MERLIN Cluster
 
 BUILDING
 
-This file will contain notes on how to deploy new code to the staging directory, or the live directory, of the MERLIN InnOPAC.
+PRE-REQUISITES
+
+ * A Subversion client. A good client for Windows is TortoiseSVN, available at:
+   http://tortoisesvn.net/downloads
+
+ * Perl. For Windows, ActivePerl is fine:
+   http://www.activestate.com/store/activeperl/download/
+
+
+This file will eventually contain notes on how to build a new set of html files in the build folder, and then deploy these files to the staging directory, or the live directory, of the MERLIN InnOPAC.
