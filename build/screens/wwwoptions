@@ -1,7 +1,7 @@
 #################################################################
 #
 # 	WebPAC Pro Staging WWWOptions file for: MERLIN / UMOS
-#             Updated: 10/01/07	lee
+#             Updated: 11/06/07	lee
 #
 #################################################################
 #
@@ -12,8 +12,8 @@
 #################################################################
 
 # ADVANCED SERVER OPTIONS
-#ASSEARCH=1
-#AVS_RELEVANCE_FORMAT=1
+# ASSEARCH=1
+# AVS_RELEVANCE_FORMAT=1
 AVS_TAG=XYZ
 #IMAGE_AVS#
 #RELSEARCH
@@ -31,18 +31,18 @@ BOOKINGS_MONTH_LEGEND_s1=<span class="bookingsLegend">No rooms available on <spa
 BOOKINGS_REPEAT=F
 
 # CONTENT LINKING AND OTHER RESOURCES OPTIONS
-#BIBIMAGE=
-#BIBIMAGE=http://images.amazon.com/images/P/%s.01._SCMZZZZZZZ_.jpg|i|http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg
+# BIBIMAGE=
+# BIBIMAGE=http://images.amazon.com/images/P/%s.01._SCMZZZZZZZ_.jpg|i|http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg
 #BIBIMAGE_TEXT[scope]
-#EBADDRESS=http://www.eb.com:180/cgi-bin/g?keywords=%s&DBase=Articles
-#EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_query0=%s
-#WEBADDRESS=<browse URL>|I|<bibliographic URL>|<browse IMG>|<bibliographic IMG>|<frame URL>
+# EBADDRESS=http://www.eb.com:180/cgi-bin/g?keywords=%s&DBase=Articles
+# EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_query0=%s
+# WEBADDRESS=<browse URL>|I|<bibliographic URL>|<browse IMG>|<bibliographic IMG>|<frame URL>
 #XML_LABEL
 
 # EBOOKS OPTONS
-#NETLI_ASK=true
-#NETLI_LINK=|Go to netLibrary Preview|Check this book out of netLibrary
-#NETLI856TEXT=Link to netLibrary version:
+# NETLI_ASK=true
+# NETLI_LINK=|Go to netLibrary Preview|Check this book out of netLibrary
+# NETLI856TEXT=Link to netLibrary version:
 
 # FEATURED LISTS
 FEATURED_LIST=10,260|New Titles|Campus|# Titles
@@ -52,14 +52,14 @@ FEEDS_PORT=6060
 RSS_MIN_TTL=20
 
 # GENERAL DISPLAY AND BEHAVIOR OPTIONS
-#AVAILLIM=<EM>Limit results to available items</em>|<em>Search results are limited to available items</em>
+# AVAILLIM=<EM>Limit results to available items</em>|<em>Search results are limited to available items</em>
 #AVAILLIM_STATS
 BOTLOGO=@screens/botlogo.html
 CLEAR_PRIVATE_INFO=yes
 #CUSTOM_MESSAGES
 FORM_FOCUS=no
 INSERTTAG_HTML=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+# "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=
 <html xmlns="http://www.w3.org/1999/xhtml">
 INSERTTAG_INHEAD=<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 #RESOURCETABLE
@@ -98,8 +98,8 @@ SHOW_KW_MSGS=T
 DISPLAY_CHECKIN_856=3z
 #HOLDINGS_REQ
 #HOLDINGS_TAGS
-SORT_ITEMS=T
-#SUPPRESS_CARD=F
+SORT_ITEMS=true
+# SUPPRESS_CARD=F
 
 # ILL OPTIONS
 #ILL_CONF_EMAIL
@@ -111,23 +111,23 @@ INNREACH=<br><img src="/screens/but_ir_holdings.gif" border=0 alt="Search MOBIUS
 
 # LANGUAGE HANDLING OPTIONS
 DIACLIST=big5;big 5 diac file|utf8;utf8 diac file
-#LANG=
-#LANGLIST=
+# LANG=
+# LANGLIST=
 ROOTLANG=eng
 
 # MEDIA MANAGEMENT OPTIONS
 ERESERVE=[0123456789]
-#ERESERVE_IP=
+# ERESERVE_IP=
 ERESERVE_PRINT_MESSAGE=Article has been sent to the system printer.
 IMAGE_PRINT=T
 IMAGE_SAVE=T
 
 # MY MILLENNIUM OPTIONS
 #CIRC_HIST_LIMIT_TEXT
-#FORCE_COOKIE=
+# FORCE_COOKIE=
 LOGGEDIN_MSG=<center>You are logged in %s as %s </center>
 NO_REVERIFY=req,book,media,ill,z39
-#PATRONVIEW_START=
+# PATRONVIEW_START=
 PREF_SEARCHES_P1=10|Y
 PREF_SEARCHES_P2=10|Y
 PREF_SEARCHES_P3=10|Y
@@ -135,16 +135,16 @@ PREF_SEARCHES_P4=10|Y
 PREF_SEARCHES_P5=10|Y
 PREF_SEARCHES_P9=10|Y
 PREF_SEARCHES_P15=10|Y
-#PREF_SEARCHES_P16=10|Y     STAGING ONLY
-#PREF_SEARCHES_P20=10|Y     STAGING ONLY
+# PREF_SEARCHES_P16=10|Y     
+# PREF_SEARCHES_P20=10|Y    
 PREFTEXT=Save search?
-#READING_HISTORY_DELETE=T
+# READING_HISTORY_DELETE=T
 TOPLOGO_LOGGEDIN=F
 
 # PATRON FEEDS OPTIONS
 PATFEED_CONFIG=Library News|Click links for details
 PATFEED_FINES_INCURRED_RECENTLY=New fee or fine
-#PATFEED_IMAGE=
+# PATFEED_IMAGE=
 PATFEED_HOLDS_READY=Your materials are ready to be picked up
 PATFEED_ITEMS_DUE_SOON=You have items that are due soon
 PATFEED_ITEMS_DUE_TODAY=You have items that are due today
@@ -159,36 +159,36 @@ PATFEED_LIVE_BOOKMARKS=T
 HOLD_MSG_SIMPLE=T
 MASK_BARCODE=T
 #MIN_PIN_LENGTH
-#MODIFY_PFLDS=
+# MODIFY_PFLDS=
 MY_WEBPAC=F,T
-#NEWPIN_MSG=please verify your chosen pin
-#PATRON_FIELDS=
+# NEWPIN_MSG=please verify your chosen pin
+# PATRON_FIELDS=
 PATRON_MSG=PATRON_MSG=z|Message from the library
-#PATRON_NOTICES=
+# PATRON_NOTICES=
 #PIN_ALPHA_NUM
 PSTARTOVER=/search
 SEEPUDATE=T
 TABLEPARAM_PATDISP=WIDTH="100%" BGCOLOR=#DEDEE7|BGCOLOR=#DEDEE7|BGCOLOR=#FFFFFF
 TABLEPARAM_PATFUNC=BORDER=0 WIDTH="100%"
-#TIME_POPUP=
+# TIME_POPUP=
 
 # RECORD DISPLAY OPTIONS
-#BIBLOC=
+# BIBLOC=
 BIB_TOC_HEADER=<STRONG>Table of Contents</STRONG>
 DISPLAY_856=3z
-#FIELD_LABEL_VERBATIM=
+# FIELD_LABEL_VERBATIM=
 HOLDINGS_POS=atpe
-#HOTLINK=
+# HOTLINK=
 #HYPERTEXT_980
 ITEM_NOTE=true
-#ITEMOUT_MSG=Due
+# ITEMOUT_MSG=Due
 LINK856TEXT=Link to web version:
 MARC=yes
-#RECORDFRAME=25,75
-#SIMILAR_ITEMS=
+# RECORDFRAME=25,75
+# SIMILAR_ITEMS=
 TABLEPARAM_BIB=BORDER=0|BORDER=0
 TABLEPARAM_BIB_DETAIL=border="0" width="99%" border="0" cellspacing="1"
-#TABLEPARAM_BIB_HOLDINGS=width="99%" border="0" cellspacing="1"
+# TABLEPARAM_BIB_HOLDINGS=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_HOLDS=width="99%" border="0"cellspacing="1"
 TABLEPARAM_BIB_INFO=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_ITEMS=width="99%" border="0" cellspacing="1" 
@@ -199,10 +199,10 @@ TABLEPARAM_BIB_TOC=width="95%" bgcolor="#FFFFFF"
 WEBPUBDEF=true
 
 # REQUESTING OPTIONS
-#BIBREQUEST=
+# BIBREQUEST=
 #REQFILLTIME[scope][_P#]
 REQUEST=Request item|denyiflocalavail|ask|Y
-#REQUEST_ARTICLE_IFCHKIN=
+# REQUEST_ARTICLE_IFCHKIN=
 REQUEST_INSTRUCTION=Any Special Instructions?
 REQUEST_MULTI=Request multi|denyiflocalavail|ask|Y
 
@@ -216,26 +216,26 @@ TABLEPARAM_RSRV_BIBS=cellpadding="8" cellspacing="0" border="1" width="99%" BGCO
 BRIEF_EXPORT_CHKIN=h|n
 EMAILOP=From the MERLIN Library Catalog|exporter|
 EXPORT_SELECT_TABLE=Sendto:email,local,browser|Format:full,brief,marc,endnote,procite
-#XRECTYPE=
+# XRECTYPE=
 
 # SEARCH RESULTS OPTIONS
 AUTHMSG==<em>%u</em> -- See %w <strong>%a</strong><SPAN CLASS="authPublicNote">%p</span>|<em>%u</em> -- See Also %w <strong>%a</strong><SPAN CLASS="authPublicNote">%p</span>
 #AUTHMSG_SR
 BODYPARAM=BGCOLOR=#ffffff LINK=#333379 VLINK=blue
-#BRIEF=
+# BRIEF=
 #BROWSE[_itag]
 BROWSE_HEADERS=Save|Format|Number
 DISPLAY_245=atdmjsl
 DISPLAY_856=3z
 EXTENDED=L
 EXTENDED_c=3
-#HEADING_LENGTH=
-#IMAGE_MATTYPEx= 'x' specifies code for material type
+# HEADING_LENGTH=
+# IMAGE_MATTYPEx= 'x' specifies code for material type
 INDEX_EXT=c,l,j,g
 MEDIA=2
 REDIRECT_7XX=TRUE
-#SORT_BROWSE=c:Year|a:Author|t:Title
-#SORT_MEDIA=
+# SORT_BROWSE=c:Year|a:Author|t:Title
+# SORT_MEDIA=
 #SUPPRESS_YEAR
 TABLEPARAM_BRIEFCIT=Y|WIDTH=97% BORDER=0
 TABLEPARAM_BROWSE=WIDTH="99%" BORDER=0|cellspacing=0 BORDER=0|WIDTH="99%" BORDER=0|WIDTH="99%" BORDER=0 cellspacing=0 align="left"
@@ -247,8 +247,8 @@ RESET_SCOPE=no
 #RESET_SCOPE controls whether a scope is reset when the user clicks 'New Search'
 
 # STAFF OPTIONS
-#MILCAT_PUB_VIEW=
-#RECORDFRAME_STAFF=22,53,25
+# MILCAT_PUB_VIEW=
+# RECORDFRAME_STAFF=22,53,25
 STAFF=15,201
 STAFF_LOGGEDIN_MSG=You are STAFF logged in %s as %s
 SUPPRESS_MGR_FIELDS=T
@@ -262,11 +262,11 @@ BROWSE50=true
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a?</span> %s
 
 # Z39.50 Options
-#Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
-#Z39IPOK=
-#Z39MULTI=
-#Z39PORT=
-#Z39RESTRICT=
+# Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+# Z39IPOK=
+# Z39MULTI=
+# Z39PORT=
+# Z39RESTRICT=
 #Z39SEARCH
 
 # OPTIONS BUTTONS
@@ -282,7 +282,7 @@ BUT_CLOSEFRAME=/screens/but_closeframe.gif
 BUT_CLOSEWIN=/screens/but_closewin.gif
 #BUT_CLOSEWINDOW
 BUT_EMAIL=/screens/but_email.gif
-#BUT_ENCYCPD=/screens/but_encycpd.gif
+# BUT_ENCYCPD=/screens/but_encycpd.gif
 BUT_EXPORT_MULTI=/screens/but_export_multi.gif
 BUT_EXPORT_VIEW_SAVES=/screens/but_export_view_saves.gif
 BUT_EXTENDED=/screens/but_extended.gif 
@@ -324,7 +324,7 @@ BUT_PAT_SUBMIT=/screens/but_pat_submit.gif
 BUT_PLOGOUT=/screens/but_plogout.gif
 BUT_PREVREC=/screens/but_prevrec.gif
 BUT_PREVSCRN=/screens/but_prevscrn.gif
-#BUT_PSTARTOVER=/screens/but_pstartover.gif
+# BUT_PSTARTOVER=/screens/but_pstartover.gif
 BUT_PUBLIC=/screens/but_public.gif
 BUT_REGULAR_DISPLAY=/screens/but_regular_display.gif
 BUT_REQUEST=/screens/but_request.gif
@@ -377,7 +377,7 @@ ICON_CANCEL=<img src="/screens/but_cancel.gif" alt="Cancel" border="0" />
 ICON_DAILYCAL_s1=View daily calendar.
 ICON_FULLRECORD=<img src="/screens/but_extended.gif" ALT="Go to Full Record" border=0 />
 ICON_HOURLYCAL_s1=<img src="/screens/hourly7.gif" alt="View Hourly Calendar" border="0" />
-#ICON_LOCATEINRESULTS=<input type="image" NAME="jumpto" SRC="screens/locateinresults.gif" alt="Locate in reults" border="0" />
+# ICON_LOCATEINRESULTS=<input type="image" NAME="jumpto" SRC="screens/locateinresults.gif" alt="Locate in reults" border="0" />
 #ICON_MFFAVS_SEARCH 
 ICON_NEXTCAL_s1=Next
 #ICON_OK 
@@ -414,9 +414,9 @@ ICON_PREVPAGE=<img src="/screens/but_prevpage.gif" alt="Previous Page" border="0
 #ICON_RATE_NEED
 #ICON_RATE_NO
 #ICON_RATE_PAD
-#ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History" border="0" />
-#ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0" />
-#ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
+# ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History" border="0" />
+# ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0" />
+# ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
 ##############################################################################
 ICON_RECORDLINK=<div class="bibRecordLink" id="recordnum">&nbsp; Persistent record link: http://laurel.lso.missouri.edu%s</font></div>
 ##############################################################################
@@ -436,7 +436,7 @@ ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more >></span>
 ICON_SPELLCHECK_SEARCH=Search
 ICON_SUBMIT=<img src="/screens/b_submit.gif" alt="Submit" border="0" />
 #ICON_UPDATELIST
-#ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/b_viewadditional.gif" alt="View Additional Items" border="0" />
+# ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/b_viewadditional.gif" alt="View Additional Items" border="0" />
 #ICON_WWAPP_LOGOUT
 
 # MEDIA IMAGES
