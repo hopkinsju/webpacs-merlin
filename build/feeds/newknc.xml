@@ -5,7 +5,7 @@
 	<link>http://207.160.154.35</link>
 	<description>New materials cataloged for music collections</description>
 	<language>eng</language>
-	<lastBuildDate>Tue, 20 Nov 2007 02:22:29 CST</lastBuildDate>
+	<lastBuildDate>Wed, 21 Nov 2007 02:25:16 CST</lastBuildDate>
 	<generator>Millennium Feed Builder</generator>
 	<ttl>720</ttl>
 	<image>
@@ -79,6 +79,24 @@
 		<link>http://207.160.154.35/record=b6129938*eng</link>
 		<description>Trzesinski, Randi.</description>
 		<guid isPermaLink="false">1596620463</guid>
+	</item>
+	<item>
+		<title>Sweat : The story of the Fleshtones, America&apos;s garage band / Joe Bonomo.</title>
+		<link>http://207.160.154.35/record=b6129268*eng</link>
+		<description>Bonomo, Joe, 1966-</description>
+		<guid isPermaLink="false">9780826428462 (pbk. : alk. paper)</guid>
+	</item>
+	<item>
+		<title>Guitar heaven : the most famous guitars to electrify our world / Neville Marten.</title>
+		<link>http://207.160.154.35/record=b6129267*eng</link>
+		<description>Marten, Neville.</description>
+		<guid isPermaLink="false">9780061359446 : $29.95</guid>
+	</item>
+	<item>
+		<title>The Gibson electric guitar book : seventy years of classic guitars / Walter Carter.</title>
+		<link>http://207.160.154.35/record=b6129266*eng</link>
+		<description>Carter, Walter.</description>
+		<guid isPermaLink="false">9780879308957 (pbk.)</guid>
 	</item>
 	<item>
 		<title>Ectoplasm [sound recording] : The Raymond Scott Quintet, 1948-1949 : studio recordings by six-- and sometimes seven-- musicians.</title>
@@ -292,24 +310,6 @@
 		<link>http://207.160.154.35/record=b6121083*eng</link>
 		<description>Parris, Rebecca.</description>
 		<guid isPermaLink="false">JGA-0019 Altenburgh Records</guid>
-	</item>
-	<item>
-		<title>Pete Jolly live in LA [sound recording] : the Red Chimney and Sherry&apos;s Bar recordings.</title>
-		<link>http://207.160.154.35/record=b6120977*eng</link>
-		<description>Jolly, Pete, 1932-2004.</description>
-		<guid isPermaLink="false">V.S.O.P. #91 CD V.S.O.P.</guid>
-	</item>
-	<item>
-		<title>Directions in music [sound recording] / Sauter-Finegan Orchestra.</title>
-		<link>http://207.160.154.35/record=b6120969*eng</link>
-		<description>Sauter-Finegan Orchestra.</description>
-		<guid isPermaLink="false">7863564682</guid>
-	</item>
-	<item>
-		<title>Introducing Dena DeRose [sound recording].</title>
-		<link>http://207.160.154.35/record=b6120957*eng</link>
-		<description>DeRose, Dena.</description>
-		<guid isPermaLink="false">601917100922</guid>
 	</item>
 </channel>
 </rss>
