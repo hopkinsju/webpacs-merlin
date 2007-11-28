@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<searchtypes>
+
+  <searchtype index="Y">
+    <name>Keyword</name>
+  </searchtype>
+  
+  <searchtype index="t">
+    <name>Title</name>
+  </searchtype>
+  
+  <searchtype index="a">
+    <name>Author</name>
+  </searchtype>
+  
+  <searchtype index="d">
+    <name>Subject (LC)</name>
+  </searchtype>
+  
+  <searchtype index="m">
+    <name>Medical Subjects (MESH)</name>
+  </searchtype>
+  
+  <searchtype index="s">
+    <name>Journal, Magazine, Newspaper Title</name>
+  </searchtype>
+  
+  <searchtype index="c">
+    <name>LC Call Number</name>
+  </searchtype>
+  
+  <searchtype index="l">
+    <name>NLM Call Number</name>
+  </searchtype>
+  
+  <searchtype index="j">
+    <name>Dewey Call Number</name>
+  </searchtype>
+  
+  <searchtype index="f">
+    <name>Other Call Number</name>
+  </searchtype>
+  
+  <searchtype index="g">
+    <name>Gov Doc Number</name>
+  </searchtype>
+  
+  <searchtype index="i">
+    <name>ISN, Standard Number</name>
+  </searchtype>
+  
+  <searchtype index="o">
+    <name>OCLC Number</name>
+  </searchtype>
+
+</searchtypes>
