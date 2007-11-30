@@ -1,7 +1,7 @@
 #################################################################
 #
 # 	WebPAC Pro Staging WWWOptions file for: MERLIN / UMOS
-#             Updated: 11/06/07	lee
+#             	Updated: 11/29/07	lee
 #
 #################################################################
 #
@@ -11,6 +11,7 @@
 #
 #################################################################
 
+SSLPORT=80:443
 # ADVANCED SERVER OPTIONS
 # ASSEARCH=1
 # AVS_RELEVANCE_FORMAT=1
@@ -20,14 +21,19 @@ AVS_TAG=XYZ
 #SHOWSIM_SFLDS
 
 # BOOKINGS OPTIONS
-BOOKINGS=no|true|false
-BOOK_CAL_AVAIL=blue
+BOOK_CAL_AVAIL=black
 BOOK_CAL_BKGRD=white
 BOOK_CAL_CLOSE=black
 BOOK_CAL_UNAVAIL=black
 BOOKINGS_s1=no|true|true
-BOOKINGS_DAY_LEGEND_s1=<span class="bookingsLegend">No rooms available on <span class="closed">grayed out</span> hours. Rooms are <span class="available">available</span>. Rooms are <span class="unavailable">reserved</span>.<br /> Click on the month to return to the Monthy calendar.</span>
-BOOKINGS_MONTH_LEGEND_s1=<span class="bookingsLegend">No rooms available on <span class="closed">grayed out</span> hours. Rooms are <span class="available">available</span>. Rooms are <span class="unavailable">reserved</span>.<br /> Click on the day to check detailed availability.</span>
+BOOKINGS_DAY_LEGEND_s1=No rooms available on <span class="closed">grayed out</span> hours.
+Rooms are <span class="available">available</span>.
+Rooms are <span class="unavailable">reserved</span>.<br />
+# Click on the month to return to the Monthy calendar.</span>=
+BOOKINGS_MONTH_LEGEND_s1=No rooms available on <span class="closed">grayed out</span> hours.
+Rooms are <span class="available">available</span>.
+Rooms are <span class="unavailable">reserved</span>.<br />
+# Click a day to check detailed availability.</span>=
 BOOKINGS_REPEAT=F
 
 # CONTENT LINKING AND OTHER RESOURCES OPTIONS
@@ -64,7 +70,6 @@ INSERTTAG_HTML=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN"
 INSERTTAG_INHEAD=<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 #RESOURCETABLE
 #RIGHT_CELL_WIDTH
-SSLPORT=80:443
 STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/merlin_styles.css 
@@ -122,12 +127,13 @@ ERESERVE_PRINT_MESSAGE=Article has been sent to the system printer.
 IMAGE_PRINT=T
 IMAGE_SAVE=T
 
-# MY MILLENNIUM OPTIONS
+#   MY MILLENNIUM OPTIONS
 #CIRC_HIST_LIMIT_TEXT
 # FORCE_COOKIE=
 LOGGEDIN_MSG=<center>You are logged in %s as %s </center>
 NO_REVERIFY=req,book,media,ill,z39
 # PATRONVIEW_START=
+# MU PTYPES
 PREF_SEARCHES_P1=10|Y
 PREF_SEARCHES_P2=10|Y
 PREF_SEARCHES_P3=10|Y
@@ -135,16 +141,22 @@ PREF_SEARCHES_P4=10|Y
 PREF_SEARCHES_P5=10|Y
 PREF_SEARCHES_P9=10|Y
 PREF_SEARCHES_P15=10|Y
-# PREF_SEARCHES_P16=10|Y     
-# PREF_SEARCHES_P20=10|Y    
+# PREF_SEARCHES_P16=10|Y     STAGING ONLY
+# PREF_SEARCHES_P20=10|Y     STAGING ONLY
+# UMKC PTYPES
+PREF_SEARCHES_P41=10|Y
+PREF_SEARCHES_P42=10|Y
+PREF_SEARCHES_P43=10|Y
+PREF_SEARCHES_P44=10|Y
+PREF_SEARCHES_P45=10|Y
 PREFTEXT=Save search?
 # READING_HISTORY_DELETE=T
 TOPLOGO_LOGGEDIN=F
 
-# PATRON FEEDS OPTIONS
+#   PATRON FEEDS OPTIONS
 PATFEED_CONFIG=Library News|Click links for details
 PATFEED_FINES_INCURRED_RECENTLY=New fee or fine
-# PATFEED_IMAGE=
+#PATFEED_IMAGE=
 PATFEED_HOLDS_READY=Your materials are ready to be picked up
 PATFEED_ITEMS_DUE_SOON=You have items that are due soon
 PATFEED_ITEMS_DUE_TODAY=You have items that are due today
@@ -153,42 +165,42 @@ PATFEED_ITEMS_BOOKED_TOMORROW=You have items booked for tomorrow
 PATFEED_ITEMS_RECALLED=Materials have been recalled
 PATFEED_LIVE_BOOKMARKS=T
 
-# PATRON RECORD OPTIONS
+#   PATRON RECORD OPTIONS
 #CHANGE_HOLD_LOC
 #FREEZE_HOLDS[_P#]
 HOLD_MSG_SIMPLE=T
 MASK_BARCODE=T
 #MIN_PIN_LENGTH
-# MODIFY_PFLDS=
+#MODIFY_PFLDS=
 MY_WEBPAC=F,T
-# NEWPIN_MSG=please verify your chosen pin
-# PATRON_FIELDS=
+#NEWPIN_MSG=please verify your chosen pin
+#PATRON_FIELDS=
 PATRON_MSG=PATRON_MSG=z|Message from the library
-# PATRON_NOTICES=
+#PATRON_NOTICES=
 #PIN_ALPHA_NUM
 PSTARTOVER=/search
 SEEPUDATE=T
 TABLEPARAM_PATDISP=WIDTH="100%" BGCOLOR=#DEDEE7|BGCOLOR=#DEDEE7|BGCOLOR=#FFFFFF
 TABLEPARAM_PATFUNC=BORDER=0 WIDTH="100%"
-# TIME_POPUP=
+#TIME_POPUP=
 
 # RECORD DISPLAY OPTIONS
-# BIBLOC=
+#BIBLOC=
 BIB_TOC_HEADER=<STRONG>Table of Contents</STRONG>
 DISPLAY_856=3z
 # FIELD_LABEL_VERBATIM=
-HOLDINGS_POS=atpe
-# HOTLINK=
+HOLDINGS_POS=atpexz
+#HOTLINK=
 #HYPERTEXT_980
 ITEM_NOTE=true
-# ITEMOUT_MSG=Due
+ ITEMOUT_MSG=Due
 LINK856TEXT=Link to web version:
 MARC=yes
-# RECORDFRAME=25,75
-# SIMILAR_ITEMS=
+#RECORDFRAME=25,75
+#SIMILAR_ITEMS=
 TABLEPARAM_BIB=BORDER=0|BORDER=0
 TABLEPARAM_BIB_DETAIL=border="0" width="99%" border="0" cellspacing="1"
-# TABLEPARAM_BIB_HOLDINGS=width="99%" border="0" cellspacing="1"
+#TABLEPARAM_BIB_HOLDINGS=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_HOLDS=width="99%" border="0"cellspacing="1"
 TABLEPARAM_BIB_INFO=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_ITEMS=width="99%" border="0" cellspacing="1" 
@@ -374,12 +386,12 @@ ICON_CANCEL=<img src="/screens/but_cancel.gif" alt="Cancel" border="0" />
 #ICON_CAT_RETURN_TO_BIB
 #ICON_CLEAR_FORM
 #ICON_CLOSEWINDOW
-ICON_DAILYCAL_s1=View daily calendar.
+ICON_DAILYCAL=View Daily Calendar
 ICON_FULLRECORD=<img src="/screens/but_extended.gif" ALT="Go to Full Record" border=0 />
-ICON_HOURLYCAL_s1=<img src="/screens/hourly7.gif" alt="View Hourly Calendar" border="0" />
+ICON_HOURLYCAL=View Hourly Calendar
 # ICON_LOCATEINRESULTS=<input type="image" NAME="jumpto" SRC="screens/locateinresults.gif" alt="Locate in reults" border="0" />
 #ICON_MFFAVS_SEARCH 
-ICON_NEXTCAL_s1=Next
+ICON_NEXTCAL=Next
 #ICON_OK 
 #ICON_PAGING_CAPTION 
 #ICON_PAGING_NEXT
