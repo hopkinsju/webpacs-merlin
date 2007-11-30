@@ -46,7 +46,7 @@
 
   <scope id = "7" name=">State Historical Society &amp; Western Historical Manuscript Collection Catalogs">
     <qs_name>UM SHS/WHMC</qs_name>
-    <qs_indexes></qs_indexes>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
