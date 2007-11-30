@@ -1,5 +1,5 @@
 merlin_webpac - WebOPAC for the MERLIN Cluster
 
-UTIL folder
+BIN folder
 
 This folder will contain scripts that are used with the merlin_webpac project, but are not part of the source code.
