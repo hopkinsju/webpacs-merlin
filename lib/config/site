@@ -1,0 +1,8 @@
+[%  site = {
+      name        = 'MERLIN WebPAC'
+      server      = 'http://laurel.lso.missouri.edu'
+
+
+}
+
+-%]
