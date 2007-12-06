@@ -1,0 +1,38 @@
+[% site.image = {
+		logo = {
+			large = {
+				src		= ""
+				alt		= ""
+				width	=
+				height	=
+			}
+			small = {
+				src		= ""
+				alt		= ""
+				width	=
+				height	=
+			}
+
+		}
+		name = {
+			src		= ""
+			alt		= ""
+			width	=
+			height	=
+		}
+	}
+-%]
+
+
+[%*
+
+images:
+
+shim
+toplogo_merlin.gif
+toplogo_gr_fade.gif
+toplogo_gr_rnd_end.gif
+toplogo_bl_fade.gif
+toplogo_bl_rnd_end.gif
+
+%]

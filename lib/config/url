@@ -1,0 +1,6 @@
+[% site.url = {
+		root		= rooturl
+		images		= "$rooturl/screens"
+		css			= "$rooturl/screens"
+	}
+-%]
