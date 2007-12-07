@@ -1,38 +1,165 @@
 [% site.image = {
-		logo = {
-			large = {
-				src		= ""
-				alt		= ""
-				width	=
-				height	=
-			}
-			small = {
-				src		= ""
-				alt		= ""
-				width	=
-				height	=
-			}
-
-		}
-		name = {
-			src		= ""
+		shim = {
+			src		= "$site.url.images/shim.gif"
 			alt		= ""
-			width	=
-			height	=
+			width	= 1
+			height	= 1
+		}
+		toplogo_merlin = {
+			src		= "$site.url.images/toplogo_merlin.gif"
+			alt		= ""
+			width	= 99
+			height	= 45
+		}
+		toplogo_gr_fade = {
+			src		= "$site.url.images/toplogo_gr_fade.gif"
+			alt		= ""
+			width	= 251
+			height	= 18
+		}
+		toplogo_gr_rnd_end = {
+			src		= "$site.url.images/toplogo_gr_rnd_end.gif"
+			alt		= ""
+			width	= 3
+			height	= 18
+		}
+		toplogo_bl_fade = {
+			src		= "$site.url.images/toplogo_bl_fade.gif"
+			alt		= ""
+			width	= 251
+			height	= 18
+		}
+		toplogo_bl_rnd_end = {
+			src		= "$site.url.images/toplogo_bl_rnd_end.gif"
+			alt		= ""
+			width	= 3
+			height	= 18
+		}
+		bot_bar = {
+			src		= "$site.url.images/bot_bar.gif"
+			alt		= ""
+			width	= 740
+			height	= 8
+		}
+		tab = {
+			help = {
+				up = {
+					src		= "$site.url.images/tab_help.gif"
+					alt		= " help "
+					width	= 100
+					height	= 31
+				}
+				down = {
+					src		= "$site.url.images/tab_help_down.gif"
+					alt		= " help "
+					width	= 100
+					height	= 31
+				}
+				over = {
+					src		= "$site.url.images/tab_help_over.gif"
+					alt		= " help "
+					width	= 100
+					height	= 31
+				}
+			}
+			libcat = {
+				up = {
+					src		= "$site.url.images/tab_libcat.gif"
+					alt		= " libcat "
+					width	= 100
+					height	= 31
+				}
+				down = {
+					src		= "$site.url.images/tab_libcat_down.gif"
+					alt		= " libcat "
+					width	= 100
+					height	= 31
+				}
+				over = {
+					src		= "$site.url.images/tab_libcat_over.gif"
+					alt		= " libcat "
+					width	= 100
+					height	= 31
+				}
+			}
+			mylib = {
+				up = {
+					src		= "$site.url.images/tab_mylib.gif"
+					alt		= " mylib "
+					width	= 100
+					height	= 31
+				}
+				down = {
+					src		= "$site.url.images/tab_mylib_down.gif"
+					alt		= " mylib "
+					width	= 100
+					height	= 31
+				}
+				over = {
+					src		= "$site.url.images/tab_mylib_over.gif"
+					alt		= " mylib "
+					width	= 100
+					height	= 31
+				}
+			}
+			other = {
+				up = {
+					src		= "$site.url.images/tab_other.gif"
+					alt		= " other "
+					width	= 100
+					height	= 31
+				}
+				down = {
+					src		= "$site.url.images/tab_other_down.gif"
+					alt		= " other "
+					width	= 100
+					height	= 31
+				}
+				over = {
+					src		= "$site.url.images/tab_other_over.gif"
+					alt		= " other "
+					width	= 100
+					height	= 31
+				}
+			}
+			reserves = {
+				up = {
+					src		= "$site.url.images/tab_reserves.gif"
+					alt		= " reserves "
+					width	= 100
+					height	= 31
+				}
+				down = {
+					src		= "$site.url.images/tab_reserves_down.gif"
+					alt		= " reserves "
+					width	= 100
+					height	= 31
+				}
+				over = {
+					src		= "$site.url.images/tab_reserves_over.gif"
+					alt		= " reserves "
+					width	= 100
+					height	= 31
+				}
+			}
+			bar = {
+				src		= "$site.url.images/tab_bar_bar.gif"
+				alt		= ""
+				width	= 1
+				height	= 1
+			}
+			bar1 = {
+				src		= "$site.url.images/tab_bar_bar1.gif"
+				alt		= ""
+				width	= 1
+				height	= 1
+			}
+			bar2 = {
+				src		= "$site.url.images/tab_bar_bar2.gif"
+				alt		= ""
+				width	= 1
+				height	= 1
+			}
 		}
 	}
 -%]
-
-
-[%*
-
-images:
-
-shim
-toplogo_merlin.gif
-toplogo_gr_fade.gif
-toplogo_gr_rnd_end.gif
-toplogo_bl_fade.gif
-toplogo_bl_rnd_end.gif
-
-%]

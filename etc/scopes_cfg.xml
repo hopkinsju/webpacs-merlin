@@ -2,49 +2,49 @@
 
 <cluster name="MERLIN">
 
-  <scope id = "0" name=">All MERLIN Libraries Catalogs">
+  <scope id = "0" name="All MERLIN Libraries Catalogs">
     <qs_name>ALL MERLIN</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "1" name=">MU Libraries Catalogs">
+  <scope id = "1" name="MU Libraries Catalogs">
     <qs_name>MU</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "2" name=">MU-Law Library Catalogs">
+  <scope id = "2" name="MU-Law Library Catalogs">
     <qs_name>MU-Law</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "3" name=">UMKC Libraries Catalogs">
+  <scope id = "3" name="UMKC Libraries Catalogs">
     <qs_name>UMKC</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "4" name=">UMKC-Law Library Catalog">
+  <scope id = "4" name="UMKC-Law Library Catalog">
     <qs_name>UMKC-Law</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "5" name=">UMR Library Catalog">
+  <scope id = "5" name="UMR Library Catalog">
     <qs_name>UMR</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "6" name=">UMSL Libraries Catalogs">
+  <scope id = "6" name="UMSL Libraries Catalogs">
     <qs_name>UMSL</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
   </scope>
 
-  <scope id = "7" name=">State Historical Society &amp; Western Historical Manuscript Collection Catalogs">
+  <scope id = "7" name="State Historical Society &amp; Western Historical Manuscript Collection Catalogs">
     <qs_name>UM SHS/WHMC</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>

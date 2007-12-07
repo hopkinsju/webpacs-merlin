@@ -2,7 +2,7 @@
         "$rootdir/etc/scopes_cfg.xml"
         KeyAttr = ['id']
     );
-    
+
     #save scopes in site
     site.scopes = scopes;
 

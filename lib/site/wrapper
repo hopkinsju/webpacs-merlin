@@ -1,11 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+[% SWITCH page.type;
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>[% template.title %]</title>
-  </head>
-  <body>
-    [% content %]
-  </body>
-</html>
+		CASE 'text';
+			content;
+
+		CASE 'html';
+			content WRAPPER	site/html;
+
+		CASE;
+			THROW page.type "Invalid page type: $page.type";
+	END;
+%]
