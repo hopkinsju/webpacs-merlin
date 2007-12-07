@@ -7,7 +7,7 @@
 		}
 		toplogo_merlin = {
 			src		= "$site.url.images/toplogo_merlin.gif"
-			alt		= ""
+			alt		= " MERLIN: Missouri Education and Research Libraries Information Network "
 			width	= 99
 			height	= 45
 		}

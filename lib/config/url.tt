@@ -1,6 +1,8 @@
 [% site.url = {
-		root		= rooturl
-		images		= "$rooturl/screens"
-		css			= "$rooturl/screens"
+		root					= rooturl
+		images					= "$rooturl"
+		css						= "$rooturl"
+		mobius_search			= "http://mobius.missouri.edu/search"
+		merlin_search_unscoped	= "/search~"
 	}
 -%]

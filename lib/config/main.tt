@@ -1,8 +1,8 @@
-[%  PROCESS config/page
-          + config/site
-          + config/url
-          + config/col
-          + config/images
-          + config/scopes
-          + config/searchtypes
+[%  PROCESS config/page.tt
+          + config/site.tt
+          + config/url.tt
+          + config/col.tt
+          + config/images.tt
+          + config/scopes.tt
+          + config/searchtypes.tt
 -%]
