@@ -151,7 +151,7 @@ PREF_SEARCHES_P43=10|Y
 PREF_SEARCHES_P44=10|Y
 PREF_SEARCHES_P45=10|Y
 PREFTEXT=Save search?
-# READING_HISTORY_DELETE=T
+READING_HISTORY_DELETE=T
 TOPLOGO_LOGGEDIN=F
 
 #   PATRON FEEDS OPTIONS
@@ -399,8 +399,8 @@ ICON_NEXTCAL=Next
 #ICON_PAGING_PREV
 ICON_PAT_CANCELMARK=<img src="/screens/but_pat_cancelmark.gif" alt="Cancel Selected" border="0" />
 ICON_PAT_CANCELALL=<img src="/screens/but_pat_cancelall.gif" alt="Cancel All" border="0" />
-ICON_PAT_DELETE_ALL=<img src="b_patdeleteall.gif" alt="Deleted All" border="0" />
-ICON_PAT_DELETE_MARKED=<img src="/screens/b_patdeleteselect.gif" alt="Delete Selected" border="0" />
+ICON_PAT_DELETE_ALL=<img src="b_patdeleteall.gif" alt="Delete All" border="0" />
+ICON_PAT_DELETE_MARKED=<img src="/screens/b_patdeleteselect.gif" alt="Delete SELECTED" border="0" />
 #ICON_PAT_MFFAVS
 ICON_PATFEED=<img src="/screens/b_patfeed.gif" alt="My Record Feeds" border="0" />
 #ICON_PATRATE
