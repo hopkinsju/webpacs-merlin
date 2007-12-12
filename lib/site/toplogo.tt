@@ -13,31 +13,47 @@
 		<td colspan="3">[%- INCLUDE misc/shim.tt height=3 width=641 -%]</td>
 		<td>[%- INCLUDE misc/shim.tt height=3 -%]</td>
 	</tr>
+	<!-- begin GREEN bar -->
 	<tr>
 		<td>[%- INCLUDE misc/image.tt image=site.image.toplogo_gr_fade | trim -%]</td>
 		<td align="right" valign="middle" nowrap bgcolor="[% site.col.greenbar %]" class="smaller_reversed_nodecoration">
 			<strong><font color="#ffffff" size="-1" face="[% site.font.toplogo %]">
 			<a href="[% site.url.mobius_search %]" class="smaller_reversed_nodecoration">MOBIUS</a> &gt;
-			<a href="[% site.url.merlin_search_unscoped %]" class="smaller_reversed_nodecoration">All MERLIN</a>
+			<a href="[% site.url.merlin_search_scope.0 %]" class="smaller_reversed_nodecoration">All MERLIN</a>
+
+			[% SWITCH page.scope;
+					CASE 0;
+						# do nothing
+					CASE [ 1 2 3 4 5 6 7 ];
+						INCLUDE site/toplogo_greenbar_scope.tt | trim;
+				END;
+			%]
+
 			</font></strong></td>
 		<td>[%- INCLUDE misc/image.tt image=site.image.toplogo_gr_rnd_end | trim -%]</td>
 		<td>[%- INCLUDE misc/shim.tt height=18 -%]</td>
 	</tr>
+	<!-- end GREEN bar -->
 	<tr>
 		<td colspan="3">[%- INCLUDE misc/shim.tt height=3 width=641 -%]</td>
 		<td>[%- INCLUDE misc/shim.tt height=3 -%]</td>
 	</tr>
+	<!-- begin BLUE bar -->
 	<tr>
-		<td>[%- INCLUDE misc/shim.tt height=18 width=251 -%]</td>
-		<td align="right" valign="middle" nowrap bgcolor="[% site.col.greenbar %]" CLASS="smaller_reversed_nodecoration"><strong><font color="#ffffff" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-			<a href="[% site.url.merlin_gateway %]" class="smaller_reversed_nodecoration">MERLIN Web Gateway</a>
+		<td>[%- INCLUDE misc/image.tt image=site.image.toplogo_bl_fade | trim -%]</td>
+		<td align="right" valign="middle" nowrap bgcolor="[% site.col.bluebar %]" CLASS="smaller_reversed_nodecoration"><strong><font color="#ffffff" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+
+			[%- INCLUDE site/toplogo_bluebar_scope.tt | trim -%]
+
 			</font></strong></td>
-		<td>[%- INCLUDE misc/shim.tt height=18 width=3 -%]</td>
+		<td>[%- INCLUDE misc/image.tt image=site.image.toplogo_bl_rnd_end | trim -%]</td>
 		<td>[%- INCLUDE misc/shim.tt height=18 width=1 -%]</td>
 	</tr>
+	<!-- end BLUE bar -->
 	<tr>
 		<td colspan="3">[%- INCLUDE misc/shim.tt height=3 width=641 -%]</td>
 		<td>[%- INCLUDE misc/shim.tt height=3 width=1 -%]</td>
 	</tr>
 </table>
+[% # INCLUDE debug/hash.tt hash=site.scopes %]
 [%- INCLUDE misc/end_component.tt comp=component.name -%]

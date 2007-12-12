@@ -1,0 +1,16 @@
+[%	WRAPPER table/edge.tt;
+		FOREACH key = hash.keys;
+				val = hash.$key;
+			WRAPPER table/row.tt;
+				INCLUDE table/head.tt content=key;
+				WRAPPER table/cell.tt;
+					IF val.keys;
+						INCLUDE debug/hash.tt hash=val;
+					ELSE;
+						val;
+					END;
+				END;
+			END;
+		END;
+	END;
+-%]

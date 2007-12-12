@@ -3,14 +3,16 @@
 		images					= "$rooturl"
 		css						= "$rooturl"
 		mobius_search			= "http://mobius.missouri.edu/search"
-		merlin_search_unscoped	= "/search~"
-		merlin_search_scope1	= "/search~S1"
-		merlin_search_scope2	= "/search~S2"
-		merlin_search_scope3	= "/search~S3"
-		merlin_search_scope4	= "/search~S4"
-		merlin_search_scope5	= "/search~S5"
-		merlin_search_scope6	= "/search~S6"
-		merlin_search_scope7	= "/search~S7"
+		merlin_search_scope		= [	"/search~"
+									"/search~S1"
+									"/search~S2"
+									"/search~S3"
+									"/search~S4"
+									"/search~S5"
+									"/search~S6"
+									"/search~S7"
+								  ]
+
 		merlin_gateway			= "http://merlin.missouri.edu/"
 	}
 -%]
