@@ -427,9 +427,9 @@ ICON_PREVPAGE=<img src="/screens/but_prevpage.gif" alt="Previous Page" border="0
 #ICON_RATE_NEED
 #ICON_RATE_NO
 #ICON_RATE_PAD
-# ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History" border="0" />
-# ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0" />
-# ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
+ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History" border="0" />
+ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0" />
+ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
 ##############################################################################
 ICON_RECORDLINK=<div class="bibRecordLink" id="recordnum">&nbsp; Persistent record link: http://laurel.lso.missouri.edu%s</font></div>
 ##############################################################################
