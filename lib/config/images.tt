@@ -4,42 +4,49 @@
 			alt		= ""
 			width	= 1
 			height	= 1
+			id 		= "shim"
 		}
 		toplogo_merlin = {
 			src		= "$site.url.images/toplogo_merlin.gif"
 			alt		= " MERLIN: Missouri Education and Research Libraries Information Network "
 			width	= 99
 			height	= 45
+			id 		= "toplogo_merlin"
 		}
 		toplogo_gr_fade = {
 			src		= "$site.url.images/toplogo_gr_fade.gif"
 			alt		= ""
 			width	= 251
 			height	= 18
+			id 		= "toplogo_gr_fade"
 		}
 		toplogo_gr_rnd_end = {
 			src		= "$site.url.images/toplogo_gr_rnd_end.gif"
 			alt		= ""
 			width	= 3
 			height	= 18
+			id 		= "toplogo_gr_rnd_end"
 		}
 		toplogo_bl_fade = {
 			src		= "$site.url.images/toplogo_bl_fade.gif"
 			alt		= ""
 			width	= 251
 			height	= 18
+			id 		= "toplogo_bl_fade"
 		}
 		toplogo_bl_rnd_end = {
 			src		= "$site.url.images/toplogo_bl_rnd_end.gif"
 			alt		= ""
 			width	= 3
 			height	= 18
+			id 		= "toplogo_bl_rnd_end"
 		}
 		bot_bar = {
 			src		= "$site.url.images/bot_bar.gif"
 			alt		= ""
 			width	= 740
 			height	= 8
+			id 		= "bot_bar"
 		}
 		tab = {
 			help = {
@@ -48,18 +55,21 @@
 					alt		= " help "
 					width	= 100
 					height	= 31
+					id 		= "tab_help"
 				}
 				down = {
 					src		= "$site.url.images/tab_help_down.gif"
 					alt		= " help "
 					width	= 100
 					height	= 31
+					id 		= "tab_help"
 				}
 				over = {
 					src		= "$site.url.images/tab_help_over.gif"
 					alt		= " help "
 					width	= 100
 					height	= 31
+					id 		= "tab_help"
 				}
 			}
 			libcat = {
@@ -68,18 +78,21 @@
 					alt		= " libcat "
 					width	= 100
 					height	= 31
+					id 		= "tab_libcat"
 				}
 				down = {
 					src		= "$site.url.images/tab_libcat_down.gif"
 					alt		= " libcat "
 					width	= 100
 					height	= 31
+					id 		= "tab_libcat"
 				}
 				over = {
 					src		= "$site.url.images/tab_libcat_over.gif"
 					alt		= " libcat "
 					width	= 100
 					height	= 31
+					id 		= "tab_libcat"
 				}
 			}
 			mylib = {
@@ -88,18 +101,21 @@
 					alt		= " mylib "
 					width	= 100
 					height	= 31
+					id 		= "tab_mylib"
 				}
 				down = {
 					src		= "$site.url.images/tab_mylib_down.gif"
 					alt		= " mylib "
 					width	= 100
 					height	= 31
+					id 		= "tab_mylib"
 				}
 				over = {
 					src		= "$site.url.images/tab_mylib_over.gif"
 					alt		= " mylib "
 					width	= 100
 					height	= 31
+					id 		= "tab_mylib"
 				}
 			}
 			other = {
@@ -108,18 +124,21 @@
 					alt		= " other "
 					width	= 100
 					height	= 31
+					id 		= "tab_other"
 				}
 				down = {
 					src		= "$site.url.images/tab_other_down.gif"
 					alt		= " other "
 					width	= 100
 					height	= 31
+					id 		= "tab_other"
 				}
 				over = {
 					src		= "$site.url.images/tab_other_over.gif"
 					alt		= " other "
 					width	= 100
 					height	= 31
+					id 		= "tab_other"
 				}
 			}
 			reserves = {
@@ -128,18 +147,21 @@
 					alt		= " reserves "
 					width	= 100
 					height	= 31
+					id 		= "tab_reserves"
 				}
 				down = {
 					src		= "$site.url.images/tab_reserves_down.gif"
 					alt		= " reserves "
 					width	= 100
 					height	= 31
+					id 		= "tab_reserves"
 				}
 				over = {
 					src		= "$site.url.images/tab_reserves_over.gif"
 					alt		= " reserves "
 					width	= 100
 					height	= 31
+					id 		= "tab_reserves"
 				}
 			}
 			bar = {
@@ -147,18 +169,21 @@
 				alt		= ""
 				width	= 1
 				height	= 1
+				id 		= "bar"
 			}
 			bar1 = {
 				src		= "$site.url.images/tab_bar_bar1.gif"
 				alt		= ""
 				width	= 1
 				height	= 1
+				id 		= "bar1"
 			}
 			bar2 = {
 				src		= "$site.url.images/tab_bar_bar2.gif"
 				alt		= ""
 				width	= 1
 				height	= 1
+				id 		= "bar2"
 			}
 		}
 	}

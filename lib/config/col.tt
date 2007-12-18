@@ -6,5 +6,6 @@
 		alink		= '#333379'
 		greenbar	= '#6BBC07'
 		bluebar		= '#333379'
+		tabbar		= '#333379'
 	}
 -%]
