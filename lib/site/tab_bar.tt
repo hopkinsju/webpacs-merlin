@@ -1,6 +1,13 @@
 [%- INCLUDE misc/begin_component.tt comp=component.name -%]
 [% 	this_scope_index=page.scope;
 	searchlink=site.url.merlin_search_scope.$this_scope_index;
+	this_tab=site.tab;
+	tab_down=down OR "tab_libcat";
+	FOREACH tab in this_tab;
+		IF tab.id == tab_down;
+			tab.state = "down";
+		END;
+	END;
 %]
 <table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="tabs">
 	<tr>
@@ -13,11 +20,11 @@
 		<td>[%- INCLUDE misc/shim.tt -%]</td>
 	</tr>
 	<tr>
-		<td class="tab_cat">[%- INCLUDE site/tab.tt tablink=searchlink tabimage=site.image.tab.libcat variant="down" -%]</td>
-		<td class="tab_reserve">[%- INCLUDE site/tab.tt tablink=searchlink+"/e" tabimage=site.image.tab.reserves -%]</td>
-		<td class="tab_patrec">[%- INCLUDE site/tab.tt tablink="/patroninfo" tabimage=site.image.tab.mylib -%]</td>
-		<td class="tab_other">[%- INCLUDE site/tab.tt tablink=searchlink+"/v" tabimage=site.image.tab.other -%]</td>
-		<td class="tab_help">[%- INCLUDE site/tab.tt tablink=searchlink+"/k" tabimage=site.image.tab.help -%]</td>
+		<td class="tab_cat">[%- INCLUDE site/tab.tt tablink="${searchlink}" tabimage=this_tab.libcat | trim -%]</td>
+		<td class="tab_reserve">[%- INCLUDE site/tab.tt tablink="${searchlink}/e" tabimage=this_tab.reserves | trim  -%]</td>
+		<td class="tab_patrec">[%- INCLUDE site/tab.tt tablink="/patroninfo" tabimage=this_tab.mylib | trim  -%]</td>
+		<td class="tab_other">[%- INCLUDE site/tab.tt tablink="${searchlink}/v" tabimage=this_tab.other | trim  -%]</td>
+		<td class="tab_help">[%- INCLUDE site/tab.tt tablink="${searchlink}/k" tabimage=this_tab.help | trim  -%]</td>
 		<td>[%- INCLUDE misc/image.tt image=site.image.tab.bar1 | trim -%]</td>
 		<td>[%- INCLUDE misc/shim.tt height=31 -%]</td>
 	</tr>

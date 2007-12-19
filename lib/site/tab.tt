@@ -1,11 +1,9 @@
-<a href="[% tablink %]">
-[% SWITCH variant;
+<a href="[% tablink %]">[% SWITCH tabimage.state;
 		CASE "down";
-			INCLUDE misc/image.tt image=tabimage.down;
+			INCLUDE misc/image.tt image=tabimage.down | trim;
 		CASE "over";
-			INCLUDE misc/image.tt image=tabimage.over;
+			INCLUDE misc/image.tt image=tabimage.over | trim;
 		CASE;
-			INCLUDE misc/image.tt image=tabimage.up;
+			INCLUDE misc/image.tt image=tabimage.up | trim;
 	END;
-%]
-</a>
+%]</a>

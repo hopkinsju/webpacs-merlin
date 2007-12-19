@@ -3,6 +3,7 @@
           + config/url.tt
           + config/col.tt
           + config/images.tt
+          + config/tabs.tt
           + config/scopes.tt
           + config/searchtypes.tt
 -%]
