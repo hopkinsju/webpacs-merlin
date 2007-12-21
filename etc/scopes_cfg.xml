@@ -52,14 +52,14 @@
     <library_url>http://www1.law.umkc.edu/library/</library_url>
   </scope>
 
-  <scope id = "5" name="UMR Library Catalog">
-    <qs_name>UMR</qs_name>
+  <scope id = "5" name="MST Library Catalog">
+    <qs_name>MST</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
-    <campus_name>UMR</campus_name>
+    <campus_name>MST</campus_name>
     <campus_url>http://www.umr.edu/</campus_url>
-    <library_name>UMR Library</library_name>
-    <library_url>http://library.umr.edu/</library_url>
+    <library_name>Missouri S&amp;T Library</library_name>
+    <library_url>http://library.mst.edu/</library_url>
   </scope>
 
   <scope id = "6" name="UMSL Libraries Catalog">

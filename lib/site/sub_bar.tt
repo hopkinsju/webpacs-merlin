@@ -1,0 +1,22 @@
+[%-
+ 	this_scope_index=page.scope;
+	searchlink=site.url.merlin_search_scope.$this_scope_index;
+-%]
+[%- IF sub_bar -%]
+	<tr>
+
+		<td bgcolor="[% site.col.tabbar %]">[%- INCLUDE misc/shim.tt height=9 -%]</td>
+		<td colspan="5" align="left" valign="middle" nowrap bgcolor="[% site.col.tabbar %]" class="smaller_reversed_nodecoration">
+		[%- FOREACH sub IN site.sub_tab -%]
+ | <a href="[%- searchlink -%]/[%- sub.index -%]" class="smaller_reversed_nodecoration">[%- sub.name -%]</a>
+		[%- END -%]
+		</td>
+		<td bgcolor="[% site.col.tabbar %]">[%- INCLUDE misc/shim.tt height=9 -%]</td>
+	</tr>
+[%- ELSE -%]
+	<tr>
+		<td colspan="6" style="text-align: left; vertical-align: middle; white-space: nowrap; background-color: [% site.col.tabbar %];"
+		class="smaller_reversed_nodecoration">[%- INCLUDE misc/image.tt image=site.image.tab.bar2 | trim -%]</td>
+		<td>[%- INCLUDE misc/shim.tt height=9 -%]</td>
+	</tr>
+[%- END -%]

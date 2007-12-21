@@ -23,6 +23,13 @@
 				height	= 31
 				id 		= "tab_help"
 			}
+			overdown = {
+				src		= "$site.url.images/tab_help_overdown.gif"
+				alt		= " help "
+				width	= 100
+				height	= 31
+				id 		= "tab_help"
+			}
 		}
 		libcat = {
 			state 	= "up"
@@ -43,6 +50,13 @@
 			}
 			over = {
 				src		= "$site.url.images/tab_libcat_over.gif"
+				alt		= " libcat "
+				width	= 100
+				height	= 31
+				id 		= "tab_libcat"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_libcat_overdown.gif"
 				alt		= " libcat "
 				width	= 100
 				height	= 31
@@ -73,6 +87,13 @@
 				height	= 31
 				id 		= "tab_mylib"
 			}
+			overdown = {
+				src		= "$site.url.images/tab_mylib_overdown.gif"
+				alt		= " mylib "
+				width	= 100
+				height	= 31
+				id 		= "tab_mylib"
+			}
 		}
 		other = {
 			state 	= "up"
@@ -93,6 +114,13 @@
 			}
 			over = {
 				src		= "$site.url.images/tab_other_over.gif"
+				alt		= " other "
+				width	= 100
+				height	= 31
+				id 		= "tab_other"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_other_overdown.gif"
 				alt		= " other "
 				width	= 100
 				height	= 31
@@ -123,6 +151,57 @@
 				height	= 31
 				id 		= "tab_reserves"
 			}
+			overdown = {
+				src		= "$site.url.images/tab_reserves_overdown.gif"
+				alt		= " reserves "
+				width	= 100
+				height	= 31
+				id 		= "tab_reserves"
+			}
 		}
 	}
+	site.sub_tab = [
+		{
+			name		= "Keyword"
+			index		= "Y"
+			order		= 1
+			selected	= 0
+		}
+		{
+			name		= "Title"
+			index		= "t"
+			order		= 2
+			selected	= 0
+		}
+		{
+			name		= "Author"
+			index		= "a"
+			order		= 3
+			selected	= 0
+		}
+		{
+			name		= "Author &amp; Title"
+			index		= "q"
+			order		= 4
+			selected	= 0
+		}
+		{
+			name		= "Journal Title"
+			index		= "s"
+			order		= 5
+			selected	= 0
+		}
+		{
+			name		= "Subject"
+			index		= "h"
+			order		= 6
+			selected	= 0
+		}
+		{
+			name		= "Number"
+			index		= "n"
+			order		= 7
+			selected	= 0
+		}
+	]
 -%]
