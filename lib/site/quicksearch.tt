@@ -1,0 +1,53 @@
+[%- INCLUDE misc/begin_component.tt comp=component.name;
+
+###############################################################################
+# TEMPLATE: quicksearch.tt
+#  PURPOSE: to provide the HTML for the quicksearch box on each opacmenu
+#  EXPECTS: nothing
+
+	#INCLUDE debug/hash.tt hash = site;
+ 	this_scope_index=page.scope;
+ 	this_scope_data=site.scopes.scope.$this_scope_index;
+	searchlink=site.url.merlin_search_scope.$this_scope_index;
+	qs_indexes=this_scope_data.qs_indexes.split;
+%]
+
+<center>
+    <table width="740" align="center" cellpadding="0" cellspacing="0" summary="text">
+        <tr>
+            <td>
+                <form class="form" name="SearchForm" target="_parent" action="[% searchlink %]/Y" method="get" id="SearchForm">
+                    <table border="0" cellspacing="0" cellpadding="2" width="740" summary="text">
+                        <tr>
+                            <td nowrap="nowrap"><select name="searchtype">
+                            [% FOREACH index IN this_scope_data.qs_indexes.split %]
+                            	<option value="[% index %]"[% IF index=="Y" %] selected="selected"[%END%]>
+                                    [% site.searchtypes.$index.name %]
+                                </option>
+							[% END %]
+                            </select> </td>
+
+                            <td nowrap="nowrap"><input type="TEXT" name="searcharg" maxlength="75" size="25" style="width: 250px;" /> <input type="Hidden"
+                            name="SORT" value="D" /> </td>
+
+                            <td nowrap="nowrap"><select name="searchscope">
+                            [%	scope_index = 0;
+                            	WHILE scope_index <= site.max_scopes; %]
+                            	<option value="[% scope_index %]"[% IF scope_index==this_scope_index %] selected="selected"[%END%]>
+                                    [% site.scopes.scope.$scope_index.qs_name %]
+                                </option>
+                                [%- scope_index = scope_index + 1 %]
+							[% END %]
+
+                            </select> </td>
+
+                            <td nowrap="nowrap"><input name="Submit" type="Submit" value="Search" /> </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</center>
+<br />
+[%- INCLUDE misc/end_component.tt comp=component.name -%]

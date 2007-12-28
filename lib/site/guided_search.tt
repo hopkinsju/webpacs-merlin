@@ -1,0 +1,48 @@
+[%- INCLUDE misc/begin_component.tt comp=component.name;
+
+###############################################################################
+# TEMPLATE: guided_search.tt
+#  PURPOSE: to provide the HTML for the guided search boxes on each opacmenu
+#  EXPECTS: index (required): search index, single character
+#           width (optional): if equal to "full" will return a width of 740,
+#                             anything else gets the default width of 244
+
+	#INCLUDE debug/hash.tt hash = site;
+ 	this_scope_index=page.scope;
+	searchlink=site.url.merlin_search_scope.$this_scope_index;
+	width=width OR "half";
+	SWITCH width;
+		CASE "full";
+			# measurements for full;
+			tbl_width=740;
+			main_width=719;
+		CASE;
+			# measurements for half;
+			tbl_width=244;
+			main_width=232;
+	END;
+	guided_search_title = site.searchtypes.$index.title;
+	guided_search_description = site.searchtypes.$index.description;
+%]<table width="[% tbl_width %]" border="0" cellpadding="0" cellspacing="0" summary="text">
+    <tr>
+        <td width="6" height="5" align="right">[%- INCLUDE misc/image.tt image=site.image.bc_ul | trim -%]</td>
+        <td width="[% main_width %]" height="5" bgcolor="[% site.col.guided %]">[%- INCLUDE misc/shim.tt height="5" width="$main_width" -%]</td>
+        <td width="6" height="5">[%- INCLUDE misc/image.tt image=site.image.bc_ur | trim -%]</td>
+    </tr>
+    <tr bgcolor="[% site.col.guided %]">
+        <td width="6">[%- INCLUDE misc/shim.tt height="1" width="6" -%]</td>
+        <td width="[% main_width %]" nowrap="nowrap" bgcolor="[% site.col.guided %]">
+            <div align="center">
+                <a class="index" href="[% searchlink %]/[% index %]">[% guided_search_title %]</a><br />
+                 <span class="index_def">[% guided_search_description %]</span>
+            </div>
+        </td>
+        <td width="6">[%- INCLUDE misc/shim.tt height="5" width="6" -%]</td>
+    </tr>
+    <tr>
+        <td width="6" height="5" align="right">[%- INCLUDE misc/image.tt image=site.image.bc_ll | trim -%]</td>
+        <td width="[% main_width %]" height="5" bgcolor="[% site.col.guided %]">[%- INCLUDE misc/shim.tt height="5" width="$main_width" -%]</td>
+        <td width="6" height="5">[%- INCLUDE misc/image.tt image=site.image.bc_lr | trim -%]</td>
+    </tr>
+</table>
+[%- INCLUDE misc/end_component.tt comp=component.name -%]

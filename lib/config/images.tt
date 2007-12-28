@@ -61,5 +61,29 @@
 				height	= 1
 			}
 		}
+		bc_ul = {
+			src		= "$site.url.images/bc_ul.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+		bc_ur = {
+			src		= "$site.url.images/bc_ur.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+		bc_ll = {
+			src		= "$site.url.images/bc_ll.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+		bc_lr = {
+			src		= "$site.url.images/bc_lr.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
 	}
 -%]

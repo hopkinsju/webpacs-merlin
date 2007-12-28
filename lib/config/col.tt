@@ -7,5 +7,6 @@
 		greenbar	= '#6BBC07'
 		bluebar		= '#333379'
 		tabbar		= '#333379'
+		guided		= '#DEDEE7'
 	}
 -%]

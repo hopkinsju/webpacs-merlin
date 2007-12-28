@@ -1,9 +1,9 @@
-[%  USE  scopes = XML.Simple (
+[%  USE  searchtypes = XML.Simple (
         "$rootdir/etc/searchtypes_cfg.xml"
-        KeyAttr = ['index']
+        KeyAttr = ['searchindex']
     );
-    
+
     #save searchtypes in site
-    site.searchtypes = searchtypes;
+    site.searchtypes = searchtypes.searchtype;
 
 -%]

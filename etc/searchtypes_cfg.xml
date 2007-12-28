@@ -2,56 +2,100 @@
 
 <searchtypes>
 
-  <searchtype index="Y">
+  <searchtype searchindex="Y">
     <name>Keyword</name>
+    <title>Advanced Search</title>
+    <description>sort and limit your search, e.g., word and location, author and year</description>
   </searchtype>
-  
-  <searchtype index="t">
+
+  <searchtype searchindex="t">
     <name>Title</name>
+    <title>Title</title>
+    <description>books, journals, audiovisuals...</description>
   </searchtype>
-  
-  <searchtype index="a">
+
+  <searchtype searchindex="a">
     <name>Author</name>
+    <title>Author</title>
+    <description>person, organization, composer...</description>
   </searchtype>
-  
-  <searchtype index="d">
+
+  <searchtype searchindex="q">
+    <name>Author &amp; Title</name>
+    <title>Author &amp; Title</title>
+    <description>combined search</description>
+  </searchtype>
+
+  <searchtype searchindex="h">
+    <name>Subject</name>
+    <title>Subject</title>
+    <description>Library of Congress Headings and MeSH</description>
+  </searchtype>
+
+  <searchtype searchindex="n">
+    <name>Numbers</name>
+    <title>Numbers</title>
+    <description>call numbers, ISSNs, OCLC numbers...</description>
+  </searchtype>
+
+  <searchtype searchindex="d">
     <name>Subject (LC)</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="m">
+
+  <searchtype searchindex="m">
     <name>Medical Subjects (MESH)</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="s">
+
+  <searchtype searchindex="s">
     <name>Journal, Magazine, Newspaper Title</name>
+    <title>Journal Title</title>
+    <description>journals, magazines, newspapers...</description>
   </searchtype>
-  
-  <searchtype index="c">
+
+  <searchtype searchindex="c">
     <name>LC Call Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="l">
+
+  <searchtype searchindex="l">
     <name>NLM Call Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="j">
+
+  <searchtype searchindex="j">
     <name>Dewey Call Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="f">
+
+  <searchtype searchindex="f">
     <name>Other Call Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="g">
+
+  <searchtype searchindex="g">
     <name>Gov Doc Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="i">
+
+  <searchtype searchindex="i">
     <name>ISN, Standard Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
-  
-  <searchtype index="o">
+
+  <searchtype searchindex="o">
     <name>OCLC Number</name>
+    <title></title>
+    <description></description>
   </searchtype>
 
 </searchtypes>
