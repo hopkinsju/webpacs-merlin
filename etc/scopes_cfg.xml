@@ -8,8 +8,6 @@
     <srchhelp_indexes></srchhelp_indexes>
     <campus_name>MERLIN Web Gateway</campus_name>
     <campus_url>http://merlin.missouri.edu/</campus_url>
-    <library_name></library_name>
-    <library_url></library_url>
   </scope>
 
   <scope id = "1" name="MU Libraries Catalog">
@@ -52,12 +50,12 @@
     <library_url>http://www1.law.umkc.edu/library/</library_url>
   </scope>
 
-  <scope id = "5" name="MST Library Catalog">
-    <qs_name>MST</qs_name>
+  <scope id = "5" name="Missouri S&amp;T Library Catalog">
+    <qs_name>Missouri S&amp;T</qs_name>
     <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
     <srchhelp_indexes></srchhelp_indexes>
-    <campus_name>MST</campus_name>
-    <campus_url>http://www.umr.edu/</campus_url>
+    <campus_name>Missouri S&amp;T</campus_name>
+    <campus_url>http://www.mst.edu/</campus_url>
     <library_name>Missouri S&amp;T Library</library_name>
     <library_url>http://library.mst.edu/</library_url>
   </scope>

@@ -3,9 +3,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+  	[%- IF template.description %]
+  	<meta name="description" content="[% template.description %]" />
+  	[%- END -%]
+  	[%- IF template.keywords %]
+  	<meta name="keywords" content="[% template.keywords %]" />
+  	[%- END -%]
+
     <title>[% template.title %]</title>
+	[% INCLUDE site/rollover_js.tt %]
   </head>
-  <body>
+  <body bgcolor="[% site.col.back %]" text="[% site.col.text %]" link="[% site.col.link %]" vlink="[% site.col.vlink %]" alink="[% site.col.alink %]" onLoad="[% template.onload%]">
     [% content %]
   </body>
 </html>

@@ -2,5 +2,6 @@
 	this_scope_data=site.scopes.scope.$this_scope_index;
 %]
 <a href="[% this_scope_data.campus_url %]" class="smaller_reversed_nodecoration">[% this_scope_data.campus_name %]</a>
- |
+[% IF this_scope_data.library_url %] |
 <a href="[% this_scope_data.library_url %]" class="smaller_reversed_nodecoration">[% this_scope_data.library_name %]</a>
+[% END %]

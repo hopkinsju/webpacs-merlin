@@ -1,0 +1,31 @@
+[%- INCLUDE misc/begin_component.tt comp=component.name; %]
+<table width="740" border="0" align="center" cellpadding="0" cellspacing="5" summary="text">
+	<tr>
+		<td colspan="3" align="center">
+			[% INCLUDE site/guided_search.tt index = "Y" width = "full" %]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			[% INCLUDE site/guided_search.tt index = "a" %]
+		</td>
+		<td>
+			[% INCLUDE site/guided_search.tt index = "t" %]
+		</td>
+		<td>
+			[% INCLUDE site/guided_search.tt index = "s" %]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			[% INCLUDE site/guided_search.tt index = "q" %]
+		</td>
+		<td>
+			[% INCLUDE site/guided_search.tt index = "h" %]
+		</td>
+		<td>
+			[% INCLUDE site/guided_search.tt index = "n" %]
+		</td>
+	</tr>
+</table>
+[% INCLUDE misc/end_component.tt comp=component.name -%]

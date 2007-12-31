@@ -60,7 +60,7 @@ function MM_preloadImages() { //v3.0
 }
 
 function preload() {
-  MM_preloadImages("/screens/tab_help.gif","/screens/tab_help_over.gif","/screens/tab_help_overdown.gif","/screens/tab_help_down.gif","/screens//screens/tab_libcat.gif","/screens/tab_libcat_over.gif","/screens/tab_libcat_overdown.gif","/screens/tab_libcat_down.gif","/screens/tab_mylib.gif","/screens/tab_mylib_over.gif","/screens/tab_mylib_overdown.gif","/screens/tab_mylib_down.gif","/screens/tab_other.gif","/screens/tab_other_over.gif","/screens/tab_other_overdown.gif","/screens/tab_other_down.gif","/screens/tab_reserves.gif","/screens/tab_reserves_over.gif","/screens/tab_reserves_overdown.gif","/screens/tab_reserves_down.gif");
+  MM_preloadImages("/screens/tab_help.gif","/screens/tab_help_over.gif","/screens/tab_help_overdown.gif","/screens/tab_help_down.gif","/screens/tab_libcat.gif","/screens/tab_libcat_over.gif","/screens/tab_libcat_overdown.gif","/screens/tab_libcat_down.gif","/screens/tab_mylib.gif","/screens/tab_mylib_over.gif","/screens/tab_mylib_overdown.gif","/screens/tab_mylib_down.gif","/screens/tab_other.gif","/screens/tab_other_over.gif","/screens/tab_other_overdown.gif","/screens/tab_other_down.gif","/screens/tab_reserves.gif","/screens/tab_reserves_over.gif","/screens/tab_reserves_overdown.gif","/screens/tab_reserves_down.gif");
   return true;
 }
 

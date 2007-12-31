@@ -1,0 +1,18 @@
+[%- META scope = 5;
+	META title = "Missouri S&amp;T Library Catalog";
+	META onload = "preload(); document.SearchForm.searcharg.focus(); document.SearchForm.searcharg.select();";
+	META description = "The on-line public access catalog for the Missouri S&amp;T Library.";
+	META keywords = "MERLIN Library Catalog, libraries, librarians, card catalog, catalog, MERLIN, online catalog, mobius, mst, missouri s&amp;t, umr";
+ %]
+<center>
+[% INCLUDE site/toplogo.tt %]
+<br />
+[% INCLUDE site/tab_bar.tt %]
+[% INCLUDE site/logged_in_and_logout_tokens.tt %]
+[% INCLUDE site/quicksearch.tt %]
+[% INCLUDE site/guided_searches.tt %]
+<p>
+	<a href="[% site.url.merlin_search_scope5 %]/ftlist^bib260%2C1%2C0%2C201/mode=2">Missouri S&amp;T New Books</a>
+</p>
+[% INCLUDE site/botlogo.tt %]
+</center>

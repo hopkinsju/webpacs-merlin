@@ -8,15 +8,6 @@
       type      = template.type or 'html'
       date      = template.date or Date.format(template.modtime)
       scope		= template.scope or 0
-    
+
     }
-
-
-
-
-
-
-
-
-
 -%]

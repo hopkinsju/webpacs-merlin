@@ -9,7 +9,7 @@
 	<a class="bot_logo" href="[% site.url.merlin_search_scope2 %]">MU-Law Libraries</a> |
 	<a class="bot_logo" href="[% site.url.merlin_search_scope3 %]">UMKC Libraries</a> |
 	<a class="bot_logo" href="[% site.url.merlin_search_scope4 %]">UMKC-Law Library</a> |
-	<a class="bot_logo" href="[% site.url.merlin_search_scope5 %]">UMR Library</a> |
+	<a class="bot_logo" href="[% site.url.merlin_search_scope5 %]">Missouri S&amp;T Library</a> |
 	<a class="bot_logo" href="[% site.url.merlin_search_scope6 %]">UMSL Libraries</a><br />
 	<a class="bot_logo" href="[% site.url.merlin_search_scope7 %]">State Historical Society &amp; Western Historical Manuscript Collection</a><br />
 	</span></p>

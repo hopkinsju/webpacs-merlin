@@ -4,7 +4,7 @@
 			content;
 
 		CASE 'html';
-			content WRAPPER	site/html;
+			content WRAPPER	site/html.tt;
 
 		CASE;
 			THROW page.type "Invalid page type: $page.type";
