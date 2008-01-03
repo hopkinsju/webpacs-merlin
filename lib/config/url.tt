@@ -2,7 +2,7 @@
 		root					= rooturl
 		images					= "$rooturl"
 		css						= "$rooturl"
-		mobius_search			= "http://mobius.missouri.edu/search"
+		mobius_search			= "http://mobius.umsystem.edu/search"
 		merlin_search_scope		= [	"/search~"
 									"/search~S1"
 									"/search~S2"

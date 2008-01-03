@@ -6,6 +6,9 @@
 		CASE 'html';
 			content WRAPPER	site/html.tt;
 
+		CASE 'html_srchhelp';
+			content WRAPPER	site/html_srchhelp.tt;
+
 		CASE;
 			THROW page.type "Invalid page type: $page.type";
 	END;

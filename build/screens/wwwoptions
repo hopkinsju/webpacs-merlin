@@ -65,7 +65,7 @@ BOTLOGO=@screens/botlogo.html
 CLEAR_PRIVATE_INFO=yes
 #CUSTOM_MESSAGES
 FORM_FOCUS=no
-INSERTTAG_HTML=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN" 
+INSERTTAG_HTML=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN"
 # "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=
 <html xmlns="http://www.w3.org/1999/xhtml">
 INSERTTAG_INHEAD=<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -73,9 +73,9 @@ INSERTTAG_INHEAD=<meta http-equiv="Content-Type" content="text/html; charset=utf
 #RIGHT_CELL_WIDTH
 STARTOVER=/search
 STATGROUP=login
-STYLESHEET=/screens/merlin_styles.css 
+STYLESHEET=/screens/merlin_styles.css
 #SUPPRESS_OPTION[_P#]
-TIMEOUT=600;URL=http://laurel.lso.missouri.edu/ 
+TIMEOUT=600;URL=http://laurel.lso.missouri.edu/
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
 TOPLOGO2=@screens/toplogo_s2.html
@@ -204,7 +204,7 @@ TABLEPARAM_BIB_DETAIL=border="0" width="99%" border="0" cellspacing="1"
 #TABLEPARAM_BIB_HOLDINGS=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_HOLDS=width="99%" border="0"cellspacing="1"
 TABLEPARAM_BIB_INFO=width="99%" border="0" cellspacing="1"
-TABLEPARAM_BIB_ITEMS=width="99%" border="0" cellspacing="1" 
+TABLEPARAM_BIB_ITEMS=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_LINKS=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_ORDER=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_PAGER=width="99%" border="0" cellspacing="1"
@@ -298,7 +298,7 @@ BUT_EMAIL=/screens/but_email.gif
 # BUT_ENCYCPD=/screens/but_encycpd.gif
 BUT_EXPORT_MULTI=/screens/but_export_multi.gif
 BUT_EXPORT_VIEW_SAVES=/screens/but_export_view_saves.gif
-BUT_EXTENDED=/screens/but_extended.gif 
+BUT_EXTENDED=/screens/but_extended.gif
 BUT_FIRSTPAGE=/screens/but_firstpage.gif
 BUT_FULL_TEXT=/screens/but_full_text.gif
 BUT_ILL_CANCEL=/screens/but_ill_cancel.gif
@@ -312,7 +312,7 @@ BUT_LIMIT=/screens/but_limit.gif
 BUT_LOGOUT=/screens/but_logout.gif
 BUT_MARC_DISPLAY=/screens/but_marc_display.gif
 BUT_MODIFY=/screens/but_modify.gif
-BUT_NEWSRCH=/screens/but_newsrch.gif 
+BUT_NEWSRCH=/screens/but_newsrch.gif
 BUT_NEXTPAGE=/screens/but_nextpage.gif
 BUT_NEXTREC=/screens/but_nextrec.gif
 BUT_PAT_BOOKING=/screens/but_pat_booking.gif
@@ -366,7 +366,7 @@ BUT_Z39SEARCH=/screens/z39search.gif
 
 # ICONS
 #ICON_856LINK
-#ICON_962LINK 
+#ICON_962LINK
 #ICON_ACQ_ANOTHER_SRCH
 ##ICON_ACQ_HOME
 #ICON_ACQ_NEXT_REC
@@ -374,10 +374,10 @@ BUT_Z39SEARCH=/screens/z39search.gif
 #ICON_ACQ_RESC_LINK
 #ICON_ACQ_SESSION_TOTAL
 #ICON_BIB_HOLDINGS_ITEMS
-#ICON_BIB_PAGING_CAPTION 	
-#ICON_BIB_PAGING_NEXT 	
-#ICON_BIB_PAGING_PREV 	
-#ICON_BIB_RESOURCE_DETAILS  
+#ICON_BIB_PAGING_CAPTION
+#ICON_BIB_PAGING_NEXT
+#ICON_BIB_PAGING_PREV
+#ICON_BIB_RESOURCE_DETAILS
 ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Book Cart" border="0" align="left" cellpadding="2" />
 ICON_BOOKCART_SAVED=<img src="/screens/but_clear_marked.gif" ALT="Remove From Book Cart" border="0" align="left" cellpadding="2" />
 ICON_BOOKINGS_HEADER=<br /><span class="bibBookingsHeader">RESERVE THIS ROOM</span><br /><br />
@@ -391,10 +391,10 @@ ICON_DAILYCAL=View Daily Calendar
 ICON_FULLRECORD=<img src="/screens/but_extended.gif" ALT="Go to Full Record" border=0 />
 ICON_HOURLYCAL=View Hourly Calendar
 # ICON_LOCATEINRESULTS=<input type="image" NAME="jumpto" SRC="screens/locateinresults.gif" alt="Locate in reults" border="0" />
-#ICON_MFFAVS_SEARCH 
+#ICON_MFFAVS_SEARCH
 ICON_NEXTCAL=Next
-#ICON_OK 
-#ICON_PAGING_CAPTION 
+#ICON_OK
+#ICON_PAGING_CAPTION
 #ICON_PAGING_NEXT
 #ICON_PAGING_PREV
 ICON_PAT_CANCELMARK=<img src="/screens/but_pat_cancelmark.gif" alt="Cancel Selected" border="0" />
@@ -421,7 +421,7 @@ ICON_PATFEED=<img src="/screens/b_patfeed.gif" alt="My Record Feeds" border="0" 
 #ICON_PAY_SELECT_ALL
 ICON_PREVCAL_s1=Previous
 ICON_PREVPAGE=<img src="/screens/but_prevpage.gif" alt="Previous Page" border="0" />
-#ICON_PRINT 
+#ICON_PRINT
 #ICON_RATE_GROUP
 #ICON_RATE_MY
 #ICON_RATE_NEED
@@ -431,7 +431,7 @@ ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History
 ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0" />
 ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
 ##############################################################################
-ICON_RECORDLINK=<div class="bibRecordLink" id="recordnum">&nbsp; Persistent record link: http://laurel.lso.missouri.edu%s</font></div>
+ICON_RECORDLINK=<div class="bibRecordLink" id="recordnum">&nbsp; Persistent record link: http://laurel.lso.missouri.edu%s&searchscope=0</div></font>
 ##############################################################################
 ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="">&nbsp;Most relevant titles&nbsp;
 ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="">&nbsp;Highly relevant titles&nbsp;
@@ -440,7 +440,7 @@ ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="">&nbsp;Relevant titles
 ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="">&nbsp;Other relevant titles&nbsp;
 #ICON_REGISTER
 ICON_REQUEST=<img src="/screens/but_request.gif" alt="Request" border="0" />
-#ICON_RESOURCE_RECORD 
+#ICON_RESOURCE_RECORD
 ICON_SAVEALLPAGE=<INPUT TYPE="submit" NAME="save_all_page" VALUE="Save all on page" SRC="/screens/saveallpage.gif" ALT="Save all on page">
 ICON_SAVEMARKED=<INPUT TYPE="submit" NAME="save_marked" VALUE="Save marked records" SRC="/screens/savemarked.gif" ALT="Save marked records">
 #ICON_SORTPUDATE
@@ -453,7 +453,7 @@ ICON_SUBMIT=<img src="/screens/b_submit.gif" alt="Submit" border="0" />
 #ICON_WWAPP_LOGOUT
 
 # MEDIA IMAGES
-IMAGE_AVS1=/screens/avsstar1.gif 
+IMAGE_AVS1=/screens/avsstar1.gif
 IMAGE_AVS2=/screens/avsstar2.gif
 IMAGE_AVS3=/screens/avsstar3.gif
 IMAGE_AVS4=/screens/avsstar4.gif
@@ -645,7 +645,7 @@ LOC_ucaib=http://muarchives.missouri.edu/merlingw.html "target=_blank"
 LOC_umaib=http://muarchives.missouri.edu/merlingw.html "target=_blank"
 LOC_umaii=http://muarchives.missouri.edu/merlingw.html "target=_blank"
 
-# UMC-HSL 
+# UMC-HSL
 LOC_chaii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
 LOC_chcai=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
 LOC_chcii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
@@ -703,7 +703,7 @@ LOC_rwmii=http://library.umr.edu/images/lower.jpg "target=_blank"
 LOC_rwovg=http://library.umr.edu/images/lower.jpg "target=_blank"
 LOC_rwwii=http://library.umr.edu/images/lower.jpg "target=_blank"
 LOC_uraii=http://library.umr.edu/images/lower.jpg "target=_blank"
-LOC_urwii=http://library.umr.edu/images/lower.jpg "target=_blank" 
+LOC_urwii=http://library.umr.edu/images/lower.jpg "target=_blank"
 LOC_rwbri=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwbrr=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwcii=http://library.umr.edu/images/first.jpg "target=_blank"
@@ -719,8 +719,8 @@ LOC_rwgck=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwgcn=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwgcs=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwgii=http://library.umr.edu/images/first.jpg "target=_blank"
-LOC_rwlii=http://library.umr.edu/images/first.jpg "target=_blank" 
-LOC_rwmuu=http://library.umr.edu/images/first.jpg "target=_blank" 
+LOC_rwlii=http://library.umr.edu/images/first.jpg "target=_blank"
+LOC_rwmuu=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwpci=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwpdi=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwpri=http://library.umr.edu/images/first.jpg target=_blank"
@@ -728,22 +728,22 @@ LOC_rwrib=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwric=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwrii=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwrir=http://library.umr.edu/images/first.jpg "target=_blank"
-LOC_rwsdi=http://library.umr.edu/images/first.jpg "target=_blank" 
-LOC_rwxii=http://library.umr.edu/images/first.jpg "target=_blank" 
+LOC_rwsdi=http://library.umr.edu/images/first.jpg "target=_blank"
+LOC_rwxii=http://library.umr.edu/images/first.jpg "target=_blank"
 LOC_rwii2=http://library.umr.edu/images/second.jpg "target=_blank"
-LOC_rwii3=http://library.umr.edu/images/third.jpg "target=_blank" 
+LOC_rwii3=http://library.umr.edu/images/third.jpg "target=_blank"
 LOC_rwov2=http://library.umr.edu/images/second.jpg "target=_blank"
-LOC_rwtii=http://library.umr.edu/images/lower.jpg "target=_blank" 
-LOC_rwvii=http://library.umr.edu/images/second.jpg  "target=_blank" 
+LOC_rwtii=http://library.umr.edu/images/lower.jpg "target=_blank"
+LOC_rwvii=http://library.umr.edu/images/second.jpg  "target=_blank"
 LOC_rwbii=http://library.umr.edu/images/third.jpg  "target=_blank"
-LOC_rwdfi=http://library.umr.edu/images/third.jpg  "target=_blank" 
-LOC_rwdii=http://library.umr.edu/images/third.jpg  "target=_blank" 
+LOC_rwdfi=http://library.umr.edu/images/third.jpg  "target=_blank"
+LOC_rwdii=http://library.umr.edu/images/third.jpg  "target=_blank"
 LOC_rwfii=http://library.umr.edu/images/third.jpg  "target=_blank"
-LOC_rwflr=http://library.umr.edu/images/third.jpg  "target=_blank" 
+LOC_rwflr=http://library.umr.edu/images/third.jpg  "target=_blank"
 LOC_rwpfi=http://library.umr.edu/images/third.jpg  "target=_blank"
 LOC_rwpii=http://library.umr.edu/images/third.jpg  "target=_blank"
-LOC_rwpmi=http://library.umr.edu/images/third.jpg  "target=_blank" 
-LOC_rwtmi=http://library.umr.edu/images/third.jpg  "target=_blank" 
+LOC_rwpmi=http://library.umr.edu/images/third.jpg  "target=_blank"
+LOC_rwtmi=http://library.umr.edu/images/third.jpg  "target=_blank"
 
 # UMSL
 LOC_fsb=http://www.umsl.edu/library/locations/codes/fsb.htm "target=_blank"
@@ -925,21 +925,21 @@ LOC_clmoi=http://mail.law.missouri.edu/library/libraryinformation/locationguides
 # State Historical Society Clickable Locations
 LOC_cseii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
 LOC_csiib=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
-LOC_csiii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank" 
-LOC_csmfi=http://www.umsystem.edu/shs/csrii.shtml "target=_blank" 
-LOC_csmii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank" 
-LOC_csnii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank" 
-LOC_csrci=http://www.umsystem.edu/shs/csrii.shtml "target=_blank" 
+LOC_csiii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
+LOC_csmfi=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
+LOC_csmii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
+LOC_csnii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
+LOC_csrci=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
 LOC_csrii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
-LOC_csroi=http://www.umsystem.edu/shs/csrii.shtml "target=_blank" 
+LOC_csroi=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
 LOC_fcs=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
 LOC_fcsb=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
 
 # WHMC-COLUMBIAClickable Locations
-LOC_fwc=http://www.umsystem.edu/whmc/intro.html "target=_blank" 
-LOC_fwcb=http://www.umsystem.edu/whmc/intro.html "target=_blank" 
-LOC_ucwib=http://www.umsystem.edu/whmc/intro.html "target=_blank" 
-LOC_ucwii=http://www.umsystem.edu/whmc/intro.html "target=_blank" 
+LOC_fwc=http://www.umsystem.edu/whmc/intro.html "target=_blank"
+LOC_fwcb=http://www.umsystem.edu/whmc/intro.html "target=_blank"
+LOC_ucwib=http://www.umsystem.edu/whmc/intro.html "target=_blank"
+LOC_ucwii=http://www.umsystem.edu/whmc/intro.html "target=_blank"
 
 
 

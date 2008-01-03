@@ -1,0 +1,52 @@
+[%- this_scope_index = template.scope;
+	this_searchindex = template.searchindex;
+	searchbox = site.searchtypes.$this_searchindex.searchbox_focus;
+	IF searchbox;
+		onload = "preload(); ${searchbox}.focus(); ${searchbox}.select();";
+	END;
+-%]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  [% INCLUDE misc/begin_component.tt comp=template.name %]
+  <head>
+  	[%- IF template.description %]
+  	<meta name="description" content="[% template.description %]" />
+  	[%- END -%]
+  	[%- IF template.keywords %]
+  	<meta name="keywords" content="[% template.keywords %]" />
+  	[%- END -%]
+
+    <title>[% site.scopes.scope.$this_scope_index.qs_name %] - [% site.searchtypes.$this_searchindex.title %] Search</title>
+	[% INCLUDE site/rollover_js.tt %]
+  </head>
+  <body bgcolor="[% site.col.back %]" text="[% site.col.text %]" link="[% site.col.link %]" vlink="[% site.col.vlink %]" alink="[% site.col.alink %]" onLoad="[% onload %]">
+
+<center>
+[% INCLUDE site/toplogo.tt %]
+<br />
+[% INCLUDE site/tab_bar.tt sub=this_searchindex %]
+</center>
+
+<center>
+<table width="740" border="0" cellpadding="0" cellspacing="0"><tr><td align="left">
+
+[% INCLUDE site/logged_in_and_logout_tokens.tt %]
+<!--{availlim}-->
+
+[% INCLUDE "site/srchhelp/${this_searchindex}.tt" %]
+
+[% content %]
+
+<p><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]">Return to Main Menu</a></p>
+
+</td></tr></table>
+</center>
+
+<center>
+[% INCLUDE site/botlogo.tt %]
+</center>
+
+  </body>
+</html>

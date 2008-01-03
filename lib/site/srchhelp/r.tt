@@ -1,0 +1,4 @@
+[% INCLUDE misc/begin_component.tt comp=component.name %]
+
+
+[% INCLUDE misc/end_component.tt comp=component.name %]

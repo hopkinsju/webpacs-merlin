@@ -1,0 +1,71 @@
+[%- META scope = 0;
+	META title = "MERLIN: Missouri Education and Research Libraries Information Network";
+	META onload = "preload(); document.SearchForm.searcharg.focus(); document.SearchForm.searcharg.select();";
+	META description = "The on-line public access catalog for the University of Missouri libraries.";
+	META keywords = "MERLIN Library Catalog, libraries, librarians, card catalog, catalog, MERLIN, online catalog, mobius";
+ %]
+<center>
+
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" summary="text">
+	<tr>
+		<td>
+			<center><a href="[% site.url.merlin_search_scope.0 %]"><strong>Search all<br /> MERLIN catalogs</strong></a></center>
+		</td>
+		<td>
+			<center>[%- INCLUDE misc/image.tt image=site.image.merlinlogo_b | trim -%]</center>
+		</td>
+		<td>
+			<center><a href="[% site.url.mobius_search %]"><strong>Search the MOBIUS<br />
+			Union Catalog</strong></a></center>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<center><span class="heading3">Missouri Education and Research Libraries<br />
+			Information Network</span></center>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<center><span class="bodytext">The catalogs of the libraries of the University of Missouri system</span></center>
+		</td>
+	</tr>
+</table>
+</center>
+<br />
+[% INCLUDE site/quicksearch.tt %]
+<center>
+<table border="0" cellpadding="0" cellspacing="4" align="center" width="350" summary="text">
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<center><span class="bot_logo_1">University of Missouri</span><br /></center>
+		</td>
+	</tr>
+	<tr>
+		<td align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.1 %]">[% site.scopes.scope.1.library_name %]</a></span></td>
+		<td align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.2 %]">[% site.scopes.scope.2.library_name %]</a></span></td>
+	</tr>
+	<tr>
+		<td align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.3 %]">[% site.scopes.scope.3.library_name %]</a></span></td>
+		<td align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.4 %]">[% site.scopes.scope.4.library_name %]</a></span></td>
+	</tr>
+	<tr>
+		<td align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.5 %]">[% site.scopes.scope.5.library_name %]</a></span></td>
+		<td align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.6 %]">[% site.scopes.scope.6.library_name %]</a></span></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><span class="bot_logo_2"><a href="[% site.url.merlin_search_scope.7 %]">[% site.scopes.scope.7.long_library_name %]</a></span></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+<br />
+<br />
+<br />
+<p align="center"><small><strong>MERLIN</strong> &middot; a MOBIUS library catalog</small></p>
+<br />
+</center>

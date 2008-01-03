@@ -1,0 +1,20 @@
+[% INCLUDE misc/begin_component.tt comp=component.name %]
+<h3>Author Search</h3>
+
+<p>Click in the box, type the Author you want, then press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Type the LAST NAME first for personal names.  Type as much of the EXACT NAME of a corporate body or conference as you wish (start at the beginning).</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>Kingston</li>
+  <li>garcia marquez, g</li>
+  <li>american cancer society </li>
+</ul>
+[% INCLUDE misc/end_component.tt comp=component.name %]

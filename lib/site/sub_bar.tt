@@ -8,7 +8,7 @@
 		<td bgcolor="[% site.col.tabbar %]">[%- INCLUDE misc/shim.tt height=9 -%]</td>
 		<td colspan="5" align="left" valign="middle" nowrap bgcolor="[% site.col.tabbar %]" class="smaller_reversed_nodecoration">
 		[%- FOREACH sub IN site.sub_tab -%]
- | <a href="[%- searchlink -%]/[%- sub.index -%]" class="smaller_reversed_nodecoration">[%- sub.name -%]</a>
+ | [%- "<STRONG>" IF sub.pop_up_for.match(sub_bar) -%]<a href="[%- searchlink -%]/[%- sub.index -%]" class="smaller_reversed_nodecoration">[%- sub.name -%]</a>[%- "</STRONG>" IF sub.pop_up_for.match(sub_bar) -%]
 		[%- END -%]
 		</td>
 		<td bgcolor="[% site.col.tabbar %]">[%- INCLUDE misc/shim.tt height=9 -%]</td>
