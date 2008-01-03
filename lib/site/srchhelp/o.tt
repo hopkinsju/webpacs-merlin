@@ -1,4 +1,20 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 
+<h3>OCLC Number Search</h3>
+
+<p>Click in the box, type the OCLC Number, and press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Search here by OCLC accession number</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>143478648</li>
+</ul>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

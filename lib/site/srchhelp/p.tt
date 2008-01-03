@@ -1,4 +1,23 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 
+<h3>Course Reserves Instructor Search</h3>
+
+<p>Click in the box, type the person's (last) name and press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Type the Name of the Professor or Instructor you want, last name first</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>Ogden</li>
+  <li>Ogden, Linda</li>
+  <li>Ruehlmann</li>
+  <li>Ruehlmann, Thomas </li>
+</ul>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

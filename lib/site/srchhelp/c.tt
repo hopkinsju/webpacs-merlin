@@ -1,4 +1,22 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
+<h3>Library of Congress (LC) Call Number Search</h3>
 
+<p>Click in the box, type the call cumber, and press ENTER: </p>
 
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Type as much of the call number as you know.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>PS1999H25Z98</li>
+  <li>qc793.3J31943</li>
+  <li>RA 1151</li>
+  <li>k p37</li>
+  <li>LB </li>
+</ul>
 [% INCLUDE misc/end_component.tt comp=component.name %]

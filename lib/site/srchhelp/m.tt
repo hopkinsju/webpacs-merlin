@@ -1,4 +1,23 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 
+<h3>Medical Subjects (MESH) Search</h3>
+
+<p>Click in the box, type the Subject and then press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Search here for items about medical topics. These subject headings are established by the National Library of Medicine. If you are unsure of a subject, try a <strong>KEYWORD</strong> search or a <strong>Library of Congress Subject</strong> search.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>lung neoplasms</li>
+  <li>animals, laboratory</li>
+  <li>heart anatomy</li>
+  <li>surgery, operative adverse effects </li>
+</ul>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

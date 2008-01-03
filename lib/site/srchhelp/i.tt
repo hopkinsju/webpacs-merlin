@@ -1,4 +1,22 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
+<h3>ISBN, ISSN, Music, etc. Number Search</h3>
 
+<p>Click in the box, type the number, and press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Search here for standard numbers such as ISBN, ISSN, technical report and music numbers.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>039303321x</li>
+  <li>MPCPCO</li>
+  <li>13785-9bostonmusic</li>
+  <li>jp1400439</li>
+</ul>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

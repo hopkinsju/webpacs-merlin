@@ -1,4 +1,57 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 
+<h3>Author and Title Search</h3>
+
+<table width="740" align="center">
+<form METHOD="GET" action="">
+  <table width="740" align="center">
+    <tr>
+      <td>AUTHOR </td>
+      <td><input TYPE="text" NAME="author" SIZE="40" alt="Search"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Words in the TITLE </td>
+      <td><input TYPE="text" NAME="title" SIZE="50" alt="Search"><br>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input TYPE="submit" value="SUBMIT search"> <br>
+      </td>
+    </tr>
+  </table>
+</form>
+
+<hr>
+<table width="740" align="center">
+<tr>
+<td>
+<p>Type <b>LAST NAME</b> first for persons. </p>
+
+<p><i>for example:</i>
+
+<ul>
+  <li>Powell, Lawrence Clark </li>
+  <li>powell l </li>
+</ul>
+
+<p>Type as much of the <b>EXACT NAME</b> of a corporate body or conference as you wish
+(start at the beginning). </p>
+
+<p><i>for example:</i>
+
+<ul>
+  <li>amnesty international </li>
+</ul>
+
+<p>At the second prompt for &quot;Words in the TITLE&quot;, your search will be limited to
+items that have these words anywhere in the title. </p>
+
+<p>To make your search run as quickly as possible, provide as much of the author's name as
+you know. </p>
+</td>
+</tr>
+</table>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

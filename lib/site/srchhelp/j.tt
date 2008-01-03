@@ -1,4 +1,21 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
+<h3>Dewey Call Number Search</h3>
 
+<p>Click in the box, type the call number, and press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+</form>
+
+<p>Type as much of the call number as you know.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>025 J826a</li>
+  <li>980.5 j826</li>
+  <li>353.9</li>
+</ul>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

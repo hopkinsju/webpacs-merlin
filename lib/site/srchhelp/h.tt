@@ -1,4 +1,13 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
+<h3>Subjects Search</h3>
 
+<p>
+
+<menu>
+  <p><li><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]/d">Search for Library of Congress Subject Headings</a></li></p>
+
+  <p><li><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]/m">Search for Medical Subjects (MeSH)</a> </li></p>
+
+ </menu>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

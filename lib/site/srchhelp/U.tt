@@ -1,4 +1,30 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 
+<h3>Tables of Contents and Notes Search</h3>
+
+<p>Click in the box, type some Word(s), then press ENTER: </p>
+
+<form name="SearchForm" target="_parent" action="/search/Y" method="GET" onsubmit="return submit_search();">
+  <p>
+<input type="Hidden" name="SEARCH" value="" alt="Search">
+<input TYPE="TEXT" NAME="asdf" MAXLENGTH="64" SIZE="48" ALIGN="CENTER">
+
+
+
+<input type="Hidden" name="SORT" value="D">
+  <input TYPE="SUBMIT" VALUE="Search" alt="Search"> </p>
+</form>
+
+<p>Search distinctive words from contents, collections, selections from recordings and anthologies.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>fall of the house of usher</li>
+  <li>essay* (finds essay, essays, etc.)</li>
+  <li>essay (finds only essay)<p>&quot;and&quot; between words narrows search, &quot;or&quot;
+    expands it, &quot;not&quot; excludes words. </p>
+  </li>
+</ul>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]
