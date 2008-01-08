@@ -9,6 +9,7 @@
   <input name="cmdSubmit" type="Submit" value="Search" alt="Search">
 </td>
 </tr>
+<input type="hidden" name="searchscope" value="[% page.scope %]">
 </form><br>
 <tr>
 <td colspan="2">Type as much of the course name as you want.  For example:<em> nurs; stat 190; biology </em><br><br>
@@ -23,6 +24,7 @@
 <input name="cmdSubmit" type="Submit" value="Search">
 </td>
 </tr>
+<input type="hidden" name="searchscope" value="[% page.scope %]">
 </form><br>
 <tr>
 <td colspan="2">Types as much of the INSTRUCTOR NAME as you want, last name first.  For example: <em>Ogden or odgen, linda</em><br><br>

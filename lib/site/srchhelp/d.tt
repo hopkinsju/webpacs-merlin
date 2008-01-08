@@ -6,6 +6,7 @@
 <form METHOD="GET" action="">
   <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48"  alt="Search"> <input
   TYPE="SUBMIT" VALUE="Search"> </p>
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
 </form>
 
 <p>Search here for items about people, topics, or events. These subject

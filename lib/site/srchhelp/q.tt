@@ -21,6 +21,7 @@
       </td>
     </tr>
   </table>
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
 </form>
 
 <hr>

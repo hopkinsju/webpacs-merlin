@@ -1,5 +1,5 @@
 [%- this_scope_index = template.scope;
-	this_searchindex = template.searchindex;
+	this_searchindex = template.searchindex OR searchindex;
 	searchbox = site.searchtypes.$this_searchindex.searchbox_focus;
 	IF searchbox;
 		onload = "preload(); ${searchbox}.focus(); ${searchbox}.select();";
@@ -18,11 +18,15 @@
   	<meta name="keywords" content="[% template.keywords %]" />
   	[%- END -%]
 
-    <title>[% site.scopes.scope.$this_scope_index.qs_name %] - [% site.searchtypes.$this_searchindex.title %] Search</title>
+    <title>[% site.scopes.scope.$this_scope_index.qs_name %] - [% site.searchtypes.$this_searchindex.title %][% IF NOT site.searchtypes.$this_searchindex.title.match('(?i)search$') %] Search[% END %]</title>
 	[% INCLUDE site/rollover_js.tt %]
   </head>
+[% SWITCH this_searchindex %]
+	[% CASE ["X" "Y"] %]
+<!--{advancedsearchbody}-->
+	[% CASE %]
   <body bgcolor="[% site.col.back %]" text="[% site.col.text %]" link="[% site.col.link %]" vlink="[% site.col.vlink %]" alink="[% site.col.alink %]" onLoad="[% onload %]">
-
+[% END %]
 <center>
 [% INCLUDE site/toplogo.tt %]
 <br />
@@ -30,7 +34,13 @@
 </center>
 
 <center>
+
+[% SWITCH this_searchindex %]
+	[% CASE ["X" "Y"] %]
+	[% # don't do anything %]
+	[% CASE %]
 <table width="740" border="0" cellpadding="0" cellspacing="0"><tr><td align="left">
+[% END %]
 
 [% INCLUDE site/logged_in_and_logout_tokens.tt %]
 <!--{availlim}-->
@@ -39,9 +49,15 @@
 
 [% content %]
 
-<p><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]">Return to Main Menu</a></p>
+<p class="ret2MainMenu"><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]">Return to Main Menu</a></p>
 
+[% SWITCH this_searchindex %]
+	[% CASE ["X" "Y"] %]
+	[% # don't do anything %]
+	[% CASE %]
 </td></tr></table>
+[% END %]
+
 </center>
 
 <center>

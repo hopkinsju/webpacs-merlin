@@ -13,6 +13,7 @@
 
 <input type="Hidden" name="SORT" value="D">
   <input TYPE="SUBMIT" VALUE="Search" alt="Search"> </p>
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
 </form>
 
 <p>Search distinctive words from contents, collections, selections from recordings and anthologies.</p>

@@ -1,4 +1,272 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
+<!--Beginning main page content-->
+<!-- This table is purely cosmetic. It's only cell has a background color which is visible in the cellspacing gaps of the content table nested in that cell. -->
+<center>
+<!-- BEGIN TABLE #1: AVS MAIN -->
+<table id="avsMain" cellspacing="0" summary="text">
+<tr>
+<td class="pageNavArea">
+<center>
+<!--{patron}-->
+<!--{logout}-->
+</center>
+<!-- BEGIN TABLE #2: AVS SECTION -->
+<table class="avsSection" cellspacing="5" summary="text">
+<tr>
+<td class="pageMainArea" colspan="3">
+<span class="pageMainAreaHeader">Advanced Keyword Search</span>
+<!--{msg}-->
+<!--{spellcheck}-->
+<!-- BEGIN TABLE #3: AVS BORDER -->
+<table class="avsBorder" cellspacing="0" summary="text">
+<!-- HEADER ROW: LEFT -->
+<tr>
+<td class="leftcolHeader">
+Please fill in the boxes, select limits, and click Submit:
+</td>
+<!-- HEADER ROW: RIGHT  -->
+<td class="rightColHeader">Limit to:</td>
+</tr>
+<!-- END HEADER ROW -->
+<!-- BEGIN LEFT COLUMN: SEARCH TERMS -->
+<tr>
+<td class="searchTips" style="white-space: nowrap; vertical-align: top;">
+<!--{advancedsearchformbegin}-->
+<input type="hidden" name="startSearch" />
+<!-- BEGIN TABLE #4: PAGE MAIN AREA -->
+<table class="pageMainArea" style="text-align: center; vertical-align: top; padding: 2;" cellspacing="0" summary="text">
+<tr>
+<td class="pageMainAreaSubHeader" style="width: 10%;">
+Find:
+</td>
+<td>
+<input maxlength="75" size="25" name="searchText1" />
+</td>
+<td class="pageMainAreaSubHeader" width="1%">
+in
+</td>
+<td width="65%">
+<select name="fieldLimit1">
+<option value="" selected="selected">Any Field:</option>
+<option value="a:">Author:</option>
+<option value="t:">Title:</option>
+<option value="d:">Subject:</option>
+<option value="N:">Note:</option>
+<option value="c:">Table of Contents:</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<select name="boolean1">
+<option value="+and+" selected="selected">and</option>
+<option value="+and+not+">and not</option>
+<option value="+or+">or</option>
+<option value="+near+">near</option>
+</select>
+</td>
+<td>
+<input maxlength="75" size="25" name="searchText2" />
+</td>
+<td class="pageMainAreaSubHeader" width="2%">in</td>
+<td>
+<select name="fieldLimit2">
+<option value="" selected="selected">Any Field:</option>
+<option value="a:">Author:</option>
+<option value="t:">Title:</option>
+<option value="d:">Subject:</option>
+<option value="N:">Note:</option>
+<option value="c:">Table of Contents:</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<select name="boolean2">
+<option value="+and+" selected="selected">and</option>
+<option value="+and+not+">and not</option>
+<option value="+or+">or</option>
+<option value="+near+">near</option>
+</select>
+</td>
+<td>
+<input maxlength="75" size="25" name="searchText3" />
+</td>
+<td class="pageMainAreaSubHeader" width="2%">in</td>
+<td>
+<select name="fieldLimit3">
+<option value="" selected="selected">Any Field:</option>
+<option value="a:">Author:</option>
+<option value="t:">Title:</option>
+<option value="d:">Subject:</option>
+<option value="N:">Note:</option>
+<option value="c:">Table of Contents:</option></select>
+</td>
+</tr>
+<tr>
+<td>
+<select name="boolean3">
+<option value="+and+" selected="selected">and</option>
+<option value="+and+not+">and not</option>
+<option value="+or+">or</option>
+<option value="+near+">near</option>
+</select>
+</td>
+<td>
+<input maxlength="75" size="25" name="searchText4" />
+</td>
+<td class="pageMainAreaSubHeader" width="2%">in</td>
+<td>
+<select name="fieldLimit4">
+<option value="" selected="selected">Any Field:</option>
+<option value="a:">Author:</option>
+<option value="t:">Title:</option>
+<option value="d:">Subject:</option>
+<option value="N:">Note:</option>
+<option value="c:">Table of Contents:</option>
+</select>
+<input type="hidden" name="endSearch" />
+</td>
+</tr>
+<tr>
+<td>
+<!--{advancedsubmit}-->
+</td>
+</tr>
+</table>
+<!-- END TABLE #4: PAGE MAIN AREA TABLE -->
+<br />
+</td>
+<!-- END LEFT COLUMN -->
+<!-- BEGIN RIGHT COLUMN: SORT & LIMIT -->
+<td class="searchTips">
+<input type="hidden" name="startLimit" />
+School:
+<!--{scope}-->
+<!--{branch}-->
+<!--{lang}-->
+<!--{DOCDATE}-->
+<!--{publish}-->
+<!--{onference}-->
+<!--{mattype}-->
+<!--{nosort}-->
+&nbsp; Sort by:
+<!--{sort}-->
+<br />
+<!--<select name="SORT">
+<option value="D">Date</option>
+<option value="A">Title</option>
+<option value="R">Relevance</option>
+</select>-->
 
-
+</td>
+<!-- END RIGHT COLUMN -->
+</tr>
+</table>
+<!-- END TABLE #3: AVS BORDER -->
+<input type="hidden" name="endLimit" />
+<!--{advancedsearchformend}-->
+</td>
+</tr>
+<!-- END TOP SECTION: SEARCH STRATEGY -->
+<!-- BEGIN BOTTOM SECTION: SEARCH TIPS -->
+<tr>
+<td>
+<!-- BEGIN TABLE #5: AVS BORDER (2nd)-->
+<table class="avsBorder" width="100%" cellspacing="0" summary="text">
+<tr>
+<td class="table2Header" colspan="3">Search Tips</td>
+</tr>
+<tr class="searchTips">
+<td class="searchTipsCol1"> &nbsp;</td>
+<td class="searchTipsCol2"> &nbsp;</td>
+<td  class="searchTipsCol3"><div align="left"><em><strong>Examples:</strong></em></div></td>
+</tr>
+<tr>
+<td class="searchTipsCol1"><em><strong>Adjacency</strong></em></td>
+<td class="searchTipsCol2">Multiple words are searched together as one phrase.</td>
+<td class="searchTipsCol3">University of Missouri</td>
+</tr>
+<tr>
+<td class="searchTipsCol1"><em><strong>Truncation</strong></em></td>
+<td class="searchTipsCol2">
+Use * to substitute for 1-5 characters.<br />
+Use ** to substitute for any number of characters.<br />
+Use ? to substitute for a single character.
+</td>
+<td class="searchTipsCol3">
+Photograph*<br />
+huck** finn<br />
+wom?n
+</td>
+</tr>
+<tr>
+<td class="searchTipsCol1">
+<em><strong>Operators</strong></em>
+</td>
+<td class="searchTipsCol2">
+Use "AND" to search all words.<br />
+Use "OR" to search ANY single word.<br />
+Use "AND NOT" to exclude words.
+</td>
+<td class="searchTipsCol3">
+art and therapy<br />
+dog or canine<br />
+&nbsp;
+environmental policy and not U.S.
+</td>
+</tr>
+<tr>
+<td class="searchTipsCol1">&nbsp;</td>
+<td class="searchTipsCol2">
+Note that you can use these clauses in combination with
+selections from the operator pulldown menu (as indicated in
+brackets).
+</td>
+<td class="searchTipsCol3">
+History [And]<br />
+Naples or Napoli [And]<br />
+Borgia or Alexander
+</td>
+</tr>
+<tr  class="searchTips">
+<td class="searchTipsCol1"><em><strong>Proximity</strong></em></td>
+<td class="searchTipsCol2">
+Use "NEAR" to search words within 10 words of each other.<br />
+Use "WITHIN #" to search words within a specific number of
+words.
+</td>
+<td class="searchTipsCol3">
+birds near North America<br />
+&nbsp;
+missouri within 2 university
+</td>
+</tr>
+<tr class="searchTips">
+<td class="searchTipsCol1"><em><strong>Field limits</strong></em></td>
+<td class="searchTipsCol2">
+Use labels to search specific fields:<br />
+a: author t: title s: subject n: note
+</td>
+<td class="searchTipsCol3">
+a: zora and t:watching<br />
+s:hopi and s:religion
+</td>
+</tr>
+</table>
+<!-- END TABLE #5: AVS BORDER -->
+<!--End of main page content-->
+</td>
+</tr>
+</table>
+<!-- END TABLE #2: AVS SECTION -->
+</td>
+</tr>
+</table>
+<!-- END TABLE #1: AVS MAIN -->
+<br />
+<br />
+<p class="ret2MainMenu"><a href="/search~S[% page.scope %]">Return to Main Menu</a></p>
+<br />
+<br />
 [% INCLUDE misc/end_component.tt comp=component.name %]

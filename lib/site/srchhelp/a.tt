@@ -6,6 +6,7 @@
 <form METHOD="GET" action="">
   <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
   TYPE="SUBMIT" VALUE="Search"> </p>
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
 </form>
 
 <p>Type the LAST NAME first for personal names.  Type as much of the EXACT NAME of a corporate body or conference as you wish (start at the beginning).</p>

@@ -1,0 +1,22 @@
+[%-
+	META type = "text";
+ 	this_scope_data=site.scopes.scope.${template.scope};
+	FOREACH index IN this_scope_data.srchhelp_indexes.split;
+		IF template.scope == 0;
+			file = "srchhelp_${index}.html";
+		ELSE;
+			file = "srchhelp_${index}_s${template.scope}.html";
+		END;
+		TRY;
+			FILTER redirect(file);
+				INCLUDE site/html_srchhelp.tt searchindex=index;
+			END;
+			msg = " + Successfully output $file\n";
+		CATCH file;
+			msg = " - Cannot open $file: $error\n";
+		CATCH;
+			msg = " - Error: $error\n";
+		END;
+		msg | stderr;
+	END;
+-%]

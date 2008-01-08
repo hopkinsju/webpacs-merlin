@@ -37,7 +37,7 @@
                             </select> </td>
 
                             <td nowrap="nowrap"><input type="TEXT" name="searcharg" maxlength="75" size="25" style="width: 250px;" /> <input type="Hidden"
-                            name="SORT" value="D" /> </td>
+                            name="SORT" value="D" /><input type="hidden" name="searchscope" value="[% this_scope_index %]"></td>
 
                             <td nowrap="nowrap"><select name="searchscope">
                             [%	scope_index = 0;
