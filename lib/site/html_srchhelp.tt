@@ -30,7 +30,18 @@
 <center>
 [% INCLUDE site/toplogo.tt %]
 <br />
-[% INCLUDE site/tab_bar.tt sub=this_searchindex %]
+
+[% SWITCH this_searchindex %]
+	[% CASE ["k"] %]
+		[% INCLUDE site/tab_bar.tt down="help" %]
+	[% CASE ["v"] %]
+		[% INCLUDE site/tab_bar.tt down="other" %]
+	[% CASE ["e"] %]
+		[% INCLUDE site/tab_bar.tt down="reserves" %]
+	[% CASE %]
+		[% INCLUDE site/tab_bar.tt sub=this_searchindex %]
+[% END %]
+
 </center>
 
 <center>

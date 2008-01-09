@@ -1,4 +1,51 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
+<table width="740" border="0" align="center" cellpadding="0" cellspacing="10">
+      <tr>
+            <td><strong><H3>Other libraries:</H3></strong></td>
+          </tr>
+          <tr>
+            <td>
+             <a href="http://catalog.crl.edu/">Center for Research Libraries</a></td>
+	  </tr>
+          <tr>
+               <td><a href="http://mimh.library.net/">Missouri Institute for Mental Health in St. Louis</a></td>
+		  </tr>
+          <tr>
+			<td><a href="http://www.theeuropeanlibrary.org/portal/index.htm">The National Libraries of Europe</a></td>
+  		</tr>
+		<tr>
+			<td><a href="http://www.loc.gov/">The Library of Congress</a></td>
+		  </tr>
+			<tr>
+			<td><a href="http://www.lhl.lib.mo.us/index.shtml">The Linda Hall Library of Science, Engineering & Technology</a></td>
+		  </tr>
+		<tr>
+		<td><a href="http://www.collectionscanada.ca/gatepasse/">Canadian Library Gateway</a>:
+		Search or browse for Canadian library Web sites and/or catalogues including the
+		 <a HREF="http://www.collectionscanada.ca/index-e.html">National Library of Canada</a>
+		 and the <a HREF="http://www.collectionscanada.ca/8/6/index-e.html">virtual Canadian union catalogue </a></tr></td>
+		<tr>
+		<td><a href="http://www.libdex.com/">LibDex</a>: Index to 18,000 libraries.
+		Search by library or university name or browse by catalog system.</td>
+		  </tr>
+		<tr>
+		<td><a href="http://www.librarytechnology.org/libwebcats/">Lib-web-cats</a>: Although most of these libraries are
+		in North America, this site includes a growing number of library catalogs and library Web sites from around the world.
+		  Search by name of institution, city, state, or country.
+		</td>  </tr>
+		<tr>
+		<td><a href="http://lists.webjunction.org/libweb/">Libweb</a></td>
+		  </tr>
+		<tr>
+		<td><a href="http://www.slrlc.org/">Saint Louis Research Libraries Consortium</a>:
+		This includes the Botanical Garden, Historical Society, and Art Museum.
+		</td>
+		  </tr>
 
+		<tr>
+		           <td><strong><br><br>If you wish to obtain materials from these libraries, please consult your interlibrary loan department.</strong></td>
+		          </tr>
+
+</table>
 
 [% INCLUDE misc/end_component.tt comp=component.name %]
