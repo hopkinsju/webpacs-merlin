@@ -1,14 +1,12 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 <h3>Display Reserve Lists Search</h3>
 
-<p><br>
-<br>
-<br>
-
+<p>
 <menu>
   <li><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]/p">Retrieve by Professor</a></li>
   <li><a HREF="[% site.url.merlin_search_scope.$this_scope_index %]/r">Retrieve by Course</a> </li>
 </menu>
+</p>
 
-<p><br>
+<p><br></p>
 [% INCLUDE misc/end_component.tt comp=component.name %]

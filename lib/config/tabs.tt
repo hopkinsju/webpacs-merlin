@@ -201,7 +201,7 @@
 			index		= "h"
 			order		= 6
 			selected	= 0
-			pop_up_for	= "h"
+			pop_up_for	= "dhm"
 		}
 		{
 			name		= "Number"

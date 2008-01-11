@@ -19,4 +19,5 @@
 		END;
 		msg | stderr;
 	END;
+	#INCLUDE debug/hash.tt hash=site;
 -%]

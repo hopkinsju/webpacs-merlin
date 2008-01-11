@@ -451,7 +451,7 @@ TABLE.bibSearchtool { border: 1px solid #ffffff; }
 
 .bibTOC { width: 95%; border: 0px; background-color: #FFFFFF; color: #000000; text-align: left; white-space: nowrap; }
 
-.bibContent { border: 0px; text-align: left; white-space: nowrap; }
+.bibContent { border: 0px; text-align: left;}
 
 TABLE.bibWidgit { border: 1px solid #ffffff; }
 

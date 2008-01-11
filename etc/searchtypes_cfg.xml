@@ -2,10 +2,125 @@
 
 <searchtypes>
 
-  <searchtype searchindex="Y">
-    <name>Keyword</name>
-    <title>Advanced Search</title>
-    <description>sort and limit your search, e.g., word and location, author and year</description>
+  <searchtype searchindex="a">
+    <name>Author</name>
+    <title>Author</title>
+    <description>person, organization, composer...</description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="b">
+    <name>Reserves</name>
+    <title>Display Reserves Lists</title>
+  </searchtype>
+
+ <searchtype searchindex="c">
+    <name>LC Call Number</name>
+    <title>Library of Congress (LC) Call Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="d">
+    <name>Subject (LC)</name>
+    <title>Subjects (Library of Congress)</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="e">
+    <name>Reserves</name>
+    <title>Reserves</title>
+  </searchtype>
+
+  <searchtype searchindex="f">
+    <name>Other Call Number</name>
+    <title>Other Call Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="g">
+    <name>Gov Doc Number</name>
+    <title>Government Document Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="h">
+    <name>Subject</name>
+    <title>Subject</title>
+    <description>Library of Congress Headings and MeSH</description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="i">
+    <name>ISN, Standard Number</name>
+    <title>ISBN, ISSN, Music, etc. Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="j">
+    <name>Dewey Call Number</name>
+    <title>Dewey Call Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="k">
+    <name>FAQ</name>
+    <title>FAQ</title>
+  </searchtype>
+
+  <searchtype searchindex="l">
+    <name>NLM Call Number</name>
+    <title>National Library of Medicine (NLM) Call Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="m">
+    <name>Medical Subjects (MESH)</name>
+    <title>Medical Subjects (MESH)</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="n">
+    <name>Numbers</name>
+    <title>Numbers</title>
+    <description>call numbers, ISSNs, OCLC numbers...</description>
+  </searchtype>
+
+  <searchtype searchindex="o">
+    <name>OCLC Number</name>
+    <title>OCLC Number</title>
+    <description></description>
+    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="p">
+    <name>Course Reserves Instructor</name>
+    <title>Course Reserves Instructor</title>
+  </searchtype>
+
+  <searchtype searchindex="q">
+    <name>Author &amp; Title</name>
+    <title>Author &amp; Title</title>
+    <description>combined search</description>
+    <searchbox_focus>document.forms[0].author</searchbox_focus>
+  </searchtype>
+
+  <searchtype searchindex="r">
+    <name>Course Reserves Course</name>
+    <title>Course Reserves Course</title>
+  </searchtype>
+
+  <searchtype searchindex="s">
+    <name>Journal, Magazine, Newspaper Title</name>
+    <title>Journal Title</title>
+    <description>journals, magazines, newspapers...</description>
     <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
   </searchtype>
 
@@ -16,100 +131,27 @@
     <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
   </searchtype>
 
-  <searchtype searchindex="a">
-    <name>Author</name>
-    <title>Author</title>
-    <description>person, organization, composer...</description>
+  <searchtype searchindex="U">
+    <name>Tables of Contents and Notes</name>
+    <title>Tables of Contents and Notes</title>
+  </searchtype>
+
+  <searchtype searchindex="v">
+    <name>Other Catalogs</name>
+    <title>Other Catalogs</title>
+  </searchtype>
+
+  <searchtype searchindex="X">
+    <name>Keyword</name>
+    <title>Advanced Search</title>
+    <description>sort and limit your search, e.g., word and location, author and year</description>
     <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
   </searchtype>
 
-  <searchtype searchindex="q">
-    <name>Author &amp; Title</name>
-    <title>Author &amp; Title</title>
-    <description>combined search</description>
-    <searchbox_focus>document.forms[0].author</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="h">
-    <name>Subject</name>
-    <title>Subject</title>
-    <description>Library of Congress Headings and MeSH</description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="n">
-    <name>Numbers</name>
-    <title>Numbers</title>
-    <description>call numbers, ISSNs, OCLC numbers...</description>
-  </searchtype>
-
-  <searchtype searchindex="d">
-    <name>Subject (LC)</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="m">
-    <name>Medical Subjects (MESH)</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="s">
-    <name>Journal, Magazine, Newspaper Title</name>
-    <title>Journal Title</title>
-    <description>journals, magazines, newspapers...</description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="c">
-    <name>LC Call Number</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="l">
-    <name>NLM Call Number</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="j">
-    <name>Dewey Call Number</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="f">
-    <name>Other Call Number</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="g">
-    <name>Gov Doc Number</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="i">
-    <name>ISN, Standard Number</name>
-    <title></title>
-    <description></description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
-  </searchtype>
-
-  <searchtype searchindex="o">
-    <name>OCLC Number</name>
-    <title></title>
-    <description></description>
+  <searchtype searchindex="Y">
+    <name>Keyword</name>
+    <title>Advanced Search</title>
+    <description>sort and limit your search, e.g., word and location, author and year</description>
     <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
   </searchtype>
 

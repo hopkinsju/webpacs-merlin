@@ -1,7 +1,8 @@
 [%- INCLUDE misc/begin_component.tt comp=component.name;
  	this_scope_index=page.scope;
 	searchlink=site.url.merlin_search_scope.$this_scope_index;
-	this_tab=site.tab;
+	this_tab={};
+	this_tab.import(site.tab);
 	tab_down= down OR "libcat";
 	this_tab.$tab_down.state = "down";
 	sub_bar = sub or undefined;
@@ -26,4 +27,5 @@
 	</tr>
 [% INCLUDE site/sub_bar.tt sub_bar=sub_bar %]
 </table><br />
+[%- this_tab.$tab_down.state = "up" -%]
 [%- INCLUDE misc/end_component.tt comp=component.name -%]
