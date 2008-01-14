@@ -1,22 +1,23 @@
 [% INCLUDE misc/begin_component.tt comp=component.name %]
 <h3>Reserves Search</h3>
-<table width="100%">
 <form method="get" id="search" name="search" action="/search/r">
-  <tr>
+<table width="100%">
+<tr>
    <td width="200" align="right" nowrap="nowrap"><label for="label2"><strong>Course name:&nbsp;</strong> </label></td>
    <td nowrap="nowrap" align="left">
 <input type="text" name="SEARCH" size="48" value="" alt="Search"><input type="hidden" name="scope" value="0">
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
   <input name="cmdSubmit" type="Submit" value="Search" alt="Search">
 </td>
 </tr>
-<input type="hidden" name="searchscope" value="[% page.scope %]">
-</form><br>
 <tr>
 <td colspan="2">Type as much of the course name as you want.  For example:<em> nurs; stat 190; biology </em><br><br>
 </td>
 </tr>
-
+</table>
+</form>
 <form method="get" id="search2" name="search2" action="/search/p">
+<table width="100%">
 <tr>
  <td width="200" align="right" nowrap="nowrap"><label for="label3"><strong>or Instructor's last&nbsp;name:&nbsp;</strong> </label></td>
 <td nowrap="nowrap" align="left">
@@ -25,10 +26,10 @@
 </td>
 </tr>
 <input type="hidden" name="searchscope" value="[% page.scope %]">
-</form><br>
 <tr>
 <td colspan="2">Types as much of the INSTRUCTOR NAME as you want, last name first.  For example: <em>Ogden or odgen, linda</em><br><br>
 </td>
 </tr>
 </table>
+</form>
 [% INCLUDE misc/end_component.tt comp=component.name %]

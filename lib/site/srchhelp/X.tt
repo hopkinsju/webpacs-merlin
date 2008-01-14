@@ -264,9 +264,4 @@ s:hopi and s:religion
 </tr>
 </table>
 <!-- END TABLE #1: AVS MAIN -->
-<br />
-<br />
-<p class="ret2MainMenu"><a href="/search~S[% page.scope %]">Return to Main Menu</a></p>
-<br />
-<br />
 [% INCLUDE misc/end_component.tt comp=component.name %]
