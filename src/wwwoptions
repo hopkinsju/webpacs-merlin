@@ -291,7 +291,7 @@ BUT_BRIEF=/screens/but_brief.gif
 BUT_CANCEL=/screens/but_cancel.gif
 BUT_CARDFORM_BOX=/screens/but_cardform_box.gif
 BUT_CARDFORM_LIN=/screens/but_cardform_lin.gif
-BUT_CLEAR_MARKED=/screens/but_clear_marked.gif
+BUT_CLEAR_MARKED=/screens/but_empty_bookbag.gif
 BUT_CLOSEFRAME=/screens/but_closeframe.gif
 BUT_CLOSEWIN=/screens/but_closewin.gif
 #BUT_CLOSEWINDOW
@@ -379,8 +379,8 @@ BUT_Z39SEARCH=/screens/z39search.gif
 #ICON_BIB_PAGING_NEXT
 #ICON_BIB_PAGING_PREV
 #ICON_BIB_RESOURCE_DETAILS
-ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Book Cart" border="0" align="left" cellpadding="2" />
-ICON_BOOKCART_SAVED=<img src="/screens/but_clear_marked.gif" ALT="Remove From Book Cart" border="0" align="left" cellpadding="2" />
+ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Bookbag" border="0" align="left" cellpadding="2" />
+ICON_BOOKCART_SAVED=<img src="/screens/but_remove_bookbag.gif" ALT="Remove From Bookbag" border="0" align="left" cellpadding="2" />
 ICON_BOOKINGS_HEADER=<br /><span class="bibBookingsHeader">RESERVE THIS ROOM</span><br /><br />
 ICON_CANCEL=<img src="/screens/but_cancel.gif" alt="Cancel" border="0" />
 #ICON_CAT_BIB_SUMMARY
