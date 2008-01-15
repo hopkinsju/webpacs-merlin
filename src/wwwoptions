@@ -1,8 +1,8 @@
-[%- META type = "text"; %]
+[%- META type = "text"; -%]
 #################################################################
 #
-# 	WebPAC Pro Staging WWWOptions file for: MERLIN / UMOS
-#             	Updated: 11/29/07	lee
+# WebPAC Pro WWWoptions file for: MERLIN / UMOS
+# Updated: [% page.date %] by [% initials %]
 #
 #################################################################
 #
@@ -379,8 +379,8 @@ BUT_Z39SEARCH=/screens/z39search.gif
 #ICON_BIB_PAGING_NEXT
 #ICON_BIB_PAGING_PREV
 #ICON_BIB_RESOURCE_DETAILS
-ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Bookbag" border="0" align="left" cellpadding="2" />
-ICON_BOOKCART_SAVED=<img src="/screens/but_remove_bookbag.gif" ALT="Remove From Bookbag" border="0" align="left" cellpadding="2" />
+ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Bookbag" border="0" />
+ICON_BOOKCART_SAVED=<img src="/screens/but_remove_bookbag.gif" ALT="Remove From Bookbag" border="0" />
 ICON_BOOKINGS_HEADER=<br /><span class="bibBookingsHeader">RESERVE THIS ROOM</span><br /><br />
 ICON_CANCEL=<img src="/screens/but_cancel.gif" alt="Cancel" border="0" />
 #ICON_CAT_BIB_SUMMARY
@@ -403,7 +403,7 @@ ICON_PAT_CANCELALL=<img src="/screens/but_pat_cancelall.gif" alt="Cancel All" bo
 ICON_PAT_DELETE_ALL=<img src="b_patdeleteall.gif" alt="Delete All" border="0" />
 ICON_PAT_DELETE_MARKED=<img src="/screens/b_patdeleteselect.gif" alt="Delete SELECTED" border="0" />
 #ICON_PAT_MFFAVS
-ICON_PATFEED=<img src="/screens/b_patfeed.gif" alt="My Record Feeds" border="0" />
+ICON_PATFEED=<p><img src="/screens/feed-icon-28x28.png" alt="My Record Feeds" border="0" /> My Record Feeds</p>
 #ICON_PATRATE
 #ICON_PATREVIEW
 #ICON_PATREVIEW_ABUSE

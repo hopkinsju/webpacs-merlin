@@ -1,12 +1,13 @@
+
 /* 2006 WebPAC Pro Version, set from 13 July, 2006 */
 
 /* This file last changed: Sep. 12, 2007 lee */
 
 /* *******************************************************************
 
-The new example set has a seperate Internet Explorer (IE) css file. You must make similar changes 
+The new example set has a seperate Internet Explorer (IE) css file. You must make similar changes
 
-to your IE style sheet in order for the same display across borwsers. The IE style sheet is ie_styles.css 
+to your IE style sheet in order for the same display across borwsers. The IE style sheet is ie_styles.css
 
 ********************************************************************** */
 
@@ -30,7 +31,7 @@ to your IE style sheet in order for the same display across borwsers. The IE sty
 
 /**********************************************************************************/
 
-body, div, span, p, form, .qs, h1, h2, h3, ul, ol, li, a, td ,th, select, input, textarea 
+body, div, span, p, form, .qs, h1, h2, h3, ul, ol, li, a, td ,th, select, input, textarea
 
 { font-family: Verdana, Arial, Helvetica, sans-serif; color: #1e1e48; }
 
@@ -92,11 +93,11 @@ h5 { font-size: 13px; color: #323279; }
 
 /* Body onload coding in the stylesheet keeps IE from throwing script errors for debugging */
 
-#onLoad { 
+#onLoad {
 
-	onLoad=if (location.search != ''); modifySearch (document.location.search); document.forms[0].searchText1.focus();document.forms[0].searchText1.select(); 
+	onLoad=if (location.search != ''); modifySearch (document.location.search); document.forms[0].searchText1.focus();document.forms[0].searchText1.select();
 
-	width: 740px; background-color: #ffffff; color: #000000; 
+	width: 740px; background-color: #ffffff; color: #000000;
 
 }
 
@@ -116,9 +117,9 @@ h5 { font-size: 13px; color: #323279; }
 
 .tabTable { width: 740px; border: 0px; padding: 0px; text-align: center;  }
 
-.tabs { 
+.tabs {
 
-	width: 100%;  border: 0px; padding: 0px; color: #ffffff; text-align: center; background-color: #333379; 
+	width: 100%;  border: 0px; padding: 0px; color: #ffffff; text-align: center; background-color: #333379;
 
 }
 
@@ -148,9 +149,9 @@ h5 { font-size: 13px; color: #323279; }
 
 	onMouseOut: "MM_nbGroup('out');"
 
-	onMouseOver: "MM_nbGroup('over','tab_mylib','/screens/tab_mylib_over.gif','/screens/tab_mylib_overdown.gif',1);" 
+	onMouseOver: "MM_nbGroup('over','tab_mylib','/screens/tab_mylib_over.gif','/screens/tab_mylib_overdown.gif',1);"
 
-	onClick: "MM_nbGroup('down','tab_bar','tab_mylib','/screens/tab_mylib_down.gif',1);"	
+	onClick: "MM_nbGroup('down','tab_bar','tab_mylib','/screens/tab_mylib_down.gif',1);"
 
 }
 
@@ -158,7 +159,7 @@ h5 { font-size: 13px; color: #323279; }
 
 	onMouseOut: "MM_nbGroup('out');"
 
-	onMouseOver: "MM_nbGroup('over','tab_other','/screens/tab_other_over.gif','/screens/tab_other_overdown.gif',1);" 
+	onMouseOver: "MM_nbGroup('over','tab_other','/screens/tab_other_over.gif','/screens/tab_other_overdown.gif',1);"
 
 	onClick: "MM_nbGroup('down','tab_bar','tab_other','/screens/tab_other_down.gif',1);"
 
@@ -166,11 +167,11 @@ h5 { font-size: 13px; color: #323279; }
 
 .tab_help {
 
- 	onMouseOut: "MM_nbGroup('out');" 
+ 	onMouseOut: "MM_nbGroup('out');"
 
-	onMouseOver: "MM_nbGroup('over','tab_help','/screens/tab_help_over.gif','/screens/tab_help_overdown.gif',1);" 
+	onMouseOver: "MM_nbGroup('over','tab_help','/screens/tab_help_over.gif','/screens/tab_help_overdown.gif',1);"
 
- 	onClick: "MM_nbGroup('down','tab_bar','tab_help','/screens/tab_help_down.gif',1);"	
+ 	onClick: "MM_nbGroup('down','tab_bar','tab_help','/screens/tab_help_down.gif',1);"
 
 }
 
@@ -212,21 +213,21 @@ h5 { font-size: 13px; color: #323279; }
 
 #avsMain { width: 740px; border: 0px; padding: 0px; }
 
-.avsMainSearch { 
+.avsMainSearch {
 
-	width: 100%;  padding: 5px; 
+	width: 100%;  padding: 5px;
 
-	text-align: left;  
+	text-align: left;
 
 	border: 1px ridge;
 
 }
 
-.avsHeader { 
+.avsHeader {
 
-	width: 100%; text-align: left; color: #323279; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	width: 100%; text-align: left; color: #323279; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 
-	font-size: 16px; font-weight: bold; 
+	font-size: 16px; font-weight: bold;
 
 }
 
@@ -350,7 +351,7 @@ TD.unauthTerm { color: #3D001C; background: #dedee7; font-weight: bold; text-ali
 
 /* BIBLIOGRAPHIC DISPLAY CLASSES */
 
-.bibBookingsHeader { font-weight: bold; text-decoration: none; color: #000000; background: #FFFBC6; 
+.bibBookingsHeader { font-weight: bold; text-decoration: none; color: #000000; background: #FFFBC6;
 
 	padding: 3px; border: 1px solid #333379; }
 
@@ -360,11 +361,11 @@ TABLE.bibHoldings { border: 1px solid #ffffff; }
 
 .bibHoldingsEntry { text-align: left; }
 
-TR.bibHoldingsHeader { color: #ffffff; background: #333379; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+TR.bibHoldingsHeader { color: #ffffff; background: #333379; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 
 	font-weight: bold; }
 
-TR.bibHoldingsData { color: #000000; background: #dedee7; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+TR.bibHoldingsData { color: #000000; background: #dedee7; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 
 	font-weight: bold; }
 
@@ -378,7 +379,7 @@ TH.bibHolds { color: #ffffff; background: #333379; font-weight: bold; text-align
 
 TR.bibHoldsEntry { color: #000000; background: #dedee7; border: 1px solid #333379; }
 
-TABLE.bibInfo { color: #323279; background: #ffffff; font-weight: bold; text-align: left; width: 100%; 
+TABLE.bibInfo { color: #323279; background: #ffffff; font-weight: bold; text-align: left; width: 100%;
 
 	border: 1px solid #ffffff; }
 
@@ -404,11 +405,11 @@ bibLicenseEntry
 
 bibLicenseHeader*/
 
-TABLE.bibLink { text-align: right; background-color: #ffffff; color: #000000; 
+TABLE.bibLink { text-align: right; background-color: #ffffff; color: #000000;
 
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
 
-.bibRecordLink { color: #000000; background: #ffffff; padding-top: 2px; padding-bottom: 2px; text-align: right; 
+.bibRecordLink { color: #000000; background: #ffffff; padding-top: 2px; padding-bottom: 2px; text-align: right;
 
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: xx-small; font-weight: normal; font-style: normal }
 
@@ -438,7 +439,7 @@ bibResourceSubEntry */
 
 TABLE.bibResourceTable { border: 1px solid #ffffff; }
 
-/* .bibResourceTableEntry 
+/* .bibResourceTableEntry
 
 bibResourceTableHeader */
 
@@ -448,15 +449,15 @@ TABLE.bibSearchtool { border: 1px solid #ffffff; }
 
 /* bibThumbnails */
 
-.bibTOC { width: 95%; border: 0px; background-color: #FFFFFF; color: #000000; text-align: left; white-space: nowrap; } 
+.bibTOC { width: 95%; border: 0px; background-color: #FFFFFF; color: #000000; text-align: left; white-space: nowrap; }
 
-.bibContent { border: 0px; text-align: left; white-space: nowrap; }
+.bibContent { border: 0px; text-align: left;}
 
-TABLE.bibWidgit { border: 1px solid #ffffff; } 
+TABLE.bibWidgit { border: 1px solid #ffffff; }
 
-/* bibXML 
+/* bibXML
 
-patFuncReviewFull 
+patFuncReviewFull
 
 patFuncReviewHeadline */
 
@@ -468,13 +469,13 @@ patFuncReviewHeadline */
 
 /* SELF-BOOKING */
 
-TR.bookingsConfirmMsg { width: 80%; font-weight: bold; text-decoration: none; text-align: center; font-size: 14px; 
+TR.bookingsConfirmMsg { width: 80%; font-weight: bold; text-decoration: none; text-align: center; font-size: 14px;
 
 	padding-bottom: 5px; background: #fffbc6; }
 
 /*.bookingsEndsOn {  }*/
 
-.bookingsItemsEntry { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px; background-color: #ffffff; 
+.bookingsItemsEntry { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px; background-color: #ffffff;
 
 	color: #000000 }
 
@@ -482,7 +483,7 @@ TR.bookingsConfirmMsg { width: 80%; font-weight: bold; text-decoration: none; te
 
 .bookingsLegend { text-align: center; background-color: white; color: #000000}
 
-/*.bookingsLocation { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px; 
+/*.bookingsLocation { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px;
 
 	background-color: #ffffff; color: #000000 }
 
@@ -498,15 +499,15 @@ TR.bookingsConfirmMsg { width: 80%; font-weight: bold; text-decoration: none; te
 
 .bookingsRepeatMonthly {  } */
 
-.bookingsSelect { width: 740px; text-align: left; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px; 
+.bookingsSelect { width: 740px; text-align: left; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px;
 
 	margin-left: 15px; background-color: #ffffff; color: #000000; padding: 0px; }
 
 .bookingsSelectCal { font-weight: bold; background-color: white;  text-align: left; }
 
-.bookingsSelectCal table { text-align: center; margin: auto; border: 0px; font-size: 95%; } 
+.bookingsSelectCal table { text-align: center; margin: auto; border: 0px; font-size: 95%; }
 
-.bookingsSelectCal th { text-align: center; border: none; } 
+.bookingsSelectCal th { text-align: center; border: none; }
 
 /*.bookingsSelectCal td { border: 1px solid #00437f; }*/
 
@@ -514,7 +515,7 @@ TR.bookingsConfirmMsg { width: 80%; font-weight: bold; text-decoration: none; te
 
 /*.bookingsSelectRepeat { margin-top: 5px; margin-bottom: 5px; }*/
 
-.bookingsSelectTime { font: 10% small-caps Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 15px; 
+.bookingsSelectTime { font: 10% small-caps Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 15px;
 
 	background-color: #ffffff; color: #000000; border: 1px;}
 
@@ -556,13 +557,13 @@ TR.bookingsConfirmMsg { width: 80%; font-weight: bold; text-decoration: none; te
 
 TABLE.briefCitTable { border: 1px solid #000000; width: 100%; }
 
-TR.briefCitRow { color: #000000; background-color: #dedee7; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+TR.briefCitRow { color: #000000; background-color: #dedee7; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 
 	font-weight: normal;  }
 
 TD.briefcitRelevance { color: #000000;  background-color: #dedee7; }
 
-TD.briefCitTitle { color: #000000; background-color: #dedee7; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+TD.briefCitTitle { color: #000000; background-color: #dedee7; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 
 	font-weight: bold;  }
 
@@ -630,7 +631,7 @@ TR.browseResourceTableEntry { font-family: Verdana, Geneva, Arial, Helvetica, sa
 
 /* TR.browseResourceTableHeader */
 
-.browseSaveJump { border: 1px solid #ffffff; text-align: center; } 
+.browseSaveJump { border: 1px solid #ffffff; text-align: center; }
 
 TR.browseSaveJump { color: #323279; background-color: #ffffff; text-align: center; }
 
@@ -638,17 +639,17 @@ TR.browseSaveJump { color: #323279; background-color: #ffffff; text-align: cente
 
 TD.browseSearchtool { background-color: #dedee7; margin-left: auto; margin-right: auto; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; }
 
-TR.browseSearchtoolMessage { font-size: 90%; } 
+TR.browseSearchtoolMessage { font-size: 90%; }
 
 TR.browseSubEntry {  background-color: #ffffff; color: #323279; }
 
-/* TD.browseSubEntryData 
+/* TD.browseSubEntryData
 
-TD.browseSubEntryMedia 
+TD.browseSubEntryMedia
 
-TD.browseSubEntryYear 
+TD.browseSubEntryYear
 
-TD.browseSubEntryEntries 
+TD.browseSubEntryEntries
 
 TD.browseSubEntryRelevance */
 
@@ -674,19 +675,19 @@ TD.browseWidgit { color: #323279; background-color: #ffffff; text-align: center;
 
 /* Feeds Display Classes */
 
-/* rssChannelTitle 
+/* rssChannelTitle
 
-rssChannelEntries 
+rssChannelEntries
 
-rssChannelEntry 
+rssChannelEntry
 
-rssChannelEntryDate  
+rssChannelEntryDate
 
-rssChannelEntryHead 
+rssChannelEntryHead
 
-rssChannelEntryDesc 
+rssChannelEntryDesc
 
-rssChannelImage 
+rssChannelImage
 
 rssChannelNoContent */
 
@@ -768,11 +769,11 @@ TH.patFuncHeaders { color: #ffffff; background-color: #333379; font-family: Verd
 
 /* patFuncMark
 
-patFuncModifyPatInfo 
+patFuncModifyPatInfo
 
 patFuncModifyPIN
 
-patFuncModifyPINExample 
+patFuncModifyPINExample
 
 patFuncNoEntries
 
@@ -782,7 +783,7 @@ patFuncPSrchBtn
 
 patFuncPSrchType
 
-patFuncRating 
+patFuncRating
 
 patFuncStatus*/
 
@@ -832,7 +833,7 @@ TR.resourceBibEntry { color: #000000; background-color: #dedee7; text-align: lef
 
 TR.resourceBibHeader { color: #ffffff; background-color: #333379; font-weight: bold; text-align: left; }
 
-TD.resourceInfoLabel { background-color: #dedee7; font-style: italic; } 
+TD.resourceInfoLabel { background-color: #dedee7; font-style: italic; }
 
 TD.resourceLicenseEntry { color: #000000; background-color: #dedee7; text-align: left; }
 
