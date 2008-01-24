@@ -691,7 +691,9 @@ rssChannelImage
 
 rssChannelNoContent */
 
-
+#patfeeds {
+	float: right;
+}
 
 /***********************************************************************************/
 
@@ -714,6 +716,10 @@ limitSearchTypeText */
 /***********************************************************************************/
 
 /* Patron Record Display Classes */
+
+#patron_form form, #patfunc form {
+	display: inline;
+}
 
 /* External Patron Authentication product styles */
 
@@ -789,7 +795,7 @@ patFuncStatus*/
 
 TR.patFuncTitle { background-color: #d2d2df; }
 
-TD.patFuncTitle { vertical-align: middle; white-space: nowrap; }
+TD.patFuncTitle { vertical-align: middle; white-space: normal; }
 
 TABLE.patFuncModifyPIN { border: 1px solid #ffffff; }
 
