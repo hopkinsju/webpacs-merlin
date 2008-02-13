@@ -1,7 +1,7 @@
 #################################################################
 #
 # WebPAC Pro WWWoptions file for: MERLIN / UMOS
-# Updated: 14:51:10 15-Jan-2008 by hjp
+# Updated: 13:53:10 24-Jan-2008 by hjp
 #
 #################################################################
 #
@@ -399,10 +399,10 @@ ICON_NEXTCAL=Next
 #ICON_PAGING_PREV
 ICON_PAT_CANCELMARK=<img src="/screens/but_pat_cancelmark.gif" alt="Cancel Selected" border="0" />
 ICON_PAT_CANCELALL=<img src="/screens/but_pat_cancelall.gif" alt="Cancel All" border="0" />
-ICON_PAT_DELETE_ALL=<img src="b_patdeleteall.gif" alt="Delete All" border="0" />
-ICON_PAT_DELETE_MARKED=<img src="/screens/b_patdeleteselect.gif" alt="Delete SELECTED" border="0" />
+ICON_PAT_DELETE_ALL=<img src="/screens/b_patdeleteall.gif" alt="Delete All" border="0" />
+ICON_PAT_DELETE_MARKED=<img src="/screens/b_patdeleteselected.gif" alt="Delete SELECTED" border="0" />
 #ICON_PAT_MFFAVS
-ICON_PATFEED=<p><img src="/screens/feed-icon-28x28.png" alt="My Record Feeds" border="0" /> My Record Feeds</p>
+ICON_PATFEED=<img src="/screens/feed-icon-28x28.png" alt="My Record Feeds RSS" title="My Record Feeds: get notifications regarding your library account via RSS" border="0" />
 #ICON_PATRATE
 #ICON_PATREVIEW
 #ICON_PATREVIEW_ABUSE

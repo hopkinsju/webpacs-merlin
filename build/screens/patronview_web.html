@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <!-- BEGIN patronview_web.html for MERLIN, updated 11:28:30 15-Jan-2008 by hjp -->
+  <!-- BEGIN patronview_web.html for MERLIN, updated 13:47:09 24-Jan-2008 by hjp -->
 
   <head>
     <title>MERLIN Library Catalog</title>
@@ -80,7 +80,7 @@ function preload() {
 <!--{toplogo}-->
 <br />
 
-<!-- BEGIN site/tab_bar.tt for MERLIN, updated 11:28:30 15-Jan-2008 by hjp -->
+<!-- BEGIN site/tab_bar.tt for MERLIN, updated 13:47:09 24-Jan-2008 by hjp -->
 <table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="tabs">
 	<tr>
 		<td><img src="/screens/shim.gif" alt="" width="100" height="1" border="0" /></td>
@@ -111,8 +111,12 @@ function preload() {
 <table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="text">
 <tr>
 <td>
+<div id="patron_form">
 <!--{patroninfo}-->
 <hr noshade="noshade" />
+<div id="patfeeds">
+<!--{patfeeds}-->
+</div><!-- END:patfeeds -->
 <!--{ifmymil}-->
 <!--{searchbtn}-->
 &nbsp;
@@ -159,15 +163,16 @@ function preload() {
 <!--{ifpatimage}-->
 <!--{patimage}-->
 <!--{xif}-->
-&nbsp;<br/>
-<!--{patfeeds}-->
+</div><!-- END:patron_form -->
 </td>
 </tr>
 </table>
 <table width="740" align="center" summary="text">
 <tr width="50%">
 <td align="right">
+<div id="patfunc">
 <!--{patfunc}-->
+</div><!-- END:patfunc -->
 </td>
 </tr>
 </table>
