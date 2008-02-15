@@ -29,6 +29,10 @@
 <!--{else}-->
 <br />
 <!--{xif}-->
+<!--{iflist}-->
+There was an error in processing your request. Please see a librarian for assistance.
+<!--{listerrmsg}-->
+<!--{xif}-->
 <!--{ifrequestmoney}-->
 <font size="+1" color="red">
 <!--{requestmoney}-->
@@ -155,6 +159,7 @@ Please inquire at your Circulation Desk.</strong></td>
 </tr>
 <tr>
 <td colspan="2">
+<p>
 <!--{ifreqinst}-->
 <br />
 <!--{reqinst}-->
@@ -480,6 +485,7 @@ function formCheck(form)
 //-->;
 //]]>
 </script>
+<br /><br /></p>
 <!--{else}-->
 <!-- passthrough javascript code -->
 <script language="JavaScript" type="text/javascript">
@@ -491,7 +497,7 @@ function formCheck(form) {
 //-->;
 //]]>
 </script>
-<br />
+<br /></p>
 <!--{xif}-->
  <!--{submit}-->
 <!--{requestall}-->
@@ -507,10 +513,6 @@ function formCheck(form) {
 <br />
 <div align="center">
 <!--{listtable}-->
-<!--{iflist}-->
-There was an error in processing your request. Please see a librarian for assistance.
-<!--{listerrmsg}-->
-<!--{xif}-->
 </div>
 </form>
 </td>
