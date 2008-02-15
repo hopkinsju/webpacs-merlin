@@ -717,7 +717,7 @@ limitSearchTypeText */
 
 /* Patron Record Display Classes */
 
-#patron_form form, #patfunc form {
+#patfunc form {
 	display: inline;
 }
 

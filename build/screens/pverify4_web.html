@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <!-- BEGIN pverify4_web.html for MERLIN, updated 13:27:28 29-Jan-2008 by hjp -->
+  <!-- BEGIN pverify4_web.html for MERLIN, updated 17:14:58 15-Feb-2008 by hjp -->
 
   <head>
     <title>MERLIN Library Catalog</title>
@@ -80,7 +80,7 @@ function preload() {
 <!--{toplogo}-->
 <br />
 
-<!-- BEGIN site/tab_bar.tt for MERLIN, updated 13:27:28 29-Jan-2008 by hjp -->
+<!-- BEGIN site/tab_bar.tt for MERLIN, updated 17:14:58 15-Feb-2008 by hjp -->
 <table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="tabs">
 	<tr>
 		<td><img src="/screens/shim.gif" alt="" width="100" height="1" border="0" /></td>
@@ -130,6 +130,10 @@ function preload() {
 <br />
 <!--{else}-->
 <br />
+<!--{xif}-->
+<!--{iflist}-->
+There was an error in processing your request. Please see a librarian for assistance.
+<!--{listerrmsg}-->
 <!--{xif}-->
 <!--{ifrequestmoney}-->
 <font size="+1" color="red">
@@ -257,6 +261,7 @@ Please inquire at your Circulation Desk.</strong></td>
 </tr>
 <tr>
 <td colspan="2">
+<p>
 <!--{ifreqinst}-->
 <br />
 <!--{reqinst}-->
@@ -582,6 +587,7 @@ function formCheck(form)
 //-->;
 //]]>
 </script>
+<br /><br /></p>
 <!--{else}-->
 <!-- passthrough javascript code -->
 <script language="JavaScript" type="text/javascript">
@@ -593,7 +599,7 @@ function formCheck(form) {
 //-->;
 //]]>
 </script>
-<br />
+<br /></p>
 <!--{xif}-->
  <!--{submit}-->
 <!--{requestall}-->
@@ -609,10 +615,6 @@ function formCheck(form) {
 <br />
 <div align="center">
 <!--{listtable}-->
-<!--{iflist}-->
-There was an error in processing your request. Please see a librarian for assistance.
-<!--{listerrmsg}-->
-<!--{xif}-->
 </div>
 </form>
 </td>
