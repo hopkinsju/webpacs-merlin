@@ -449,7 +449,7 @@ TABLE.bibSearchtool { border: 1px solid #ffffff; }
 
 /* bibThumbnails */
 
-.bibTOC { width: 95%; border: 0px; background-color: #FFFFFF; color: #000000; text-align: left; white-space: nowrap; }
+.bibTOC { width: 95%; border: 0px; background-color: #FFFFFF; color: #000000; text-align: left;}
 
 .bibContent { border: 0px; text-align: left;}
 
