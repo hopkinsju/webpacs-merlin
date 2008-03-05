@@ -1,0 +1,70 @@
+[%- INCLUDE misc/begin_component.tt comp=component.name -%]
+<table width="170" border="1" align="center" cellpadding="2" cellspacing="0" summary="IDhelp">
+  <tr align="center" bgcolor="#DEDEE7">
+    <td colspan="3" nowrap="nowrap"><span class="bodytext"><font size="3"> <strong>UM ID HELP</strong></font></span></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr valign="top" bgcolor="#DEDEE7">
+    <td colspan="3" nowrap="nowrap"><p><strong>UM ID: Univ Missouri Faculty, Staff &amp; Students</strong></p>
+      <ul><li> How to <a href="http://merlin.missouri.edu/help/merlin-id">find your ID</a> in the HR System</li>
+        <li><a href="https://pubcookie.umsystem.edu/cgi-bin/index.cgi">Login directly to HR system</a> to find your ID </li>
+      </ul>
+    <strong>MERLIN ID: <span class="style2">Zero + 8 digit ID number + campus code (r, c, k, </span></strong><span class="style2">or none</span><strong><span class="style2">)</span></strong></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr bgcolor="#DEDEE7">
+    <td nowrap="nowrap"><div align="left"><strong>UM Campus<br />
+      MERLIN ID </strong></div></td>
+    <td nowrap="nowrap"><div align="center"><strong>Faculty/Staff<br />
+   EMPL ID </strong></div></td>
+    <td nowrap="nowrap"><div align="center"><strong>Student ID Number </strong></div></td>
+  </tr>
+  <tr bgcolor="#DEDEE7">
+    <td nowrap="nowrap">Missouri Science and Technolgy:<br />
+      <span class="style2">Zero + 8 digit ID number + <strong>r</strong></span>      <br />
+        <span class="style2"></span></td>
+    <td nowrap="nowrap"><a href="merlinidsgeneric.htm">ID number</a></td>
+    <td nowrap="nowrap"><a href="http://joess.mst.edu">MST ID Number</a></td>
+  </tr>
+  <tr bgcolor="#DEDEE7">
+    <td nowrap="nowrap">Univ Missouri Columbia:<br />
+      <span class="style2">Zero + 8 digit ID Number + <strong>c</strong></span></td>
+    <td nowrap="nowrap"><a href="merlinidsgeneric.htm">EMPLID</a></td>
+    <td nowrap="nowrap"><a href="http://mulibraries.missouri.edu/showmehow/findemplid.htm">MU ID Number</a></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr bgcolor="#DEDEE7">
+    <td nowrap="nowrap">Univ Missouri Kansas City:<br />
+      <span class="style2">Zero + 8 digit ID Number + <strong>k</strong></span></td>
+    <td nowrap="nowrap"><a href="merlinidsgeneric.htm">EMPLID</a></td>
+    <td nowrap="nowrap"><a href="https://fusion1.umkc.edu/lookup.cfm">UMKC ID Number</a></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr bgcolor="#DEDEE7">
+    <td nowrap="nowrap">Univ Missouri St. Louis:<br />
+      <span class="style2">Zero + 8 digit ID Number <br />
+      <span class="style4">(no campus code)</span></span></td>
+    <td nowrap="nowrap"><a href="merlinidsgeneric.htm">EMPLID</a></td>
+    <td nowrap="nowrap"><a href="http://www.umsl.edu/library/access_services/mermob/acsexplainidnums.htm">UMSL ID Number</a></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" nowrap="nowrap"><br />
+        <strong>Courtesy &amp; Proxy borrowers<br />
+      Please inquire at your Circulation Desk.</strong></td>
+  </tr>
+</table>
+[%- INCLUDE misc/end_component.tt comp=component.name -%]
