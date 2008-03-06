@@ -89,6 +89,8 @@ h4 { font-size: 14px; color: #323279; }
 
 h5 { font-size: 13px; color: #323279; }
 
+.idhelp { font-size: 10px; }
+
 
 
 /* Body onload coding in the stylesheet keeps IE from throwing script errors for debugging */
