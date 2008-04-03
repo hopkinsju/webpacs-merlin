@@ -52,7 +52,6 @@
     <name>Subject</name>
     <title>Subject</title>
     <description>Library of Congress Headings and MeSH</description>
-    <searchbox_focus>document.forms[0].SEARCH</searchbox_focus>
   </searchtype>
 
   <searchtype searchindex="i">

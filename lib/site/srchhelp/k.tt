@@ -14,8 +14,6 @@
                 <li><a href="#3"> What may I borrow through MERLIN/MOBIUS?</a></li>
                 <li><a href="#4"> When should I use MOBIUS? </a></li>
                 <li><a href="#5">How do I request a book from MERLIN/MOBIUS?</a></li>
-                <li><a href="#6"> Why do I have to use my Social Security number (SS#) to request a book?</a></li>
-                <li><a href="#7">Is my Social Security number (SS#) encrypted (scrambled) when I click the Submit button?</a></li>
                 <li><a href="#8"> What happens if I forget my MERLIN PIN?</a></li>
                 <li><a href="#9"> How quickly will the books I request arrive?</a></li>
                 <li><a href="#10">How long will I be able to keep books that I borrow?</a></li>
@@ -23,6 +21,7 @@
                 <li><a href="#12">Will I receive a bill for MOBIUS books that I don't return on time?</a></li>
                 <li><a href="#13">How many books can I have out at one time?</a></li>
                 <li><a href="#14">I don't have time to wait for a book to arrive! Can I visit another library and check out a book there?</a></li>
+                <li><a href="#25">What is my Reading History?</a></li>
               </ul>
  			</ul>
              <blockquote>
@@ -150,7 +149,7 @@
               <ul>
                 <ul>
                   <ul>
-                    <li><span class="style1"> Quickly look through the first and/or second pages of titles to find one that looks like it is a good match for your topic. </span></li>
+                    <li>Quickly look through the first and/or second pages of titles to find one that looks like it is a good match for your topic.</li>
                 </ul>
               </ul>
             </ul>
@@ -243,7 +242,7 @@
               <ul>
                 <ul>
                   <ul>
-                    <li><span class="style1"><strong> Do a KEYWORD</strong> search instead of a LC Subject search. A keyword search covers more fields, such as title, notes, tables of contents, etc. </span></li>
+                    <li><strong> Do a KEYWORD</strong> search instead of a LC Subject search. A keyword search covers more fields, such as title, notes, tables of contents, etc.</li>
                   </ul>
                 </ul>
               </ul>
@@ -252,7 +251,7 @@
               <ul>
                 <ul>
                   <ul>
-                    <li><span class="style1"><strong> Do a KEYWORD</strong> search using the word OR between search terms. This will find items containing at least one of the keywords or phrases. </span></li>
+                    <li><strong> Do a KEYWORD</strong> search using the word OR between search terms. This will find items containing at least one of the keywords or phrases.</li>
                 </ul>
               </ul>
             </ul>
@@ -268,7 +267,7 @@
               <ul>
                 <ul>
                   <ul>
-                    <li><span class="style1"><strong> Use an asterisk*</strong> to truncate or cut off the endings of words. The computer will search for variations of a word by adding an asterisk. </span></li>
+                    <li><strong> Use an asterisk*</strong> to truncate or cut off the endings of words. The computer will search for variations of a word by adding an asterisk.</li>
                   </ul>
                 </ul>
               </ul>
@@ -286,7 +285,7 @@
              <ul>
                 <ul>
                   <ul>
-                    <li><span class="style1"> Check your spelling. Unfortunately, the computer won't do this for you. You can use an asterisk * if you know at least part of a word. </span></li>
+                    <li>Check your spelling. Unfortunately, the computer won't do this for you. You can use an asterisk * if you know at least part of a word.</li>
                   </ul>
                 </ul>
               </ul>
@@ -316,7 +315,7 @@
               <ul>
                 <ul>
                   <ul>
-                    <li><span class="style1"> Do a keyword search. This is the most general type of search you can do.</li>
+                    <li>Do a keyword search. This is the most general type of search you can do.</li>
                   </ul>
                 </ul>
               </ul>
@@ -383,12 +382,12 @@
                 <p><H5> How can I print, e-mail or download a list of items from the catalog? <a name="22"></a></H5></p>
                 <ul>
                   <ul>
-                    <li><p><span class="style1"> Do a search and have the search results on your screen. </span></p></li>
-                    <li><p><span class="style1"> Place a check mark in the box in front of each item you want. </span></p></li>
-                    <li><p><span class="style1"> Press the SAVE MARKED RECORDS button at the top or bottom of each screen. If you leave a screen without pressing this button, your marks will disappear. </span></p></li>
-                    <li><p><span class="style1"> Continue to mark and save records on subsequent screens. </span></p></li>
-                    <li><p><span class="style1"> When ready to retrieve your saved list, press the PRINT/E-MAIL/SAVE button. </span></p></li>
-                    <li><p><span class="style1"> The screen that appears will provide options for emailing or saving the list. You may also display it on your screen and print it out. </span></p></li>
+                    <li><p>Do a search and have the search results on your screen.</p></li>
+                    <li><p>Place a check mark in the box in front of each item you want.</p></li>
+                    <li><p>Press the SAVE MARKED RECORDS button at the top or bottom of each screen. If you leave a screen without pressing this button, your marks will disappear.</p></li>
+                    <li><p>Continue to mark and save records on subsequent screens.</p></li>
+                    <li><p>When ready to retrieve your saved list, press the PRINT/E-MAIL/SAVE button.</p></li>
+                    <li><p>The screen that appears will provide options for emailing or saving the list. You may also display it on your screen and print it out.</p></li>
                   </ul>
                 </ul>
                 <p> [<a href="#top">back to top</a>]</p>
@@ -404,5 +403,48 @@
         </td>
       </tr>
     </table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="text">
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><h4>What is my Reading History?<a name="25" id="25"></a></h4></p>
+        <p>Patrons may keep a record of the MERLIN materials that they check out.<br />
+        Please carefully read this <a href="#disclaimer"> disclaimer</a> before opting in to this service. </p>
+        <p>&nbsp; </p></td>
+  </tr>
+  <tr>
+    <td valign="top" with="45%"><div class="helpspan">
+        <p><h3><strong>How to activate reading history:</strong></h3></p>
+      </div>
+        <div class="helpspan">
+          <ol>
+            <li>Log in to <a href="/patroninfo">My Library Account</a>.</li>
+            <li>Click on the Reading History button.</li>
+            <li> Activate My Reading History - Click on the "<a href="#optin">Opt In</a>" button.</li>
+            <li> After Opting in, all your MERLIN checkouts will be recorded and accessible in Your Reading History (does not apply to MOBIUS books).</li>
+            <li> If you want to <strong>remove items</strong> from your reading history fill in the mark box, and hit the <a href="#delsel">Delete Selected</a> button. You may also use the <a href="#delall">Delete All button</a>.</li>
+            <li>If you want to deactivate <strong>Reading History</strong> hit the <a href="#delall">Delete All</a> button, and then the &quot;<a href="#optout">Opt Out</a>&quot; button.</li>
+          </ol>
+      </div></td>
+    <td><img src="/screens/reading.jpg" width="500" height="249" border="0" /></td>
+  </tr>
+</table>
+
+<h4><a name="optin"></a>Opt In</h4>
+<p align="center"><img src="/screens/optin.jpg" width="700" height="153" border="0"></p>
+<h4>&nbsp;</h4>
+<h4><a name="delsel"></a>Delete Selected </h4>
+<p align="center"><img src="/screens/deleteSel.jpg" width="700" height="199" border="0"></p>
+<h4>&nbsp;</h4>
+<h4><a name="delall"></a>Delete All </h4>
+<p align="center"><img src="/screens/deleteAll.jpg" width="700" height="195" border="0"></p>
+<p>&nbsp;</p>
+<h4><a name="optout"></a>Opt Out </h4>
+<p align="center"><img src="/screens/optout.jpg" width="700" height="154" border="0"></p>
+<p>&nbsp;</p>
+
+[% INCLUDE site/reading_history_disclaimer.tt comp=component.name %]
 
 [% INCLUDE misc/end_component.tt comp=component.name %]

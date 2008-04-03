@@ -18,7 +18,7 @@
   	<meta name="keywords" content="[% template.keywords %]" />
   	[%- END -%]
 
-    <title>[% site.scopes.scope.$this_scope_index.qs_name %] - [% site.searchtypes.$this_searchindex.title %][% IF NOT site.searchtypes.$this_searchindex.title.match('(?i)search$') %] Search[% END %]</title>
+    <title>[% site.scopes.scope.$this_scope_index.qs_name %] - [% site.searchtypes.$this_searchindex.title %][% IF NOT site.searchtypes.$this_searchindex.title.match('(?i)search$||FAQ$') %] Search[% END %]</title>
 	[% INCLUDE site/rollover_js.tt %]
   </head>
 [% SWITCH this_searchindex %]
