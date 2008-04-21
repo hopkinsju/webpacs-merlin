@@ -1,0 +1,48 @@
+merlin_webpac - WebOPAC for the MERLIN Cluster
+
+INSTALLATION
+
+PRE-REQUISITES
+
+ * A Subversion client. A good client for Windows is TortoiseSVN, available at:
+   http://tortoisesvn.net/downloads
+
+ * Perl. For Windows, ActivePerl is fine:
+   http://www.activestate.com/store/activeperl/download/
+
+ * the following Perl modules
+
+	Template-Toolkit
+   	Template-DBI
+	Template-Plugin-EnvHash
+	Template-XML
+	XML-DOM
+	XML-RSS
+	XML-RegExp
+	XML-Twig
+	XML-XPath
+	libxml-perl
+
+In order to install the above Perl modules on Windows, you'll need to add some
+non-Active-state repositories to your Perl Package Manager. Here are the ones
+I use:
+
+	Name: bribes.org
+	URL: http://www.bribes.org/perl/ppm/package.lst
+
+	Name: University of Winnipeg
+	URL: http://theory.uwinnipeg.ca/ppms/package.xml
+
+	Name: trouchelle.com
+	URL: http://trouchelle.com/ppm/package.xml
+
+	Name: tcool.org
+	URL: http://ppm.tcool.org/archives/package.xml
+
+
+INSTALLATION
+
+After checking out this project into your workspace, you need to run the configuration script
+(bin/configure.pl) with the following options set:
+
+  perl configure.pl -i [your initials]
