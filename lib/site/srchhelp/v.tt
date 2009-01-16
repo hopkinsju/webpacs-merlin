@@ -3,7 +3,12 @@
       <tr>
             <td><strong><H3>Other libraries:</H3></strong></td>
           </tr>
-          <tr>
+      <tr>
+            <td>
+             <a href="http://mobius.missouri.edu/search">Missouri Academic Libraries (MOBIUS)</a></td>
+	  </tr>
+
+      <tr>
             <td>
              <a href="http://catalog.crl.edu/">Center for Research Libraries</a></td>
 	  </tr>

@@ -28,100 +28,17 @@ Please fill in the boxes, select limits, and click Submit:
 <tr>
 <td class="searchTips" style="white-space: nowrap; vertical-align: top;">
 <!--{advancedsearchformbegin}-->
+
+
+
+
+
 <input type="hidden" name="startSearch" />
 <!-- BEGIN TABLE #4: PAGE MAIN AREA -->
 <table class="pageMainArea" style="text-align: center; vertical-align: top; padding: 2;" cellspacing="0" summary="text">
 <tr>
-<td class="pageMainAreaSubHeader" style="width: 10%;">
-Find:
-</td>
-<td>
-<input maxlength="75" size="25" name="searchText1" />
-</td>
-<td class="pageMainAreaSubHeader" width="1%">
-in
-</td>
-<td width="65%">
-<select name="fieldLimit1">
-<option value="" selected="selected">Any Field:</option>
-<option value="a:">Author:</option>
-<option value="t:">Title:</option>
-<option value="d:">Subject:</option>
-<option value="N:">Note:</option>
-<option value="c:">Table of Contents:</option>
-</select>
-</td>
-</tr>
-<tr>
-<td>
-<select name="boolean1">
-<option value="+and+" selected="selected">and</option>
-<option value="+and+not+">and not</option>
-<option value="+or+">or</option>
-<option value="+near+">near</option>
-</select>
-</td>
-<td>
-<input maxlength="75" size="25" name="searchText2" />
-</td>
-<td class="pageMainAreaSubHeader" width="2%">in</td>
-<td>
-<select name="fieldLimit2">
-<option value="" selected="selected">Any Field:</option>
-<option value="a:">Author:</option>
-<option value="t:">Title:</option>
-<option value="d:">Subject:</option>
-<option value="N:">Note:</option>
-<option value="c:">Table of Contents:</option>
-</select>
-</td>
-</tr>
-<tr>
-<td>
-<select name="boolean2">
-<option value="+and+" selected="selected">and</option>
-<option value="+and+not+">and not</option>
-<option value="+or+">or</option>
-<option value="+near+">near</option>
-</select>
-</td>
-<td>
-<input maxlength="75" size="25" name="searchText3" />
-</td>
-<td class="pageMainAreaSubHeader" width="2%">in</td>
-<td>
-<select name="fieldLimit3">
-<option value="" selected="selected">Any Field:</option>
-<option value="a:">Author:</option>
-<option value="t:">Title:</option>
-<option value="d:">Subject:</option>
-<option value="N:">Note:</option>
-<option value="c:">Table of Contents:</option></select>
-</td>
-</tr>
-<tr>
-<td>
-<select name="boolean3">
-<option value="+and+" selected="selected">and</option>
-<option value="+and+not+">and not</option>
-<option value="+or+">or</option>
-<option value="+near+">near</option>
-</select>
-</td>
-<td>
-<input maxlength="75" size="25" name="searchText4" />
-</td>
-<td class="pageMainAreaSubHeader" width="2%">in</td>
-<td>
-<select name="fieldLimit4">
-<option value="" selected="selected">Any Field:</option>
-<option value="a:">Author:</option>
-<option value="t:">Title:</option>
-<option value="d:">Subject:</option>
-<option value="N:">Note:</option>
-<option value="c:">Table of Contents:</option>
-</select>
-<input type="hidden" name="endSearch" />
+<td style="text-align: left;">
+<!--{advancedsearch}-->
 </td>
 </tr>
 <tr>

@@ -1,11 +1,10 @@
-
+# MERLIN webpub.def
+# Updated: 14:45:35 18-Apr-2008 by hjp
 # -----------------------------------------------------
 # Converted by cvpubdef from pubdef
 # -----------------------------------------------------
 #
-#
 # converted by cvpubdef from HOLDINGS_POS: atpeR
-#
 #
 # converted from HOLDINGS_POS field tag: 'a'
 #
@@ -37,6 +36,8 @@ b|e||-6789|Edition||b|
 # next line added by cvpubdef
 b|H|||||&nbsp;
 #
+b|g|970|-2|Contents||b|
+b|g||-2|Contents||b|
 b|r|3[0-4][0-57-9]|-2|Description||b|
 b|r|306|-2|||b|
 b|r|310|-2|Frequency||b|
@@ -60,6 +61,7 @@ b|y|856..|-6789|Url||b|
 b|y|85[7-9]..|-6789|||b|
 b|y|8[6-9]...|-6789|||b|
 b|y|9[0-4]..|-6789|||b|
+b|y|936..|-6789|||b|
 b|y|95[0-5]..|-6789|||b|
 b|y|956|-6789|File||b|
 b|y|95[7-9]..|-6789|||b|
@@ -161,8 +163,8 @@ b|f|088|-6789|Tech Rept #||b|
 b|f||-6789|Other #||b|
 b|l||-6789|LC #||b|
 b|h||-6789|Lib. Has||b|
-b|g|970|-2|||b|
-b|g||-2|Contents||b|
+
+# Holdings Display/Checkin record #
 c|$||+|Loc||b|&nbsp;
 c|C||&|||b|&nbsp;
 c|Q||||b|
@@ -179,10 +181,10 @@ c|n||+|Note||b|
 # -----------------------------------------------------
 # Converted by cvpubdef from item_col_width: 1(23)[LOCATION],Cv#(30),%
 # -----------------------------------------------------
-i|1|||LOCATION|29|b|
+i|1|||LOCATION|32|b|
 i|C||||0|b|&nbsp;
 i|v||||0|b|&nbsp;
-i|#||||38|b|
+i|#||||20|b|
 i|Q||||b|
 i|%||||0|b|
 #

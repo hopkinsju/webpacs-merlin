@@ -492,6 +492,9 @@ TR.browseResourceTableEntry { font-family: Verdana, Geneva, Arial, Helvetica, sa
 .browseSaveJump { border: 1px solid #ffffff; text-align: center; }
 TR.browseSaveJump { color: #323279; background-color: #ffffff; text-align: center; }
 /* TABLE.browseScreen */
+
+TR.msg TD { color: red; font-weight: bold; font-size: 1em;}
+
 TD.browseSearchtool { background-color: #dedee7; margin-left: auto; margin-right: auto; margin-bottom: -3px;
 	text-align: center; padding-left: 3px; padding-right: 3px; }
 TR.browseSearchtoolMessage { font-size: 90%; }
