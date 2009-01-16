@@ -1,7 +1,7 @@
 #################################################################
 #
 # WebPAC Pro WWWoptions file for: MERLIN / UMOS
-# Updated: 12:11:28 29-May-2008 by hjp
+# Updated: 15:03:59 16-Jan-2009 by hjp
 #
 #################################################################
 #
@@ -11,66 +11,83 @@
 #
 #################################################################
 
-SSLPORT=80:443
-# ADVANCED SERVER OPTIONS
-# ASSEARCH=1
-# AVS_RELEVANCE_FORMAT=1
+#   ADVANCED SERVER OPTIONS
+#ASSEARCH=1
+#AVS_RELEVANCE_FORMAT=1
 AVS_TAG=XYZ
 #IMAGE_AVS#
 #RELSEARCH
 #SHOWSIM_SFLDS
 
-# BOOKINGS OPTIONS
-BOOKINGS=no|true|false
-BOOK_CAL_AVAIL=black
-BOOK_CAL_BKGRD=white
-BOOK_CAL_CLOSE=black
-BOOK_CAL_UNAVAIL=black
-BOOKINGS_s1=no|true|true
-BOOKINGS_DAY_LEGEND_s1=No rooms available on <span class="closed">grayed out</span> hours.
-Rooms are <span class="available">available</span>.
-Rooms are <span class="unavailable">reserved</span>.<br />
-# Click on the month to return to the Monthy calendar.</span>=
-BOOKINGS_MONTH_LEGEND_s1=No rooms available on <span class="closed">grayed out</span> hours.
-Rooms are <span class="available">available</span>.
-Rooms are <span class="unavailable">reserved</span>.<br />
-# Click a day to check detailed availability.</span>=
-BOOKINGS_REPEAT=F
+#   BOOKINGS OPTIONS
+#BOOKINGS=no|true|false
+#BOOK_CAL_AVAIL=black
+#BOOK_CAL_BKGRD=white
+#BOOK_CAL_CLOSE=black
+#BOOK_CAL_UNAVAIL=black
+#BOOKINGS_s1=no|true|true
+#BOOKINGS_DAY_LEGEND_s1=No rooms available on <span class="closed">grayed out</span> hours.
+#Rooms are <span class="available">available</span>.
+#Rooms are <span class="unavailable">reserved</span>.<br />
+#Click on the month to return to the Monthy calendar.</span>=
+#BOOKINGS_MONTH_LEGEND_s1=No rooms available on <span class="closed">grayed out</span> hours.
+#Rooms are <span class="available">available</span>.
+#Rooms are <span class="unavailable">reserved</span>.<br />
+#Click a day to check detailed availability.</span>=
+#BOOKINGS_REPEAT=F
 
-# CONTENT LINKING AND OTHER RESOURCES OPTIONS
-# BIBIMAGE=
-# BIBIMAGE=http://images.amazon.com/images/P/%s.01._SCMZZZZZZZ_.jpg|i|http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg
+#   CONTENT LINKING AND OTHER RESOURCES OPTIONS
+#BIBIMAGE=
+#BIBIMAGE=http://images.amazon.com/images/P/%s.01._SCMZZZZZZZ_.jpg|i|http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg
 #BIBIMAGE_TEXT[scope]
-# EBADDRESS=http://www.eb.com:180/cgi-bin/g?keywords=%s&DBase=Articles
-# EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_query0=%s
-# WEBADDRESS=<browse URL>|I|<bibliographic URL>|<browse IMG>|<bibliographic IMG>|<frame URL>
+#EBADDRESS=http://www.eb.com:180/cgi-bin/g?keywords=%s&DBase=Articles
+#EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_query0=%s
+#WEBADDRESS=<browse URL>|I|<bibliographic URL>|<browse IMG>|<bibliographic IMG>|<frame URL>
 #XML_LABEL
 
-# EBOOKS OPTONS
-# NETLI_ASK=true
-# NETLI_LINK=|Go to netLibrary Preview|Check this book out of netLibrary
-# NETLI856TEXT=Link to netLibrary version:
+#    EBOOKS OPTONS
+#NETLI_ASK=true
+#NETLI_LINK=|Go to netLibrary Preview|Check this book out of netLibrary
+#NETLI856TEXT=Link to netLibrary version:
 
-# FEATURED LISTS
+#   ERM: ELECTRONIC RESOURCES MANAGEMENT
+BIB_LICENSE_FIELDS_s3=Permitted:Vlw|Restricted:Vlx
+BIB_LICENSE_FIELDS_BRIEF=<strong>Actions Allowed</strong>,Vlw|<strong>Restrictions</strong>,Vlx
+BIB_RESOURCE_CAPTION=Included in:
+BIB_RESOURCE_FIELDS_s3=:VeE|:VeT|:Vek
+BIB_RESOURCE_FIELDS_BRIEF_s3=:VeY|:Vch
+BIB_RESOURCE_NUM_BRIEF_s3=A
+RESOURCE_ADVISORY=k
+RESOURCE_HOLDINGS_FIELDS_s3=Title:Vbt|LIB HAS:Vch|:VcY
+RESOURCE_HOLDINGS_MAX=3
+RESOURCE_LICENSE_FIELDS_s3=Permitted:Vlw|Restricted:Vlx
+TABLEPARAM_BIB_LICENSE_s3=width="100%" border="3" cellspacing="1"
+TABLEPARAM_BIB_RESOURCE_s3=width="100%" border="3" cellspacing="1"
+TABLEPARAM_BIB_RESOURCE_BRIEF_s3=width="100%" border="3" cellspacing="1"
+TABLEPARAM_RESOURCE_BIB_s3=width="100%" border="3" cellspacing="1"
+TABLEPARAM_RESOURCE_LICENSE_s3=width="100%" border="3" cellspacing="1"
+TABLEPARAM_RESOURCE_RESOURCE_s3=width="100%" border="3" cellspacing="1"
+
+#   FEATURED LISTS
 FEATURED_LIST=10,260|New Titles|Campus|# Titles
 
-# FEEDS OPTIONS
+#   FEEDS OPTIONS
 FEEDS_PORT=6060
 RSS_MIN_TTL=20
 
-# GENERAL DISPLAY AND BEHAVIOR OPTIONS
-# AVAILLIM=<EM>Limit results to available items</em>|<em>Search results are limited to available items</em>
+#   GENERAL DISPLAY AND BEHAVIOR OPTIONS
+#AVAILLIM=<EM>Limit results to available items</em>|<em>Search results are limited to available items</em>
 #AVAILLIM_STATS
 BOTLOGO=@screens/botlogo.html
 CLEAR_PRIVATE_INFO=yes
 #CUSTOM_MESSAGES
 FORM_FOCUS=no
 INSERTTAG_HTML=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN"
-# "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=
-<html xmlns="http://www.w3.org/1999/xhtml">
 INSERTTAG_INHEAD=<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 #RESOURCETABLE
 #RIGHT_CELL_WIDTH
+SSLPORT=80:443|2082:444
+#SSLPORT=80:443:laurel.lso.missouri.edu:merlin.mobius.umsystem.edu|2082:444:laurel.lso.missouri.edu:merlin.mobius.umsystem.edu
 STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/merlin_styles.css
@@ -87,7 +104,7 @@ TOPLOGO7=@screens/toplogo_s7.html
 #UPDATECIRC
 XSTARTOVER=/search
 
-# GENERAL AND PHRASE SEARCHING OPTIONS
+#   GENERAL AND PHRASE SEARCHING OPTIONS
 AUTHOR_TITLE_TAG=q
 DROP_DOWN=Xdmtascljfgio
 FRAMEURL=0
@@ -98,44 +115,45 @@ NOSEARCH=nubz
 OFFER_HISTORY=yes
 SHOW_KW_MSGS=T
 
-# HOLDINGS OPTIONS
+#   HOLDINGS OPTIONS
 #CHECKIN_BGCOLOR
 #CHECKIN_FONTCOLOR
 DISPLAY_CHECKIN_856=3z
 #HOLDINGS_REQ
 #HOLDINGS_TAGS
 SORT_ITEMS=true
-# SUPPRESS_CARD=F
+#SUPPRESS_CARD=F
 
-# ILL OPTIONS
+#   ILL OPTIONS
 #ILL_CONF_EMAIL
 #ILL_CONF_EMAIL_SUBJECT
 #ILL_HOME
 
-# INN-REACH OPTIONS
+#   INN-REACH OPTIONS
 INNREACH=<br><img src="/screens/but_ir_holdings.gif" border=0 alt="Search MOBIUS Union Catalog">@mobius.missouri.edu(a=a;t=t;g=g;i=i;s=s;o=o;c=c;j=e;m=m;d=d;l=n;X=X*;Y=Y*;Z=Z*)
+#INNREACH_REMOTE=laurel.lso.missouri.edu:2082&<img src="/screens/but_ir_holdings.gif" border="0">@merlin-mobius.laurel.lso.umsystem.edu:2083(X=X;t=t;g=g;a=a;d=d;i=i)
 
-# LANGUAGE HANDLING OPTIONS
+
+#   LANGUAGE HANDLING OPTIONS
 DIACLIST=big5;big 5 diac file|utf8;utf8 diac file
-# LANG=
-# LANGLIST=
+#LANG=
+#LANGLIST=
 ROOTLANG=eng
 
-# MEDIA MANAGEMENT OPTIONS
+#   MEDIA MANAGEMENT OPTIONS
 ERESERVE=[0123456789]
-# ERESERVE_IP=
+#ERESERVE_IP=
 ERESERVE_PRINT_MESSAGE=Article has been sent to the system printer.
 IMAGE_PRINT=T
 IMAGE_SAVE=T
 
-#   MY MILLENNIUM OPTIONS
+#    MY MILLENNIUM OPTIONS
 #CIRC_HIST_LIMIT_TEXT
 #FORCE_COOKIE=
 LOGGEDIN_MSG=<center>You are logged in %s as %s </center>
 NO_REVERIFY=req,book,media,ill,z39
 #PATRONVIEW_START=
-
-# MU PTYPES
+#MU PTYPES
 PREF_SEARCHES_P1=10|Y
 PREF_SEARCHES_P2=10|Y
 PREF_SEARCHES_P3=10|Y
@@ -143,16 +161,14 @@ PREF_SEARCHES_P4=10|Y
 PREF_SEARCHES_P5=10|Y
 PREF_SEARCHES_P9=10|Y
 PREF_SEARCHES_P15=10|Y
-# PREF_SEARCHES_P16=10|Y     STAGING ONLY
-# PREF_SEARCHES_P20=10|Y     STAGING ONLY
-
-# UMKC PTYPES
+#PREF_SEARCHES_P16=10|Y     STAGING ONLY
+#PREF_SEARCHES_P20=10|Y     STAGING ONLY
+#UMKC PTYPES
 PREF_SEARCHES_P41=10|Y
 PREF_SEARCHES_P42=10|Y
 PREF_SEARCHES_P43=10|Y
 PREF_SEARCHES_P44=10|Y
 PREF_SEARCHES_P45=10|Y
-
 PREFTEXT=Save search?
 READING_HISTORY_DELETE=T
 TOPLOGO_LOGGEDIN=F
@@ -176,7 +192,7 @@ HOLD_MSG_SIMPLE=T
 MASK_BARCODE=T
 #MIN_PIN_LENGTH
 #MODIFY_PFLDS=
-MY_WEBPAC=F,2
+MY_WEBPAC=F,T
 #NEWPIN_MSG=please verify your chosen pin
 #PATRON_FIELDS=
 PATRON_MSG=PATRON_MSG=z|Message from the library
@@ -188,11 +204,11 @@ TABLEPARAM_PATDISP=WIDTH="100%" BGCOLOR=#DEDEE7|BGCOLOR=#DEDEE7|BGCOLOR=#FFFFFF
 TABLEPARAM_PATFUNC=BORDER=0 WIDTH="100%"
 #TIME_POPUP=
 
-# RECORD DISPLAY OPTIONS
+#   RECORD DISPLAY OPTIONS
 #BIBLOC=
 BIB_TOC_HEADER=<STRONG>Table of Contents</STRONG>
 DISPLAY_856=3z
-# FIELD_LABEL_VERBATIM=
+#FIELD_LABEL_VERBATIM=
 HOLDINGS_POS=atpexz
 #HOTLINK=
 #HYPERTEXT_980
@@ -215,57 +231,57 @@ TABLEPARAM_BIB_PAGER=width="99%" border="0" cellspacing="1"
 TABLEPARAM_BIB_TOC=width="95%" bgcolor="#FFFFFF"
 WEBPUBDEF=true
 
-# REQUESTING OPTIONS
-# BIBREQUEST=
+#   REQUESTING OPTIONS
+#BIBREQUEST=
 #REQFILLTIME[scope][_P#]
 REQUEST=Request item|denyiflocalavail|ask|Y
-# REQUEST_ARTICLE_IFCHKIN=
+#REQUEST_ARTICLE_IFCHKIN=
 REQUEST_INSTRUCTION=Any Special Instructions?
 REQUEST_MULTI=Request multi|denyiflocalavail|ask|Y
 
-# RESERVES OPTIONS
+#   RESERVES OPTIONS
 RSRV_FORMAT=T
 RSRV_HEADER=Reserves List
 TABLEPARAM_RSRV_BIBS=cellpadding="8" cellspacing="0" border="1" width="99%" BGCOLOR=#DEDEE7
 
-# SAVING AND EXPORTING OPTIONS
+#   SAVING AND EXPORTING OPTIONS
 #BRIEF_EXPORT
 BRIEF_EXPORT_CHKIN=h|n
 EMAILOP=From the MERLIN Library Catalog|exporter|
 EXPORT_SELECT_TABLE=Sendto:email,local,browser|Format:full,brief,marc,endnote,procite
-# XRECTYPE=
+#XRECTYPE=
 
-# SEARCH RESULTS OPTIONS
+#   SEARCH RESULTS OPTIONS
 AUTHMSG==<em>%u</em> -- See %w <strong>%a</strong><SPAN CLASS="authPublicNote">%p</span>|<em>%u</em> -- See Also %w <strong>%a</strong><SPAN CLASS="authPublicNote">%p</span>
 #AUTHMSG_SR
 BODYPARAM=BGCOLOR=#ffffff LINK=#333379 VLINK=blue
-# BRIEF=
+ BRIEF=
 #BROWSE[_itag]
 BROWSE_HEADERS=Save|Format|Number
 DISPLAY_245=atdmjsl
 DISPLAY_856=3z
 EXTENDED=L
 EXTENDED_c=3
-# HEADING_LENGTH=
-# IMAGE_MATTYPEx= 'x' specifies code for material type
+#HEADING_LENGTH=
+#IMAGE_MATTYPEx= 'x' specifies code for material type
 INDEX_EXT=c,l,j,g
 MEDIA=2
 REDIRECT_7XX=TRUE
-# SORT_BROWSE=c:Year|a:Author|t:Title
-# SORT_MEDIA=
+#SORT_BROWSE=c:Year|a:Author|t:Title
+#SORT_MEDIA=
 #SUPPRESS_YEAR
 TABLEPARAM_BRIEFCIT=Y|WIDTH=97% BORDER=0
 TABLEPARAM_BROWSE=WIDTH="99%" BORDER=0|cellspacing=0 BORDER=0|WIDTH="99%" BORDER=0|WIDTH="99%" BORDER=0 cellspacing=0 align="left"
 
-# SCOPING OPTIONS
+#   SCOPING OPTIONS
 LOCKSCOPE=no
 #Do NOT use LOCKSCOPE
 RESET_SCOPE=no
 #RESET_SCOPE controls whether a scope is reset when the user clicks 'New Search'
 
-# STAFF OPTIONS
-# MILCAT_PUB_VIEW=
-# RECORDFRAME_STAFF=22,53,25
+#   STAFF OPTIONS
+#MILCAT_PUB_VIEW=
+#RECORDFRAME_STAFF=22,53,25
 STAFF=15,201
 STAFF_LOGGEDIN_MSG=You are STAFF logged in %s as %s
 SUPPRESS_MGR_FIELDS=T
@@ -278,12 +294,12 @@ SUPPRESS_MGR_FIELDS=T
 BROWSE50=true
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a?</span> %s
 
-# Z39.50 Options
-# Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
-# Z39IPOK=
-# Z39MULTI=
-# Z39PORT=
-# Z39RESTRICT=
+#   Z39.50 Options
+#Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+#Z39IPOK=
+#Z39MULTI=
+#Z39PORT=
+#Z39RESTRICT=
 #Z39SEARCH
 
 # OPTIONS BUTTONS
@@ -319,7 +335,7 @@ BUT_MODIFY=/screens/but_modify.gif
 BUT_NEWSRCH=/screens/but_newsrch.gif
 BUT_NEXTPAGE=/screens/but_nextpage.gif
 BUT_NEXTREC=/screens/but_nextrec.gif
-BUT_PAT_BOOKING=/screens/but_pat_booking.gif
+#BUT_PAT_BOOKING=/screens/but_pat_booking.gif
 BUT_PAT_CANCEL=/screens/pat_cancel.gif
 BUT_PAT_CANCELALL=/screens/but_pat_cancelall.gif
 BUT_PAT_CANCELMARK=/screens/but_pat_cancelmark.gif
@@ -381,22 +397,23 @@ BUT_Z39SEARCH=/screens/z39search.gif
 #ICON_BIB_PAGING_CAPTION
 #ICON_BIB_PAGING_NEXT
 #ICON_BIB_PAGING_PREV
-#ICON_BIB_RESOURCE_DETAILS
-ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Bookbag" border="0" />
-ICON_BOOKCART_SAVED=<img src="/screens/but_remove_bookbag.gif" ALT="Remove From Bookbag" border="0" />
-ICON_BOOKINGS_HEADER=<br /><span class="bibBookingsHeader">RESERVE THIS ROOM</span><br /><br />
+ICON_BIB_RESOURCE_DETAILS_s3=Full Details
+#ICON_BIB_RESOURCE_DETAILS=<img src"/screens/bib_resource_details.gif" border="0" alt="Full Details" />
+#ICON_BOOKCART=<img src="/screens/but_bibexport.gif" ALT="Add To Bookbag" border="0" />
+#ICON_BOOKCART_SAVED=<img src="/screens/but_remove_bookbag.gif" ALT="Remove From Bookbag" border="0" />
+#ICON_BOOKINGS_HEADER=<br /><span class="bibBookingsHeader">RESERVE THIS ROOM</span><br /><br />
 ICON_CANCEL=<img src="/screens/but_cancel.gif" alt="Cancel" border="0" />
 #ICON_CAT_BIB_SUMMARY
 #ICON_CAT_NEW_BIB
 #ICON_CAT_RETURN_TO_BIB
 #ICON_CLEAR_FORM
 #ICON_CLOSEWINDOW
-ICON_DAILYCAL=View Daily Calendar
+#ICON_DAILYCAL=View Daily Calendar
 ICON_FULLRECORD=<img src="/screens/but_extended.gif" ALT="Go to Full Record" border=0 />
-ICON_HOURLYCAL=View Hourly Calendar
+#ICON_HOURLYCAL=View Hourly Calendar
 # ICON_LOCATEINRESULTS=<input type="image" NAME="jumpto" SRC="screens/locateinresults.gif" alt="Locate in reults" border="0" />
 #ICON_MFFAVS_SEARCH
-ICON_NEXTCAL=Next
+#ICON_NEXTCAL=Next
 #ICON_OK
 #ICON_PAGING_CAPTION
 #ICON_PAGING_NEXT
@@ -423,7 +440,7 @@ ICON_PATFEED=<img src="/screens/feed-icon-28x28.png" alt="My Record Feeds RSS" t
 #ICON_PAY_CLEAR_ALL
 #ICON_PAY_RECALC
 #ICON_PAY_SELECT_ALL
-ICON_PREVCAL_s1=Previous
+#ICON_PREVCAL_s1=Previous
 ICON_PREVPAGE=<img src="/screens/but_prevpage.gif" alt="Previous Page" border="0" />
 #ICON_PRINT
 #ICON_RATE_GROUP
@@ -434,9 +451,7 @@ ICON_PREVPAGE=<img src="/screens/but_prevpage.gif" alt="Previous Page" border="0
 ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History" border="0" />
 ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0" />
 ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
-##############################################################################
 ICON_RECORDLINK=<div class="bibRecordLink" id="recordnum">&nbsp; Persistent record link: http://laurel.lso.missouri.edu%s&searchscope=0</div></font>
-##############################################################################
 ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="">&nbsp;Most relevant titles&nbsp;
 ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="">&nbsp;Highly relevant titles&nbsp;
 ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="">&nbsp;Very relevant titles&nbsp;
@@ -444,7 +459,8 @@ ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="">&nbsp;Relevant titles
 ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="">&nbsp;Other relevant titles&nbsp;
 #ICON_REGISTER
 ICON_REQUEST=<img src="/screens/but_request.gif" alt="Request" border="0" />
-#ICON_RESOURCE_RECORD
+ICON_RESOURCE_RECORD_s3="Resource:"
+#ICON_RESOURCE_RECORD=<img src="/screens/resource_record.gif" alt="Resource" border="0" />
 ICON_SAVEALLPAGE=<INPUT TYPE="submit" NAME="save_all_page" VALUE="Save all on page" SRC="/screens/saveallpage.gif" ALT="Save all on page">
 ICON_SAVEMARKED=<INPUT TYPE="submit" NAME="save_marked" VALUE="Save marked records" SRC="/screens/savemarked.gif" ALT="Save marked records">
 #ICON_SORTPUDATE
@@ -453,7 +469,7 @@ ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more >></span>
 ICON_SPELLCHECK_SEARCH=Search
 ICON_SUBMIT=<img src="/screens/b_submit.gif" alt="Submit" border="0" />
 #ICON_UPDATELIST
-# ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/b_viewadditional.gif" alt="View Additional Items" border="0" />
+ICON_VIEW_ADDITIONAL_ITEMS_s3=<img src="/screens/b_viewadditional.gif" alt="View Additional Items" border="0" />
 #ICON_WWAPP_LOGOUT
 
 # MEDIA IMAGES
@@ -650,51 +666,51 @@ LOC_umaib=http://muarchives.missouri.edu/merlingw.html "target=_blank"
 LOC_umaii=http://muarchives.missouri.edu/merlingw.html "target=_blank"
 
 # UMC-HSL
-LOC_chaii=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chcai=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chcii=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chcli=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_cheii=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chgii=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chgmi=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chhib=http://library.muhealth.org/search/merlinlocations/muhslhealthconnection.htm "target=_blank"
-LOC_chhii=http://library.muhealth.org/search/merlinlocations/muhslhealthconnection.htm "target=_blank"
-LOC_chiib=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chiii=http://http://library.muhealth.org/search/merlinlocations/muhslbooks.htm "target=_blank"
-LOC_chill=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chmii=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chmim=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chmmi=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chmri=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_choii=http://library.muhealth.org/search/merlinlocations/muhsloversizebooks.htm "target=_blank"
-LOC_choni=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chpic=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chpii=http://library.muhealth.org/search/merlinlocations/muhsljournals.htm target=blank
-LOC_chpil=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chpim=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chpin=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chpio=http://library.muhealth.org/search/merlinlocations/muhsloversizejournals.htm "target=_blank"
-LOC_chrib=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chric=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chrid=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chrii=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chrin=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chrio=http://healthlibrary.missouri.edu/contactus.cfm "target=_blank"
-LOC_chsii=http://library.muhealth.org/about/locations/rarebookroom.htm "target=_blank"
-LOC_chsoi=http://library.muhealth.org/about/locations/rarebookroom.htm "target=_blank"
-LOC_chxii=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_chxir=http://library.muhealth.org/search/merlinlocations/muhslcirculation.htm "target=_blank"
-LOC_fchii=http://library.muhealth.org/search/merlinlocations/muhsldepository.htm "target=_blank"
-LOC_cvcii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvfii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cviib=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cviii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvmii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvofi=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvpii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvrii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvrin=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
-LOC_cvxii=http://library.muhealth.org/search/merlinlocations/muvetmed.htm "target=_blank"
+LOC_chaii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chcai=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chcii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chcli=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_cheii=http://www.muhealth.org/~library/info/contactus.html "target=_blank"
+LOC_chgii=http://www.muhealth.org/~library/info/libraryfloor2.html "target=_blank"
+LOC_chgmi=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chhib=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_HealthConnection.html "target=_blank"
+LOC_chhii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_HealthConnection.html "target=_blank"
+LOC_chiib=http://www.muhealth.org/~library/info/contactus.html "target=_blank"
+LOC_chiii=http://library.muhealth.org/search/merlinlocations/muhslbooks.htm "target=_blank"
+LOC_chill=http://www.muhealth.org/~library/info/contactus.html "target=_blank"
+LOC_chmii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chmim=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chmmi=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chmri=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_choii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_OversizeBooks.html "target=_blank"
+LOC_choni=http://www.muhealth.org/~library/info/contactus.html "target=_blank"
+LOC_chpic=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chpii=http://library.muhealth.org/search/merlinlocations/muhsljournals.htm "target=_blank"
+LOC_chpil=http://www.muhealth.org/~library/info/contactus.html "target=_blank"
+LOC_chpim=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chpin=http://www.muhealth.org/~library/info/libraryfloor2.html "target=_blank"
+LOC_chpio=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_OversizeJournals.html "target=_blank"
+LOC_chrib=http://www.muhealth.org/~library/info/libraryhsl201info.html "target=_blank"
+LOC_chric=http://www.muhealth.org/~library/info/libraryhsl201info.html "target=_blank"
+LOC_chrid=http://www.muhealth.org/~library/info/libraryhsl201info.html "target=_blank"
+LOC_chrii=http://www.muhealth.org/~library/info/libraryfloor2.html "target=_blank"
+LOC_chrin=http://www.muhealth.org/~library/info/libraryfloor2.html "target=_blank"
+LOC_chrio=http://www.muhealth.org/~library/info/libraryfloor2.html "target=_blank"
+LOC_chsii=http://www.muhealth.org/~library/info/rarebookroom.html "target=_blank"
+LOC_chsoi=http://www.muhealth.org/~library/info/rarebookroom.html "target=_blank"
+LOC_chxii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_chxir=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_AskatCirc.html "target=_blank"
+LOC_fchii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MUHSL_Depository.html "target=_blank"
+LOC_cvcii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvfii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cviib=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cviii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvmii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvofi=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvpii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvrii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvrin=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
+LOC_cvxii=http://www.muhealth.org/~library/resources/MERLIN_locations/MERLINLoc_MU_VET_MED.html "target=_blank"
 
 # MST
 LOC_rwaci=http://library.mst.edu/images/lower.jpg "target=_blank"
@@ -887,45 +903,45 @@ LOC_uswib=http://www.umsl.edu/library/locations/codes/uswib.htm "target=_blank"
 LOC_uswii=http://www.umsl.edu/library/locations/codes/uswii.htm "target=_blank"
 
 # UMC Law
-LOC_clcrj=http://law.missouri.edu/library/locationguides/clcrj.html "target=_blank"
-LOC_cliii=http://law.missouri.edu/library/locationguides/cliii.html "target=_blank"
-LOC_clrai=http://law.missouri.edu/library/locationguides/clrai.html "target=_blank"
-LOC_clrii=http://law.missouri.edu/library/locationguides/clrii.html "target=_blank"
-LOC_clxii=http://law.missouri.edu/library/locationguides/clxii.html "target=_blank"
-LOC_clpri=http://law.missouri.edu/library/locationguides/clpri.html "target=_blank"
-LOC_clssi=http://law.missouri.edu/library/locationguides/clssi.html "target=_blank"
-LOC_fcl=http://law.missouri.edu/library/locationguides/fcl.html "target=_blank"
 LOC_clavi=http://law.missouri.edu/library/locationguides/clavi.html "target=_blank"
 LOC_clcai=http://law.missouri.edu/library/locationguides/clcai.html "target=_blank"
+LOC_clcrj=http://law.missouri.edu/library/locationguides/clcrj.html "target=_blank"
 LOC_cldii=http://law.missouri.edu/library/locationguides/cldii.html "target=_blank"
 LOC_cldof=http://law.missouri.edu/library/locationguides/cldof.html "target=_blank"
 LOC_cldom=http://law.missouri.edu/library/locationguides/cldom.html "target=_blank"
-LOC_cll03=http://law.missouri.edu/library/locationguides/cll03.html "target=_blank"
-LOC_cll22=http://law.missouri.edu/library/locationguides/cll22.html "target=_blank"
-LOC_cladi=http://law.missouri.edu/library/locationguides/cladi.html "target=_blank"
-LOC_clfei=http://law.missouri.edu/library/locationguides/clfei.html "target=_blank"
-LOC_clfoi=http://law.missouri.edu/library/locationguides/clfoi.html "target=_blank"
-LOC_cl224=http://law.missouri.edu/library/locationguides/cl224.html "target=_blank"
-LOC_cl225=http://law.missouri.edu/library/locationguides/cl225.html "target=_blank"
-LOC_cl24b=http://law.missouri.edu/library/locationguides/cl224.html "target=_blank"
-LOC_cl24c=http://law.missouri.edu/library/locationguides/cl224.html "target=_blank"
-LOC_cl26a=http://law.missouri.edu/library/locationguides/cl26a.html "target=_blank"
-LOC_cl26b=http://law.missouri.edu/library/locationguides/cl26a.html "target=_blank"
-LOC_clfvi=http://law.missouri.edu/library/locationguides/clfvi.html "target=_blank"
-LOC_clmdi=http://law.missouri.edu/library/locationguides/clmdi.html "target=_blank"
-LOC_clmii=http://law.missouri.edu/library/locationguides/clmdi.html "target=_blank"
-LOC_cllai=http://law.missouri.edu/library/locationguides/cllai.html "target=_blank"
-LOC_clpii=http://law.missouri.edu/library/locationguides/clpii.html "target=_blank"
-LOC_clpla=http://law.missouri.edu/library/locationguides/clpla.html "target=_blank"
-LOC_clsif=http://law.missouri.edu/library/locationguides/clsif.html "target=_blank"
-LOC_clmli=http://law.missouri.edu/library/locationguides/clmdi.html "target=_blank"
-LOC_cldor=http://law.missouri.edu/library/locationguides/cldor.html "target=_blank"
-LOC_clpif=http://law.missouri.edu/library/locationguides/clpif.html "target=_blank"
-LOC_clsii=http://law.missouri.edu/library/locationguides/clsif.html "target=_blank"
-LOC_clsil=http://law.missouri.edu/library/locationguides/clsif.html "target=_blank"
-LOC_clsup=http://law.missouri.edu/library/locationguides/clsup.html "target=_blank"
-LOC_cl121=http://law.missouri.edu/library/locationguides/cl121.html "target=_blank"
-LOC_clmoi=http://law.missouri.edu/library/locationguides/clmoi.html target=_blank
+LOC_cliii=http://law.missouri.edu/library/locationguides/cliii.html "target=_blank"
+LOC_clpri=http://law.missouri.edu/library/locationguides/clpri.html "target=_blank"
+LOC_clrai=http://law.missouri.edu/library/locationguides/clrai.html "target=_blank"
+LOC_clrii=http://law.missouri.edu/library/locationguides/clrii.html "target=_blank"
+LOC_clssi=http://law.missouri.edu/library/locationguides/clssi.html "target=_blank"
+LOC_clxii=http://law.missouri.edu/library/locationguides/clxii.html "target=_blank"
+LOC_fcl=http://law.missouri.edu/library/locationguides/fcl.html "target=_blank"
+LOC_cll03=http://law.missouri.edu/library/libraryinformation/locationguides/cll03.html "target=_blank"
+LOC_cll22=http://law.missouri.edu/library/libraryinformation/locationguides/cll22.html "target=_blank"
+LOC_cladi=http://law.missouri.edu/library/libraryinformation/locationguides/cladi.html "target=_blank"
+LOC_clfei=http://law.missouri.edu/library/libraryinformation/locationguides/clfei.html "target=_blank"
+LOC_clfoi=http://law.missouri.edu/library/libraryinformation/locationguides/clfoi.html "target=_blank"
+LOC_cl224=http://law.missouri.edu/library/libraryinformation/locationguides/cl224.html "target=_blank"
+LOC_cl225=http://law.missouri.edu/library/libraryinformation/locationguides/cl225.html "target=_blank"
+LOC_cl24b=http://law.missouri.edu/library/libraryinformation/locationguides/cl224.html "target=_blank"
+LOC_cl24c=http://law.missouri.edu/library/libraryinformation/locationguides/cl224.html "target=_blank"
+LOC_cl26a=http://law.missouri.edu/library/libraryinformation/locationguides/cl26a.html "target=_blank"
+LOC_cl26b=http://law.missouri.edu/library/libraryinformation/locationguides/cl26a.html "target=_blank"
+LOC_clfvi=http://law.missouri.edu/library/libraryinformation/locationguides/clfvi.html "target=_blank"
+LOC_clmdi=http://law.missouri.edu/library/libraryinformation/locationguides/clmdi.html "target=_blank"
+LOC_clmii=http://law.missouri.edu/library/libraryinformation/locationguides/clmdi.html "target=_blank"
+LOC_cllai=http://law.missouri.edu/library/libraryinformation/locationguides/cllai.html "target=_blank"
+LOC_clpii=http://law.missouri.edu/library/libraryinformation/locationguides/clpii.html "target=_blank"
+LOC_clpla=http://law.missouri.edu/library/libraryinformation/locationguides/clpla.html "target=_blank"
+LOC_clsif=http://law.missouri.edu/library/libraryinformation/locationguides/clsif.html "target=_blank"
+LOC_clmli=http://law.missouri.edu/library/libraryinformation/locationguides/clmdi.html "target=_blank"
+LOC_cldor=http://law.missouri.edu/library/libraryinformation/locationguides/cldor.html "target=_blank"
+LOC_clpif=http://law.missouri.edu/library/libraryinformation/locationguides/clpif.html "target=_blank"
+LOC_clsii=http://law.missouri.edu/library/libraryinformation/locationguides/clsif.html "target=_blank"
+LOC_clsil=http://law.missouri.edu/library/libraryinformation/locationguides/clsif.html "target=_blank"
+LOC_clsup=http://law.missouri.edu/library/libraryinformation/locationguides/clsup.html "target=_blank"
+LOC_cl121=http://law.missouri.edu/library/libraryinformation/locationguides/cl121.html "target=_blank"
+LOC_clmoi=http://law.missouri.edu/library/libraryinformation/locationguides/clmoi.html "target=_blank"
 
 # State Historical Society Clickable Locations
 LOC_cseii=http://www.umsystem.edu/shs/csrii.shtml "target=_blank"
@@ -945,6 +961,3 @@ LOC_fwc=http://www.umsystem.edu/whmc/intro.html "target=_blank"
 LOC_fwcb=http://www.umsystem.edu/whmc/intro.html "target=_blank"
 LOC_ucwib=http://www.umsystem.edu/whmc/intro.html "target=_blank"
 LOC_ucwii=http://www.umsystem.edu/whmc/intro.html "target=_blank"
-
-
-
