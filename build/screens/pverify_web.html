@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <!-- BEGIN pverify_web.html for MERLIN, updated 14:27:26 04-Sep-2008 by hjp -->
+  <!-- BEGIN pverify_web.html for MERLIN, updated 22:20:33 21-Jan-2009 by hjp -->
 
   <head>
     <title>MERLIN Library Catalog</title>
@@ -80,7 +80,7 @@ function preload() {
 <!--{toplogo}-->
 <br />
 
-<!-- BEGIN site/tab_bar.tt for MERLIN, updated 14:27:26 04-Sep-2008 by hjp -->
+<!-- BEGIN site/tab_bar.tt for MERLIN, updated 22:20:33 21-Jan-2009 by hjp -->
 <table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="tabs">
 	<tr>
 		<td><img src="/screens/shim.gif" alt="" width="100" height="1" border="0" /></td>
@@ -151,7 +151,7 @@ please remember to click the red "LOG OUT" button, and close your Web browser.</
 </em></p>
 <!--{xif}-->
 <!--{ifneedpatronverify}-->
-<p><font color="red"><strong>ID number; see box at right for NEW format:</strong></font>
+<p><font color="red"><strong>8-digit EMPL ID or student number</strong></font>
 <!--{barcode}-->
 <br />
 <em>
@@ -183,73 +183,69 @@ please remember to click the red "LOG OUT" button, and close your Web browser.</
 <!--==================== END MAIN PATRON FORM ====================-->
 </td>
 <td valign="top" align="center">
-<!-- BEGIN site/id_help.tt for MERLIN, updated 14:27:26 04-Sep-2008 by hjp -->
+<!-- BEGIN site/id_help.tt for MERLIN, updated 22:20:33 21-Jan-2009 by hjp -->
 <table width="170" border="1" align="center" cellpadding="2" cellspacing="0" summary="IDhelp">
-  <tr align="center" bgcolor="#DEDEE7">
-    <td colspan="3" nowrap="nowrap"><strong>UM ID HELP</strong></td>
-  </tr>
   <tr>
-    <td colspan="3"></td>
+    <td colspan="3" nowrap="nowrap">
+      <div class="um_center">
+        <strong>UM ID HELP</strong>
+      </div>
+    </td>
   </tr>
-  <tr valign="top" bgcolor="#DEDEE7">
-    <td colspan="3" nowrap="nowrap" class="idhelp"><p><strong>UM ID: Univ Missouri Faculty, Staff &amp; Students</strong></p>
-      <ul class="idhelp"><li> How to <a href="http://merlin.missouri.edu/help/merlin-id">find your ID</a> in the HR System</li>
-        <li><a href="https://pubcookie.umsystem.edu/cgi-bin/index.cgi">Login directly to HR system</a> to find your ID </li>
-      </ul>
-    <strong>MERLIN ID: Zero + 8 digit ID number + campus code (r, c, k,</strong>or none<strong>)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="3"></td>
-  </tr>
-  <tr bgcolor="#DEDEE7">
-    <td nowrap="nowrap" class="idhelp"><div align="left"><strong>UM Campus<br />
-      MERLIN ID </strong></div></td>
-    <td nowrap="nowrap" class="idhelp"><div align="center"><strong>Faculty/Staff<br />
-   EMPL ID </strong></div></td>
-    <td nowrap="nowrap"><div align="center"><strong>Student ID Number </strong></div></td>
-  </tr>
-  <tr bgcolor="#DEDEE7">
-    <td nowrap="nowrap" class="idhelp">Missouri S &amp; T:<br />
-      Zero + 8 digit ID number + <strong>r</strong>      <br />
-        </td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://merlin.missouri.edu/help/merlin-id">ID number</a></td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://joess.mst.edu">MST ID Number</a></td>
-  </tr>
-  <tr bgcolor="#DEDEE7">
-    <td nowrap="nowrap" class="idhelp">Univ Missouri Columbia:<br />
-      Zero + 8 digit ID Number + <strong>c</strong></td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://merlin.missouri.edu/help/merlin-id">EMPLID</a></td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://mulibraries.missouri.edu/showmehow/findemplid.htm">MU ID Number</a></td>
-  </tr>
-  <tr>
-    <td colspan="3"></td>
-  </tr>
-  <tr bgcolor="#DEDEE7">
-    <td nowrap="nowrap" class="idhelp">Univ Missouri Kansas City:<br />
-      Zero + 8 digit ID Number + <strong>k</strong></td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://merlin.missouri.edu/help/merlin-id">EMPLID</a></td>
-    <td nowrap="nowrap" class="idhelp"><a href="https://fusion1.umkc.edu/lookup.cfm">UMKC ID Number</a></td>
-  </tr>
-  <tr>
-    <td colspan="3"></td>
-  </tr>
-  <tr>
-    <td colspan="3"></td>
-  </tr>
-  <tr bgcolor="#DEDEE7">
-    <td nowrap="nowrap" class="idhelp">Univ Missouri St. Louis:<br />
-      Zero + 8 digit ID Number <br />
-      (no campus code)</td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://merlin.missouri.edu/help/merlin-id">EMPLID</a></td>
-    <td nowrap="nowrap" class="idhelp"><a href="http://www.umsl.edu/library/access_services/mermob/acsexplainidnums.htm">UMSL ID Number</a></td>
-  </tr>
-  <tr>
-    <td colspan="3"></td>
-  </tr>
-  <tr>
-    <td colspan="3" align="center" nowrap="nowrap" class="idhelp"><br />
-        <strong>Courtesy &amp; Proxy borrowers<br />
-      Please inquire at your Circulation Desk.</strong></td>
+  <tr class="um_idbox" valign="top">
+    <td colspan="3" nowrap="nowrap" class="idhelp">
+      <p class="um_left">
+        <strong>Univ Missouri (all four campuses):</strong><br>
+        <span class="um_blue">8-digit EMPL ID (or student number)</span><span class="um_red_bold">**</span>
+      </p>
+      <blockquote>
+        <blockquote>
+          <p class="um_left">
+            Example: <span class="um_big_blue_bold">12563478</span>
+          </p>
+        </blockquote>
+      </blockquote>
+      <div class="um_left">
+        <ul>
+          <li>
+            <strong>Student ID Help:</strong>
+            <ul>
+              <li>
+                <a href="http://joess.mst.edu">MO S&amp;T ID#</a> ; <a href="http://mulibraries.missouri.edu/showmehow/findemplid.htm">MU (Mizzou) ID#</a> ; <a href="https://fusion1.umkc.edu/lookup.cfm">UMKC ID#</a> ; <a href="http://www.umsl.edu/library/access_services/mermob/acsexplainidnums.htm">UMSL ID#</a><br>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong><span class="helpNote">Faculty and staff ID Help:</span></strong>
+            <ul>
+              <li>
+                <span class="helpNote"><a href="https://myhr.umsystem.edu/psp/prd/?cmd=login">Login to myHR</a> to find your ID on your paycheck stub</span>
+              </li>
+              <li>
+                <span class="helpNote"><a href="http://merlin.missouri.edu/help/merlin-id">How to find your ID</a> in the HR System</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <p class="um_left">
+        <span class="um_red">**</span><strong>If you are, or have been, <span class="um_red">affiliated with</span></strong> <span class="um_red"><strong>more than one campus</strong></span><br>
+        (as a student and/or employee), you must use your <strong>one-letter</strong><br>
+        campus code following the 8-digit ID:
+      </p>
+      <blockquote>
+        <p class="um_left">
+          <span class="um_blue">00426543<span class="um_red_bold">c</span>&nbsp; MU (Mizzou)<br>
+          11223344<span class="um_red_bold">r</span>&nbsp; MO S&amp;T<br>
+          22334455<span class="um_red_bold">k</span>&nbsp; UMKC<br>
+          33445566<span class="um_red_bold">t</span>&nbsp; UMSL</span><br>
+        </p>
+      </blockquote>
+      <div class="um_bold">
+        Courtesy &amp; Proxy borrowers:<br>
+        Please inquire at your Home Library Circulation Desk.
+      </div>
+    </td>
   </tr>
 </table>
 <!-- END site/id_help.tt -->
@@ -296,6 +292,25 @@ please remember to click the red "LOG OUT" button, and close your Web browser.</
 <br />
 </td>
 </tr>
+
+<tr>
+<td bgcolor="#DEDEE7"><span class="um_blue_bold">Activate your Reading History<span class="um_red_bold"> (NEW) </span></span></td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF">
+    <div class="um_blue">
+      <ul>
+        <li>Log in to <a href="/patroninfo">My Library Account</a>.</li>
+        <li>Click on the Reading History button.</li>
+        <li>Activate My Reading History - Click on the "<a href="/search~/k#optin">Opt In</a>" button.</li>
+        <li>After Opting in, all your MERLIN checkouts will be recorded and accessible in Your Reading History (does not apply to MOBIUS books).</li>
+        <li>If you want to <strong>remove items</strong> from your reading history fill in the mark box, and hit the <a href="/search~/k#delsel">Delete Selected</a> button. You may also use the <a href="/search~/k#delall">Delete All button</a>.</li>
+        <li>If you want to deactivate <strong>Reading History</strong> hit the <a href="/search~/k#delall">Delete All</a> button, and then the "<a href="/search~/k#optout">Opt Out</a>" button.</li>
+      </ul>
+    </div></td>
+</tr>
+
+
 </table>
 <!--{startover}-->
 </td>
