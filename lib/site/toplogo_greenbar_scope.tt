@@ -1,0 +1,6 @@
+[% 	this_scope_index=page.scope;
+	this_scope_data=site.scopes.scope.$this_scope_index;
+	greenbar_scope_link=site.url.merlin_search_scope.$this_scope_index;
+	greenbar_scope_text=this_scope_data.name;
+%]
+&gt; <a href="[% greenbar_scope_link %]" class="smaller_reversed_nodecoration">[% greenbar_scope_text %]</a>

@@ -1,0 +1,12 @@
+[% site.col = {
+		back		= '#FFFFFF'
+		text		= '#000000'
+		link		= '#333379'
+		vlink		= '#333379'
+		alink		= '#333379'
+		greenbar	= '#6BBC07'
+		bluebar		= '#333379'
+		tabbar		= '#333379'
+		guided		= '#DEDEE7'
+	}
+-%]

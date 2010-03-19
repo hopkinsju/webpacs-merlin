@@ -1,0 +1,9 @@
+[%  USE  searchtypes = XML.Simple (
+        "$rootdir/etc/searchtypes_cfg.xml"
+        KeyAttr = ['searchindex']
+    );
+
+    #save searchtypes in site
+    site.searchtypes = searchtypes.searchtype;
+
+-%]

@@ -1,0 +1,6 @@
+[%-
+
+	META scope = 5;
+	INCLUDE site/srchhelps.tt;
+
+-%]

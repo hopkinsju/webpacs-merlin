@@ -1,0 +1,214 @@
+[% site.tab = {
+		help = {
+			state 	= "up"
+			id 		= "tab_help"
+			up = {
+				src		= "$site.url.images/tab_help.gif"
+				alt		= " help "
+				width	= 100
+				height	= 31
+				id 		= "tab_help"
+			}
+			down = {
+				src		= "$site.url.images/tab_help_down.gif"
+				alt		= " help "
+				width	= 100
+				height	= 31
+				id 		= "tab_help"
+			}
+			over = {
+				src		= "$site.url.images/tab_help_over.gif"
+				alt		= " help "
+				width	= 100
+				height	= 31
+				id 		= "tab_help"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_help_overdown.gif"
+				alt		= " help "
+				width	= 100
+				height	= 31
+				id 		= "tab_help"
+			}
+		}
+		libcat = {
+			state 	= "up"
+			id 		= "tab_libcat"
+			up = {
+				src		= "$site.url.images/tab_libcat.gif"
+				alt		= " libcat "
+				width	= 100
+				height	= 31
+				id 		= "tab_libcat"
+			}
+			down = {
+				src		= "$site.url.images/tab_libcat_down.gif"
+				alt		= " libcat "
+				width	= 100
+				height	= 31
+				id 		= "tab_libcat"
+			}
+			over = {
+				src		= "$site.url.images/tab_libcat_over.gif"
+				alt		= " libcat "
+				width	= 100
+				height	= 31
+				id 		= "tab_libcat"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_libcat_overdown.gif"
+				alt		= " libcat "
+				width	= 100
+				height	= 31
+				id 		= "tab_libcat"
+			}
+		}
+		mylib = {
+			state 	= "up"
+			id 		= "tab_mylib"
+			up = {
+				src		= "$site.url.images/tab_mylib.gif"
+				alt		= " mylib "
+				width	= 100
+				height	= 31
+				id 		= "tab_mylib"
+			}
+			down = {
+				src		= "$site.url.images/tab_mylib_down.gif"
+				alt		= " mylib "
+				width	= 100
+				height	= 31
+				id 		= "tab_mylib"
+			}
+			over = {
+				src		= "$site.url.images/tab_mylib_over.gif"
+				alt		= " mylib "
+				width	= 100
+				height	= 31
+				id 		= "tab_mylib"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_mylib_overdown.gif"
+				alt		= " mylib "
+				width	= 100
+				height	= 31
+				id 		= "tab_mylib"
+			}
+		}
+		other = {
+			state 	= "up"
+			id 		= "tab_other"
+			up = {
+				src		= "$site.url.images/tab_other.gif"
+				alt		= " other "
+				width	= 100
+				height	= 31
+				id 		= "tab_other"
+			}
+			down = {
+				src		= "$site.url.images/tab_other_down.gif"
+				alt		= " other "
+				width	= 100
+				height	= 31
+				id 		= "tab_other"
+			}
+			over = {
+				src		= "$site.url.images/tab_other_over.gif"
+				alt		= " other "
+				width	= 100
+				height	= 31
+				id 		= "tab_other"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_other_overdown.gif"
+				alt		= " other "
+				width	= 100
+				height	= 31
+				id 		= "tab_other"
+			}
+		}
+		reserves = {
+			state 	= "up"
+			id 		= "tab_reserves"
+			up = {
+				src		= "$site.url.images/tab_reserves.gif"
+				alt		= " reserves "
+				width	= 100
+				height	= 31
+				id 		= "tab_reserves"
+			}
+			down = {
+				src		= "$site.url.images/tab_reserves_down.gif"
+				alt		= " reserves "
+				width	= 100
+				height	= 31
+				id 		= "tab_reserves"
+			}
+			over = {
+				src		= "$site.url.images/tab_reserves_over.gif"
+				alt		= " reserves "
+				width	= 100
+				height	= 31
+				id 		= "tab_reserves"
+			}
+			overdown = {
+				src		= "$site.url.images/tab_reserves_overdown.gif"
+				alt		= " reserves "
+				width	= 100
+				height	= 31
+				id 		= "tab_reserves"
+			}
+		}
+	}
+	site.sub_tab = [
+		{
+			name		= "Keyword"
+			index		= "Y"
+			order		= 1
+			selected	= 0
+			pop_up_for	= "Y"
+		}
+		{
+			name		= "Title"
+			index		= "t"
+			order		= 2
+			selected	= 0
+			pop_up_for	= "t"
+		}
+		{
+			name		= "Author"
+			index		= "a"
+			order		= 3
+			selected	= 0
+			pop_up_for	= "a"
+		}
+		{
+			name		= "Author &amp; Title"
+			index		= "q"
+			order		= 4
+			selected	= 0
+			pop_up_for	= "q"
+		}
+		{
+			name		= "Journal Title"
+			index		= "s"
+			order		= 5
+			selected	= 0
+			pop_up_for	= "s"
+		}
+		{
+			name		= "Subject"
+			index		= "h"
+			order		= 6
+			selected	= 0
+			pop_up_for	= "dhm"
+		}
+		{
+			name		= "Number"
+			index		= "n"
+			order		= 7
+			selected	= 0
+			pop_up_for	= "cljgiof"
+		}
+	]
+-%]

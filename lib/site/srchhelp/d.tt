@@ -1,0 +1,26 @@
+[% INCLUDE misc/begin_component.tt comp=component.name %]
+<h3>Subjects (Library of Congress) Search</h3>
+
+<p>Click in the box, type the Subject and then press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48"  alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
+</form>
+
+<p>Search here for items about people, topics, or events. These subject
+headings are established by the Library of Congress. If you are unsure of
+the heading for a subject, try a <strong>KEYWORD</strong> search.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>sports for women</li>
+  <li>missouri</li>
+  <li>missouri hist</li>
+  <li>art, chinese</li>
+  <li>art chinese</li>
+  <li>sports </li>
+</ul>
+[% INCLUDE misc/end_component.tt comp=component.name %]

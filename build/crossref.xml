@@ -1,0 +1,28 @@
+<!-- VERSION="250@(#) crossref.xml 250.3@(#) 6/10/05 13:26:38" -->
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <doi_batch version="0.3">
+    <body>
+     <doi_record>
+       <journal_article_metadata>
+         <article>
+            <date type="print">date</date>
+             <author sequence="first">
+                <given_name>aufirst</given_name>
+                <surname>aulast</surname>
+            </author>
+            <enumeration>
+                <volume>volume</volume>
+                <issue>issue</issue>
+                <first_page>spage</first_page>
+            </enumeration>
+        </article>
+        <journal>
+            <full_title>title</full_title>
+            <issn type="print">issn</issn>
+            <issn type="electronic">eissn</issn>
+        </journal>
+      </journal_article_metadata>
+     </doi_record>
+    </body>
+    </doi_batch>
+

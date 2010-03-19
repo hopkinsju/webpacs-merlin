@@ -1,0 +1,29 @@
+[% INCLUDE misc/begin_component.tt comp=component.name %]
+
+<h3>Journal, Magazine, and Newspaper Titles Search</h3>
+
+<p>Click in the box, type the Title, then press ENTER: </p>
+
+<form METHOD="GET" action="">
+  <p><input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48" alt="Search"> <input
+  TYPE="SUBMIT" VALUE="Search"> </p>
+  <input type="hidden" name="searchscope" value="[% page.scope %]">
+</form>
+
+<p>Type as much or as little of the <strong>EXACT TITLE</strong> as you want.</p>
+
+<p><i>for example</i>
+
+<ul>
+  <li>journal of counseling psychology</li>
+  <li>journal of counseling psy</li>
+</ul>
+
+<p>This search will find magazines, journals and newspapers that the libraries own.</p>
+
+<p>If your search is unsuccessful, try a <strong>TITLE</strong> or <strong>KEYWORD</strong>
+search.</p>
+
+<p>To find individual periodical articles, use databases or periodical indexes.</p>
+
+[% INCLUDE misc/end_component.tt comp=component.name %]

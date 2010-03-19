@@ -1,0 +1,88 @@
+[%- META title = "MERLIN Library Catalog";
+	META onload = "preload();";
+ %]
+<!--{toplogo}-->
+<br />
+
+[% INCLUDE site/tab_bar.tt down="mylib" %]
+
+<table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="text">
+<tr>
+<td>
+<div id="patron_form">
+<!--{patroninfo}-->
+<hr noshade="noshade" />
+<div id="patfeeds">
+<!--{patfeeds}-->
+</div><!-- END:patfeeds -->
+<!--{ifmymil}-->
+<!--{searchbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifpsearch}-->
+<!--{psearchbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifholds}-->
+<!--{holdsbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifill}-->
+<!--{illbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifbookings}-->
+<!--{bookingsbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{iffines}-->
+<!--{finesbtn}-->
+<!--{xif}-->
+<!--{ifchkouts}-->
+<!--{chkoutsbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifcirchist}-->
+<!--{circhistbtn}-->
+<!--{xif}-->
+<!--{ifmodifypin}-->
+<!--{modifypinbtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifmodifypatinfo}-->
+<!--{modifypatinfobtn}-->
+&nbsp;
+<!--{xif}-->
+<!--{ifmsgs}-->
+<!--{msgsbtn}-->
+<!--{xif}-->
+<!--{startover}-->
+<!--{logout}-->
+<!--{ifpatimage}-->
+<!--{patimage}-->
+<!--{xif}-->
+</div><!-- END:patron_form -->
+</td>
+</tr>
+</table>
+<table width="740" align="center" summary="text">
+<tr width="50%">
+<td align="right">
+<div id="patfunc">
+<!--{patfunc}-->
+</div><!-- END:patfunc -->
+</td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="740" align="center" summary="text">
+  <tr>
+    <td>
+    <h3><a href="/search~/k#25">Reading History</a></h3>
+    </td>
+  </tr>
+</table>
+
+[% INCLUDE site/reading_history_disclaimer.tt comp=component.name %]
+
+<!--{botlogo}-->

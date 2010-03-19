@@ -1,0 +1,95 @@
+[% site.image = {
+		shim = {
+			src		= "$site.url.images/shim.gif"
+			alt		= ""
+			width	= 1
+			height	= 1
+		}
+		merlinlogo_b = {
+			src		= "$site.url.images/merlinlogo_b.gif"
+			alt		= " MERLIN "
+			width	= 180
+			height	= 83
+		}
+		toplogo_merlin = {
+			src		= "$site.url.images/toplogo_merlin.gif"
+			alt		= " MERLIN: Missouri Education and Research Libraries Information Network "
+			width	= 99
+			height	= 45
+		}
+		toplogo_gr_fade = {
+			src		= "$site.url.images/toplogo_gr_fade.gif"
+			alt		= ""
+			width	= 251
+			height	= 18
+		}
+		toplogo_gr_rnd_end = {
+			src		= "$site.url.images/toplogo_gr_rnd_end.gif"
+			alt		= ""
+			width	= 3
+			height	= 18
+		}
+		toplogo_bl_fade = {
+			src		= "$site.url.images/toplogo_bl_fade.gif"
+			alt		= ""
+			width	= 251
+			height	= 18
+		}
+		toplogo_bl_rnd_end = {
+			src		= "$site.url.images/toplogo_bl_rnd_end.gif"
+			alt		= ""
+			width	= 3
+			height	= 18
+		}
+		bot_bar = {
+			src		= "$site.url.images/bot_bar.gif"
+			alt		= ""
+			width	= 740
+			height	= 8
+		}
+		tab = {
+			bar = {
+				src		= "$site.url.images/tab_bar_bar.gif"
+				alt		= ""
+				width	= 1
+				height	= 1
+			}
+			bar1 = {
+				src		= "$site.url.images/tab_bar_bar1.gif"
+				alt		= ""
+				width	= 1
+				height	= 1
+			}
+			bar2 = {
+				src		= "$site.url.images/tab_bar_bar2.gif"
+				alt		= ""
+				width	= 1
+				height	= 1
+			}
+		}
+		bc_ul = {
+			src		= "$site.url.images/bc_ul.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+		bc_ur = {
+			src		= "$site.url.images/bc_ur.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+		bc_ll = {
+			src		= "$site.url.images/bc_ll.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+		bc_lr = {
+			src		= "$site.url.images/bc_lr.gif"
+			alt		= ""
+			width	= 6
+			height	= 5
+		}
+	}
+-%]

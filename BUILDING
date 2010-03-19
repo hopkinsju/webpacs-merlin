@@ -1,0 +1,25 @@
+merlin_webpac - WebOPAC for the MERLIN Cluster
+
+BUILDING
+
+BUILDING USING ECLIPSE
+
+If you are using Eclipse to manage your work with the webpac files, you can configure the
+following external programs to build the project from the source files:
+
+merlin_webpac_build_all
+  location: ${workspace_loc:/merlin_webpac/bin/build.bat}
+  workingdir: ${workspace_loc:/merlin_webpac}
+  arguments: -A
+
+merlin_webpac_build_selected
+  location: ${workspace_loc:/merlin_webpac/bin/build.bat}
+  workingdir: ${workspace_loc:/merlin_webpac}
+  arguments: ${resource_name}
+
+
+BUILDING USING COMMAND LINE
+
+1) cd to your project's root folder in your workspace
+2) to buld everything, run: bin/build.bat -A (or build.sh -A if you're using Linux or OSX)
+3) to build just one file, run: bin/build.bat [name of file] (or build.sh [name of file])

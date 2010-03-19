@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<cluster name="MERLIN">
+
+  <scope id = "0" name="All MERLIN Libraries Catalogs">
+    <qs_name>ALL MERLIN</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>MERLIN Web Gateway</campus_name>
+    <campus_url>http://merlin.missouri.edu/</campus_url>
+  </scope>
+
+  <scope id = "1" name="MU Libraries Catalog">
+    <qs_name>MU</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>MU</campus_name>
+    <campus_url>http://www.missouri.edu/</campus_url>
+    <library_name>MU Libraries</library_name>
+    <library_url>http://mulibraries.missouri.edu/</library_url>
+  </scope>
+
+  <scope id = "2" name="MU-Law Library Catalog">
+    <qs_name>MU-Law</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>MU</campus_name>
+    <campus_url>http://www.missouri.edu/</campus_url>
+    <library_name>MU-Law Library</library_name>
+    <library_url>http://www.law.missouri.edu/library/</library_url>
+  </scope>
+
+  <scope id = "3" name="UMKC Libraries Catalog">
+    <qs_name>UMKC</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>UMKC</campus_name>
+    <campus_url>http://www.umkc.edu/</campus_url>
+    <library_name>UMKC Libraries</library_name>
+    <library_url>http://www.umkc.edu/lib/</library_url>
+  </scope>
+
+  <scope id = "4" name="UMKC-Law Library Catalog">
+    <qs_name>UMKC-Law</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>UMKC</campus_name>
+    <campus_url>http://www.umkc.edu/</campus_url>
+    <library_name>UMKC-Law Library</library_name>
+    <library_url>http://www1.law.umkc.edu/library/</library_url>
+  </scope>
+
+  <scope id = "5" name="Missouri S&amp;T Library Catalog">
+    <qs_name>Missouri S&amp;T</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>Missouri S&amp;T</campus_name>
+    <campus_url>http://www.mst.edu/</campus_url>
+    <library_name>Missouri S&amp;T Library</library_name>
+    <library_url>http://library.mst.edu/</library_url>
+  </scope>
+
+  <scope id = "6" name="UMSL Libraries Catalog">
+    <qs_name>UMSL</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>UMSL</campus_name>
+    <campus_url>http://www.umsl.edu/</campus_url>
+    <library_name>UMSL Library</library_name>
+    <library_url>http://www.umsl.edu/services/library/</library_url>
+  </scope>
+
+  <scope id = "7" name="State Historical Society &amp; Western Historical Manuscript Collection Catalogs">
+    <qs_name>UM SHS/WHMC</qs_name>
+    <qs_indexes>Y t a d m s c l j f g i o</qs_indexes>
+    <srchhelp_indexes>a b c d e f g h i j k l m n o p q r s t U v X Y</srchhelp_indexes>
+    <campus_name>UM SHS</campus_name>
+    <campus_url>http://shs.umsystem.edu/index.shtml</campus_url>
+    <library_name>UM WHMC Library</library_name>
+    <long_library_name>State Historical Society &amp; Western Historical Manuscript Collection</long_library_name>
+    <library_url>http://whmc.umsystem.edu/</library_url>
+  </scope>
+
+</cluster>

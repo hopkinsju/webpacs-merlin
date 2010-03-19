@@ -1,0 +1,5 @@
+[%- 	shim = site.image.shim;
+		shim.height = height or 1;
+		shim.width = width or 1;
+-%]
+[%- INCLUDE misc/image.tt image=shim  | trim -%]

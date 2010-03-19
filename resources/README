@@ -1,0 +1,9 @@
+merlin_webpac - WebOPAC for the MERLIN Cluster
+
+RESOURCES folder
+
+This folder contains binary source files--such as Fireworks .PNGs--which are 
+used to generate derivative image files (.gif, .png, .jpg, etc.). Derivative 
+images are to be stored in the src tree. For example, logo.png is used to 
+produce logo.gif, which is stored in src/screens. 
+

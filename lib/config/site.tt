@@ -1,0 +1,11 @@
+[%  site = {
+	  name        = 'MERLIN',
+      title       = 'MERLIN: Missouri Education and Research Libraries Information Network',
+      server      = 'http://laurel.lso.missouri.edu',
+      description = 'The catalogs of the libraries of the University of Missouri system',
+      max_scopes  = 7,
+
+
+}
+
+-%]

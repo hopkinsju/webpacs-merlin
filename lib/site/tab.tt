@@ -1,0 +1,9 @@
+<a href="[% tablink %]" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','[% tabimage.id %]','[% tabimage.over.src %]','[% tabimage.overdown.src %]',1);" onClick="MM_nbGroup('down','tab_bar','[% tabimage.id %]','[% tabimage.down.src %]',1);">[% SWITCH tabimage.state;
+		CASE "down";
+			INCLUDE misc/image.tt image=tabimage.down | trim;
+		CASE "over";
+			INCLUDE misc/image.tt image=tabimage.over | trim;
+		CASE;
+			INCLUDE misc/image.tt image=tabimage.up | trim;
+	END;
+%]</a>

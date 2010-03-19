@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  [% INCLUDE misc/begin_component.tt comp=template.name %]
+  <head>
+  	[%- IF template.description %]
+  	<meta name="description" content="[% template.description %]" />
+  	[%- END -%]
+  	[%- IF template.keywords %]
+  	<meta name="keywords" content="[% template.keywords %]" />
+  	[%- END -%]
+
+    <title>[% template.title %]</title>
+	[% INCLUDE site/rollover_js.tt %]
+  </head>
+  <body bgcolor="[% site.col.back %]" text="[% site.col.text %]" link="[% site.col.link %]" vlink="[% site.col.vlink %]" alink="[% site.col.alink %]" onLoad="[% template.onload%]">
+    [% content %]
+  </body>
+</html>
